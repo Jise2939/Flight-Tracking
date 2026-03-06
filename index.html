@@ -139,6 +139,8 @@
     /* 導航系統 */
     .nav-section {
       margin-bottom: calc(var(--grid-unit) * 2);
+      border-top: 2px solid var(--black);
+      padding-top: calc(var(--grid-unit) * 2);
     }
 
     .nav-label {
@@ -193,9 +195,13 @@
 
     /* 信息區塊 */
     .info-block {
-      margin-top: auto;
       padding-top: calc(var(--grid-unit) * 2);
       border-top: 2px solid var(--black);
+    }
+
+    .info-block-intro {
+      border-top: none;
+      padding-top: 0;
     }
 
     .info-label {
@@ -220,15 +226,15 @@
     }
 
     .info-text {
-      font-size: var(--text-sm);
+      font-size: var(--text-base);
       line-height: 1.7;
       color: var(--gray-600);
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     .info-text strong {
       color: var(--black);
-      font-weight: 600;
+      font-weight: 700;
     }
 
     /* 元數據列表 */
@@ -363,74 +369,6 @@
       margin-bottom: 1.5rem;
       padding: 0.5rem 0;
       border-bottom: 1px solid var(--gray-200);
-    }
-
-    /* 熱力圖容器 */
-    .heatmap-container {
-      margin-bottom: calc(var(--grid-unit) * 2);
-    }
-
-    .heatmap-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 1rem;
-    }
-
-    .heatmap-title {
-      font-size: var(--text-sm);
-      font-weight: 600;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-    }
-
-    .breakpoint-badge {
-      font-size: var(--text-xs);
-      font-weight: 700;
-      color: var(--accent);
-      border: 1px solid var(--accent);
-      padding: 0.25rem 0.5rem;
-    }
-
-    /* 熱力圖 */
-    .heatmap {
-      display: grid;
-      grid-template-columns: 100px repeat(7, 1fr);
-      gap: 2px;
-      background: var(--gray-200);
-      padding: 2px;
-    }
-
-    .hm-header {
-      font-size: var(--text-xs);
-      font-weight: 600;
-      text-align: center;
-      padding: 0.75rem 0.25rem;
-      background: var(--white);
-      color: var(--gray-600);
-    }
-
-    .hm-header.breakpoint {
-      color: var(--accent);
-      font-weight: 700;
-    }
-
-    .hm-label {
-      font-size: var(--text-xs);
-      font-weight: 600;
-      text-align: left;
-      padding: 0.75rem;
-      background: var(--white);
-      display: flex;
-      align-items: center;
-    }
-
-    .hm-cell {
-      font-size: var(--text-xs);
-      font-weight: 700;
-      text-align: center;
-      padding: 0.75rem 0.25rem;
-      background: var(--white);
     }
 
     /* 表格 */
@@ -603,20 +541,24 @@
       position: relative;
     }
 
-    /* ── 階段標題：全部用相同結構，僅用 border-left 顏色區分 ── */
+    /* ── 階段標題 ── */
     .tl-phase {
       display: flex;
       align-items: baseline;
       gap: 0.75rem;
-      margin: 1.25rem 0 0 0;
-      padding: 0.35rem 0.75rem;
+      margin: 1.5rem 0 0.5rem 0;
+      padding: 0.5rem 0 0.5rem 1rem;
       background: var(--gray-100);
       border-left: 3px solid var(--gray-400);
     }
 
-    /* 戰爭爆發階段：僅改左條和文字顏色，結構和尺寸完全一致 */
+    .tl-phase:first-child {
+      margin-top: 0;
+    }
+
+    /* 戰爭爆發階段 */
     .tl-phase-war {
-      background: var(--gray-100);
+      background: #fff9f9;
       border-left-color: var(--accent);
     }
 
@@ -635,17 +577,17 @@
     .tl-phase-date {
       font-size: var(--text-sm);
       font-weight: 400;
-      color: var(--gray-400);
-      letter-spacing: 0;
+      color: var(--gray-500);
     }
 
-    /* ── 條目：日期與內容兩欄對齊 ── */
+    /* ── 條目：統一左對齊 ── */
     .tl-item {
       display: grid;
       grid-template-columns: 7rem 1fr;
       gap: 1rem;
-      padding: 0.5rem 0;
+      padding: 0.6rem 0 0.6rem 1rem;
       border-bottom: 1px solid var(--gray-200);
+      border-left: 3px solid transparent;
       align-items: baseline;
     }
 
@@ -653,25 +595,23 @@
       border-bottom: none;
     }
 
-    /* 重點事件：加紅色左條，背景極淡紅 */
+    /* 重點事件：紅色左條 + 淡紅背景 */
     .tl-item-critical {
-      border-left: 2px solid var(--accent);
-      padding-left: 0.6rem;
+      border-left-color: var(--accent);
       background: #fff9f9;
     }
 
-    /* 今日事件：加黑色左條，背景極淡灰 */
+    /* 今日事件：黑色左條 + 淡灰背景 */
     .tl-item-today {
-      border-left: 2px solid var(--gray-700);
-      padding-left: 0.6rem;
+      border-left-color: var(--gray-700);
       background: var(--gray-100);
     }
 
-    /* ── 日期欄：全部用同一字體規格 ── */
+    /* ── 日期欄 ── */
     .tl-date {
       font-size: var(--text-sm);
       font-weight: 600;
-      color: var(--gray-500);
+      color: var(--gray-600);
       white-space: nowrap;
       line-height: 1.5;
     }
@@ -684,24 +624,19 @@
       display: block;
       font-weight: 400;
       color: var(--gray-400);
-      font-size: var(--text-sm);
+      font-size: var(--text-xs);
     }
 
     /* ── 內容欄：全部用同一字體規格 ── */
     .tl-content {
-      font-size: var(--text-sm);
-      line-height: 1.65;
+      font-size: var(--text-base);
+      line-height: 1.7;
       color: var(--gray-700);
     }
 
     .tl-content strong {
       color: var(--black);
       font-weight: 700;
-    }
-
-    /* 頁腳 */
-    .site-footer {
-      margin-bottom: calc(var(--grid-unit) * 2);
     }
 
     .widget-header {
@@ -785,7 +720,6 @@
         grid-template-columns: repeat(5, 1fr);
       }
 
-      .sidebar { flex: 0 0 240px; }
       th, td { font-size: 0.7rem; padding: 0.45rem; }
       td.airport-name { white-space: normal; }
     }
@@ -812,11 +746,6 @@
         grid-template-columns: repeat(4, 1fr);
       }
 
-      .heatmap {
-        grid-template-columns: 80px repeat(7, 1fr);
-        font-size: 0.625rem;
-      }
-
       .section-title {
         font-size: var(--text-2xl);
       }
@@ -835,25 +764,6 @@
       td.airport-country { white-space: normal; }
     }
 
-    /* ═══════════════════════════════════════════════════════════════
-       Responsive tables & layout tweaks
-       确保表格在窄屏下换行, 避免水平滚动
-       ═══════════════════════════════════════════════════════════════ */
-
-    table {
-      table-layout: fixed; /* 使列按比例收缩 */
-      min-width: 0; /* 防止内部单元撑开容器 */
-    }
-
-    th, td {
-      white-space: normal !important; /* 允许换行 */
-      word-break: break-word;
-      overflow-wrap: anywhere;
-    }
-
-    .table-container {
-      overflow-x: visible; /* 优先换行而非横向滚动 */
-    }
   </style>
 </head>
 <body>
@@ -873,18 +783,19 @@
          左側導航區
          ═══════════════════════════════════════════════════════════════ -->
     <aside class="sidebar">
-      <div class="info-label">背景</div>
+      <div class="info-block info-block-intro">
+        <div class="info-label">背景</div>
         <h2 class="info-title">美伊戰爭下的中東航空停擺</h2>
         <p class="info-text">
           2010年代起，中東樞紐成為連結亞歐非三大洲的關鍵節點，中東天空是全球最繁忙的航空十字路口之一。
           2026年2月28日，隨著美伊關係急劇惡化，突如其來的軍事衝突在中東地區爆發，中東核心空域關閉。迪拜、多哈、阿布扎比三港取消率在24小時內從不足1%跳升至35–52%，次日<strong>幾近達到完全停擺</strong>。
         </p>
-        <p class="info-text"></p>
-          作為回應，國際民航組織（ICAO）發布<strong>最高級別警告</strong>，多國政府隨即宣布「禁止所有民航客機飛越伊朗及周邊衝突空域」。海灣三國（阿聯酋、卡塔爾、巴林）雖未直接成為戰場，但出於安全考量與領空管制，大量進出該區域的國際航線被強制取消或無限期繞飛。</p>
+        <p class="info-text">
+          作為回應，國際民航組織（ICAO）發布<strong>最高級別警告</strong>，多國政府隨即宣布「禁止所有民航客機飛越伊朗及周邊衝突空域」。海灣三國（阿聯酋、卡塔爾、巴林）雖未直接成為戰場，但出於安全考量與領空管制，大量進出該區域的國際航線被強制取消或無限期繞飛。
+        </p>
+      </div>
 
-
-      <div class="info-block">
-        <nav class="nav-section">
+      <nav class="nav-section">
         <div class="nav-label">導航</div>
         <ul class="nav-list">
           <li><a href="#section0"><span class="nav-number">00</span>事件時間線</a></li>
@@ -895,15 +806,14 @@
         </ul>
       </nav>
 
-      
-        <div style="margin-bottom: 1.5rem;">
-          <p class="info-text" style="margin-bottom: 0.75rem;">
-            <strong>UAE vs 沙特：8倍分化。</strong>UAE三港取消率峰值100%，沙特（JED/RUH）同日僅約6–14%，兩國獨立空域管制機制形成顯著地理分化。
-          </p>
-          <p class="info-text">
-            <strong>替代航線仍在營運。</strong>危機期間，28條中歐直飛航線持續營運，北極/中亞航路成為實質性替代通道。
-          </p>
-        </div>
+      <div class="info-block" style="margin-top: auto;">
+        <div class="info-label">關鍵洞察</div>
+        <p class="info-text">
+          <strong>UAE vs 沙特：8倍分化。</strong>UAE三港取消率峰值100%，沙特（JED/RUH）同日僅約6–14%，兩國獨立空域管制機制形成顯著地理分化。
+        </p>
+        <p class="info-text">
+          <strong>替代航線仍在營運。</strong>危機期間，28條中歐直飛航線持續營運，北極/中亞航路成為實質性替代通道。
+        </p>
 
         <ul class="meta-list">
           <li><span class="meta-key">數據源 D1</span><span class="meta-value">Aerodatabox FIDS</span></li>
@@ -921,7 +831,7 @@
     <main class="main-content">
 
       <!-- 戰事時間線 -->
-      <section class="data-section" id="section0" style="margin-bottom:calc(var(--grid-unit)*3);padding-bottom:calc(var(--grid-unit)*3);border-bottom:2px solid var(--black);">
+      <section class="data-section" id="section0" style="margin-top:calc(var(--grid-unit) * -1);margin-bottom:calc(var(--grid-unit)*3);padding-bottom:calc(var(--grid-unit)*3);border-bottom:2px solid var(--black);">
         <header class="section-header">
           <span class="section-number">時間線</span>
           <h2 class="section-title">2026 美伊戰爭</h2>
@@ -1144,7 +1054,7 @@
         <header class="section-header">
           <span class="section-number">Section 04</span>
           <h2 class="section-title">中東空域 · 即時航班監測</h2>
-          <p class="section-subtitle">即時數據：Flightera.net · 約每30秒更新</p>
+          <p class="section-subtitle">即時數據：Flightera.net · 實時更新</p>
         </header>
 
         <div class="widget-container">
@@ -1152,20 +1062,29 @@
             <span class="widget-title">中東地區航班實時地圖</span>
             <span class="live-badge">LIVE</span>
           </div>
-          <iframe class="managed-iframe widget-frame" data-src="https://www.flightera.net/en/widgets/map?lat=25.2&lon=45.8&zoom=5" loading="lazy" title="中東地區航班實時地圖"></iframe>
+          <iframe class="managed-iframe widget-frame" style="height: 350px;" data-src="https://www.flightera.net/en/widgets/map?lat=25.2&lon=45.8&zoom=5" loading="lazy" title="中東地區航班實時地圖"></iframe>
         </div>
 
-        <div class="widget-container">
-          <div class="widget-header">
-            <span class="widget-title">阿聯酋航空 (EK) · 即時航班動態</span>
-            <span class="live-badge">DEPARTURE下有+號表示該航班已延遲起飛</span>
+        <div class="widget-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+          <div class="widget-container">
+            <div class="widget-header">
+              <span class="widget-title">多哈 (DOH)</span>
+              <span class="live-badge">LIVE</span>
+            </div>
+            <iframe class="managed-iframe widget-frame" style="height: 300px;" data-src="https://www.flightera.net/en/widgets/airport?iata=DOH&depArr=dep&nrFlights=10&airlineIata=&time=scheduled&showDelay=1" loading="lazy" title="多哈機場即時航班"></iframe>
           </div>
-          <iframe class="managed-iframe widget-frame" data-src="https://www.flightera.net/en/widgets/airline?iata=EK&nrFlights=10&time=scheduled&showDelay=1" loading="lazy" title="阿聯酋航空即時航班"></iframe>
+
+          <div class="widget-container">
+            <div class="widget-header">
+              <span class="widget-title">迪拜 (DXB)</span>
+              <span class="live-badge">LIVE</span>
+            </div>
+            <iframe class="managed-iframe widget-frame" style="height: 300px;" data-src="https://www.flightera.net/en/widgets/airport?iata=DXB&depArr=dep&nrFlights=10&airlineIata=&time=scheduled&showDelay=1" loading="lazy" title="迪拜機場即時航班"></iframe>
+          </div>
         </div>
 
         <div class="annotation">
-          <strong>數據說明：</strong>地圖中心座標：北緯25.2°，東經45.8°（阿拉伯半島中心），縮放級別5。
-          阿聯酋航空(EK)以迪拜(DXB)為樞紐，是中東地區最大航空公司之一。數據來自 Flightera.net，實時更新，可能有數分鐘延遲。受空域關閉影響，部分航班可能臨時改道或取消，地圖顯示為計劃航路。
+          <strong>數據說明：</strong>地圖顯示中東地區航班概況。多哈(DOH)與迪拜(DXB)為中東重要航空樞紐，數據來自 Flightera.net，實時更新，可能有數分鐘延遲。受空域關閉影響，部分航班可能臨時改道或取消，地圖顯示為計劃航路。
         </div>
       </section>
 
@@ -1405,7 +1324,7 @@
 
     // 控制 iframe 加载/刷新頻率，避免過於頻繁導致外部 widget 出錯
     (function(){
-      const MIN_REFRESH_MS = 60 * 1000; // 最小刷新间隔：60 秒
+      const MIN_REFRESH_MS = 30 * 60 * 1000; // 最小刷新间隔：30 分鐘，避免被服務器限制
       const iframes = Array.from(document.querySelectorAll('.managed-iframe'));
       if (!iframes.length) return;
 
@@ -1424,50 +1343,63 @@
         iframe.src = iframe.dataset.src;
       }
 
-      // IntersectionObserver：仅当 iframe 可见时加载并启动受控轮询
+      // IntersectionObserver：仅当 iframe 可见时加载一次（禁用自動刷新以避免 IP 被封鎖）
       const io = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           const el = entry.target;
-          if (entry.isIntersecting) {
+          if (entry.isIntersecting && !el._hasLoaded) {
+            el._hasLoaded = true; // 標記已加載，避免重複
             loadIframeOnce(el);
-            if (!el._managedInterval) {
-              // 当可见时按最小间隔刷新一次（如果需要）
-              el._managedInterval = setInterval(() => {
-                if (document.visibilityState === 'visible' && isElementInViewport(el)) {
-                  loadIframeOnce(el);
-                }
-              }, MIN_REFRESH_MS);
-            }
-          } else {
-            if (el._managedInterval) { clearInterval(el._managedInterval); el._managedInterval = null; }
           }
         });
       }, { threshold: 0.1 });
 
       iframes.forEach(fr => {
-        // 错误处理：若 iframe 无法载入，显示友好提示
+        // 加载超时检测（5 秒）
+        const timeoutId = setTimeout(() => {
+          if (!fr._loadSuccess) {
+            showFallback(fr);
+          }
+        }, 5000);
+
+        // 加载成功检测
+        fr.addEventListener('load', () => {
+          fr._loadSuccess = true;
+          clearTimeout(timeoutId);
+        });
+
+        // 错误处理
         fr.addEventListener('error', () => {
-          const note = document.createElement('div');
-          note.className = 'annotation';
-          note.innerHTML = '<strong>地圖載入失敗</strong>：若無法顯示，請手動重新載入或稍後再試。';
-          if (fr.parentNode) fr.parentNode.replaceChild(note, fr);
+          clearTimeout(timeoutId);
+          showFallback(fr);
         });
 
         // 观察可见性
         io.observe(fr);
       });
 
-      // 当标签页从隐藏变为可见时，尝试刷新当前可见的 iframes（受最小间隔限制）
-      document.addEventListener('visibilitychange', () => {
-        if (document.visibilityState === 'visible') {
-          iframes.forEach(fr => { if (isElementInViewport(fr)) loadIframeOnce(fr); });
-        }
-      });
-
-      // 清理：在页面卸载时停止所有计时器
-      window.addEventListener('pagehide', () => {
-        iframes.forEach(fr => { if (fr._managedInterval) clearInterval(fr._managedInterval); });
-      });
+      // 顯示備選內容（當 iframe 被阻擋時）
+      function showFallback(iframe) {
+        if (iframe._fallbackShown) return;
+        iframe._fallbackShown = true;
+        
+        const container = iframe.parentNode;
+        if (!container) return;
+        
+        // 創建備選卡片
+        const fallback = document.createElement('div');
+        fallback.className = 'annotation';
+        fallback.style.cssText = 'text-align: center; padding: 2rem;';
+        fallback.innerHTML = `
+          <strong>航班地圖暫時無法載入</strong><br><br>
+          由於訪問頻率限制，外部服務暫時不可用。<br>
+          <a href="https://www.flightera.net" target="_blank" style="color: var(--accent);">點擊此處在新窗口查看 Flightera ↗</a>
+        `;
+        
+        // 隱藏 iframe 顯示備選
+        iframe.style.display = 'none';
+        container.appendChild(fallback);
+      }
     })();
   </script>
 
