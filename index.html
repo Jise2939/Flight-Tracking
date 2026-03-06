@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>空域突發監測台 · 航班營運斷裂度追蹤</title>
+  <title>中東地區航班運營概況</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -124,7 +124,7 @@
        ═══════════════════════════════════════════════════════════════ */
 
     .sidebar {
-      flex: 0 0 320px;
+      flex: 0 0 360px;
       position: sticky;
       top: 3.5rem;
       height: calc(100vh - 3.5rem);
@@ -443,6 +443,8 @@
       width: 100%;
       border-collapse: collapse;
       font-size: var(--text-sm);
+      table-layout: fixed; /* 使列按比例收縮 */
+      min-width: 0; /* 防止内部单元撑开容器 */
     }
 
     thead {
@@ -475,6 +477,9 @@
       padding: 0.875rem 0.75rem;
       font-size: var(--text-sm);
       font-weight: 500;
+      white-space: normal !important; /* 允许换行 */
+      word-break: break-word;
+      overflow-wrap: anywhere;
     }
 
     td.airport-name {
@@ -589,8 +594,113 @@
       color: var(--gray-500);
     }
 
-    /* Widget 區塊 */
-    .widget-container {
+    /* ═══════════════════════════════════════════════════════════════
+       時間線 — 統一設計語言
+       所有字體、間距、顏色遵循同一套規則
+       ═══════════════════════════════════════════════════════════════ */
+
+    .timeline {
+      position: relative;
+    }
+
+    /* ── 階段標題：全部用相同結構，僅用 border-left 顏色區分 ── */
+    .tl-phase {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      margin: 1.25rem 0 0 0;
+      padding: 0.35rem 0.75rem;
+      background: var(--gray-100);
+      border-left: 3px solid var(--gray-400);
+    }
+
+    /* 戰爭爆發階段：僅改左條和文字顏色，結構和尺寸完全一致 */
+    .tl-phase-war {
+      background: var(--gray-100);
+      border-left-color: var(--accent);
+    }
+
+    .tl-phase-label {
+      font-size: var(--text-sm);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gray-700);
+    }
+
+    .tl-phase-war .tl-phase-label {
+      color: var(--accent);
+    }
+
+    .tl-phase-date {
+      font-size: var(--text-sm);
+      font-weight: 400;
+      color: var(--gray-400);
+      letter-spacing: 0;
+    }
+
+    /* ── 條目：日期與內容兩欄對齊 ── */
+    .tl-item {
+      display: grid;
+      grid-template-columns: 7rem 1fr;
+      gap: 1rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--gray-200);
+      align-items: baseline;
+    }
+
+    .tl-item:last-child {
+      border-bottom: none;
+    }
+
+    /* 重點事件：加紅色左條，背景極淡紅 */
+    .tl-item-critical {
+      border-left: 2px solid var(--accent);
+      padding-left: 0.6rem;
+      background: #fff9f9;
+    }
+
+    /* 今日事件：加黑色左條，背景極淡灰 */
+    .tl-item-today {
+      border-left: 2px solid var(--gray-700);
+      padding-left: 0.6rem;
+      background: var(--gray-100);
+    }
+
+    /* ── 日期欄：全部用同一字體規格 ── */
+    .tl-date {
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--gray-500);
+      white-space: nowrap;
+      line-height: 1.5;
+    }
+
+    .tl-item-critical .tl-date {
+      color: var(--accent);
+    }
+
+    .tl-time {
+      display: block;
+      font-weight: 400;
+      color: var(--gray-400);
+      font-size: var(--text-sm);
+    }
+
+    /* ── 內容欄：全部用同一字體規格 ── */
+    .tl-content {
+      font-size: var(--text-sm);
+      line-height: 1.65;
+      color: var(--gray-700);
+    }
+
+    .tl-content strong {
+      color: var(--black);
+      font-weight: 700;
+    }
+
+    /* 頁腳 */
+    .site-footer {
       margin-bottom: calc(var(--grid-unit) * 2);
     }
 
@@ -651,6 +761,9 @@
       .price-grid {
         grid-template-columns: repeat(6, 1fr);
       }
+
+      .sidebar { flex: 0 0 280px; }
+      th, td { font-size: 0.75rem; padding: 0.5rem; }
     }
 
     @media (max-width: 960px) {
@@ -671,6 +784,10 @@
       .price-grid {
         grid-template-columns: repeat(5, 1fr);
       }
+
+      .sidebar { flex: 0 0 240px; }
+      th, td { font-size: 0.7rem; padding: 0.45rem; }
+      td.airport-name { white-space: normal; }
     }
 
     @media (max-width: 640px) {
@@ -707,6 +824,35 @@
       .kpi-value {
         font-size: var(--text-3xl);
       }
+
+      /* 手机端：隐藏侧边栏以保证表格不需横向滚动 */
+      .sidebar { display: none; }
+      .grid-container { padding-top: 0; }
+      .main-content { padding: calc(var(--grid-unit) * 2); }
+
+      th, td { font-size: 0.65rem; padding: 0.35rem; }
+      td.airport-name { white-space: normal; }
+      td.airport-country { white-space: normal; }
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       Responsive tables & layout tweaks
+       确保表格在窄屏下换行, 避免水平滚动
+       ═══════════════════════════════════════════════════════════════ */
+
+    table {
+      table-layout: fixed; /* 使列按比例收缩 */
+      min-width: 0; /* 防止内部单元撑开容器 */
+    }
+
+    th, td {
+      white-space: normal !important; /* 允许换行 */
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+
+    .table-container {
+      overflow-x: visible; /* 优先换行而非横向滚动 */
     }
   </style>
 </head>
@@ -716,9 +862,9 @@
        頂部導航
        ═══════════════════════════════════════════════════════════════ -->
   <header class="site-header">
-    <div class="header-id">AERO·MONITOR</div>
-    <h1 class="header-title"><strong>空域突發監測台</strong> · 中東航班營運斷裂度追蹤</h1>
-    <div class="header-meta">2026-03-06 · 系統運行中</div>
+    <div class="header-id">數據新聞</div>
+    <h1 class="header-title"><strong>中東地區航班運營概況</strong></h1>
+    <div class="header-meta">2026-03-06</div>
   </header>
 
   <div class="grid-container">
@@ -727,10 +873,21 @@
          左側導航區
          ═══════════════════════════════════════════════════════════════ -->
     <aside class="sidebar">
+      <div class="info-label">背景</div>
+        <h2 class="info-title">美伊戰爭下的中東航空停擺</h2>
+        <p class="info-text">
+          2010年代起，中東樞紐成為連結亞歐非三大洲的關鍵節點，中東天空是全球最繁忙的航空十字路口之一。
+          2026年2月28日，隨著美伊關係急劇惡化，突如其來的軍事衝突在中東地區爆發，中東核心空域關閉。迪拜、多哈、阿布扎比三港取消率在24小時內從不足1%跳升至35–52%，次日<strong>幾近達到完全停擺</strong>。
+        </p>
+        <p class="info-text"></p>
+          作為回應，國際民航組織（ICAO）發布<strong>最高級別警告</strong>，多國政府隨即宣布「禁止所有民航客機飛越伊朗及周邊衝突空域」。海灣三國（阿聯酋、卡塔爾、巴林）雖未直接成為戰場，但出於安全考量與領空管制，大量進出該區域的國際航線被強制取消或無限期繞飛。</p>
 
-      <nav class="nav-section">
+
+      <div class="info-block">
+        <nav class="nav-section">
         <div class="nav-label">導航</div>
         <ul class="nav-list">
+          <li><a href="#section0"><span class="nav-number">00</span>事件時間線</a></li>
           <li><a href="#section1" class="active"><span class="nav-number">01</span>取消率分析</a></li>
           <li><a href="#section2"><span class="nav-number">02</span>取消班次</a></li>
           <li><a href="#section3"><span class="nav-number">03</span>未來機票</a></li>
@@ -738,13 +895,7 @@
         </ul>
       </nav>
 
-      <div class="info-block">
-        <div class="info-label">背景</div>
-        <h2 class="info-title">一場<span>驟然而至</span>的空域危機</h2>
-        <p class="info-text">
-          2026年2月28日，中東核心空域驟然關閉。迪拜、多哈、阿布扎比三港取消率在24小時內從不足1%跳升至35–52%，次日達到<strong>完全停擺</strong>。
-        </p>
-
+      
         <div style="margin-bottom: 1.5rem;">
           <p class="info-text" style="margin-bottom: 0.75rem;">
             <strong>UAE vs 沙特：8倍分化。</strong>UAE三港取消率峰值100%，沙特（JED/RUH）同日僅約6–14%，兩國獨立空域管制機制形成顯著地理分化。
@@ -758,7 +909,7 @@
           <li><span class="meta-key">數據源 D1</span><span class="meta-value">Aerodatabox FIDS</span></li>
           <li><span class="meta-key">數據源 S1/R1</span><span class="meta-value">FlightRadar24</span></li>
           <li><span class="meta-key">數據源 F1</span><span class="meta-value">FutureTicket API</span></li>
-          <li><span class="meta-key">事件斷點</span><span class="meta-value">2026-02-28</span></li>
+          <li><span class="meta-key">戰爭爆發日</span><span class="meta-value" style="color:var(--accent);">2026-02-28</span></li>
         </ul>
       </div>
 
@@ -769,27 +920,102 @@
          ═══════════════════════════════════════════════════════════════ -->
     <main class="main-content">
 
+      <!-- 戰事時間線 -->
+      <section class="data-section" id="section0" style="margin-bottom:calc(var(--grid-unit)*3);padding-bottom:calc(var(--grid-unit)*3);border-bottom:2px solid var(--black);">
+        <header class="section-header">
+          <span class="section-number">時間線</span>
+          <h2 class="section-title">2026 美伊戰爭</h2>
+          <p class="section-subtitle">2026.01 — 2026.03.06</p>
+        </header>
+
+        <div class="timeline">
+
+          <div class="tl-phase">
+            <div class="tl-phase-label">第一階段：談判破裂</div>
+            <div class="tl-phase-date">2026.01 — 02.27</div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-date">1月13–15日</div>
+            <div class="tl-content">特朗普政府發出動武威脅，美軍航母打擊群（林肯號）進入中東靜默部署；歐洲多國發布撤僑警告。伊朗短暫關閉領空試探反應。</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">2月2日</div>
+            <div class="tl-content">最後一輪間接談判在阿曼破裂。美方要求伊朗停止濃縮鈾活動並撤出敘利亞，伊朗拒絕並警告「手指已扣在扳機上」。</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">2月20–27日</div>
+            <div class="tl-content">局勢升溫。美國B-52轟炸機在卡塔爾進行實彈演練，伊朗革命衛隊進入最高戰備。</div>
+          </div>
+
+          <div class="tl-phase tl-phase-war">
+            <div class="tl-phase-label">第二階段：戰爭爆發</div>
+            <div class="tl-phase-date">2026.02.28</div>
+          </div>
+
+          <div class="tl-item tl-item-critical">
+            <div class="tl-date">02-28 <span class="tl-time">04:00</span></div>
+            <div class="tl-content"><strong>【關鍵轉折點·戰爭爆發】</strong> 美以聯合發動代號「午夜錘擊」的先發制人空襲。目標鎖定伊朗指揮中樞、雷達站及核設施。<br><strong>→ 多國宣布禁飛中東空域，航班取消率從&lt;1%急升至35–52%。</strong></div>
+          </div>
+          <div class="tl-item tl-item-critical">
+            <div class="tl-date">02-28 <span class="tl-time">09:30</span></div>
+            <div class="tl-content"><strong>【最高領導人遇刺】</strong> 伊朗最高領袖哈梅內伊在其住所附近遭導彈襲擊，當場身亡。</div>
+          </div>
+          <div class="tl-item tl-item-critical">
+            <div class="tl-date">02-28 <span class="tl-time">14:00</span></div>
+            <div class="tl-content">伊朗啟動大規模報復，向美軍在伊拉克、敘利亞基地及以色列特拉維夫發射數百枚彈道導彈。霍爾木茲海峽發生首起油輪襲擊事件。</div>
+          </div>
+
+          <div class="tl-phase">
+            <div class="tl-phase-label">第三階段：局勢升級</div>
+            <div class="tl-phase-date">2026.03.01 — 至今</div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-date">3月1日</div>
+            <div class="tl-content">伊朗代理最高領袖宣佈全國總動員，誓言「血債血償」。以色列啟動「鐵穹」與「箭式」系統攔截，但仍有部分導彈擊中海法港與迪莫納核設施周邊。</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">3月2–3日</div>
+            <div class="tl-content">美軍對伊朗境內導彈發射場進行第二波毀滅性打擊。伊朗支持的武裝組織（真主黨、胡塞武裝）全面參戰，紅海航運完全切斷。</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">3月4日</div>
+            <div class="tl-content"><strong>【最新傷亡統計】</strong> 伊朗：死亡突破 2,400人（含平民），多地醫院癱瘓；美以聯軍：48名美軍士兵陣亡，以色列約120人傷亡；超過50萬人被迫流離失所。</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">3月5日</div>
+            <div class="tl-content">聯合國安理會緊急會議因否決權僵局未能達成停火協議。全球油價單日暴漲18%，突破 $145/桶。</div>
+          </div>
+          <div class="tl-item tl-item-today">
+            <div class="tl-date">3月6日 <span class="tl-time">今日</span></div>
+            <div class="tl-content"><strong>伊朗革命衛隊宣稱已癱瘓迪拜部分基礎設施</strong>（導致HK-DXB航線徹底停擺）。中國、俄羅斯呼籲立即停火，但美軍第三個航母打擊群正駛向波斯灣。中東空域已成「禁飛區」，僅有極少數撤僑包機在夜間冒險起降。</div>
+          </div>
+
+        </div>
+      </section>
+
       <!-- KPI 區域 -->
       <section class="kpi-section">
         <div class="kpi-item">
           <div class="kpi-label">UAE三港峰值</div>
           <div class="kpi-value accent">100%</div>
-          <div class="kpi-sub">DXB/DOH/AUH<br>03-01全面停擺</div>
+          <div class="kpi-sub">DXB/DOH/AUH<br>戰爭爆發翌日（03-01）全面停擺</div>
         </div>
         <div class="kpi-item">
-          <div class="kpi-label">爆發前基線</div>
+          <div class="kpi-label">戰前基線</div>
           <div class="kpi-value">&lt;1%</div>
-          <div class="kpi-sub">02-26/27<br>五機場均值0.3%</div>
+          <div class="kpi-sub">02-26/27<br>五機場均值 0.3%</div>
         </div>
         <div class="kpi-item">
           <div class="kpi-label">UAE vs 沙特</div>
           <div class="kpi-value accent">8×</div>
-          <div class="kpi-sub">UAE均值83%<br>vs 沙特12%</div>
+          <div class="kpi-sub">UAE均值 83%<br>vs 沙特 12%（空域管制差異）</div>
         </div>
         <div class="kpi-item">
           <div class="kpi-label">總取消班次</div>
           <div class="kpi-value">5,651</div>
-          <div class="kpi-sub">五機場<br>7日累計</div>
+          <div class="kpi-sub">五機場<br>7日累計（02-26 至 03-04）</div>
         </div>
       </section>
 
@@ -798,7 +1024,7 @@
         <header class="section-header">
           <span class="section-number">Section 01</span>
           <h2 class="section-title">五大中東機場 · 7日每日取消率</h2>
-          <p class="section-subtitle">數據日期：2026-03-05 · 未來可能變化</p>
+          <p class="section-subtitle">02-26（戰前兩日）至 03-04 · 數據採集於 2026-03-05</p>
         </header>
 
         <!-- 移除熱力圖，只保留表格 -->
@@ -810,13 +1036,13 @@
                 <th>機場</th>
                 <th>02-26</th>
                 <th>02-27</th>
-                <th class="breakpoint">02-28 ⚡</th>
+                <th class="breakpoint">02-28 💥 戰爭爆發</th>
                 <th>03-01</th>
                 <th>03-02</th>
                 <th>03-03</th>
                 <th>03-04</th>
-                <th>爆發前均值</th>
-                <th>爆發後均值</th>
+                <th>戰前均值</th>
+                <th>戰後均值</th>
               </tr>
             </thead>
             <tbody id="rateTable"></tbody>
@@ -824,7 +1050,7 @@
         </div>
 
         <div class="annotation">
-          <strong>數據說明：</strong>取消率 = 當日已取消 / 當日計劃總班次（Aerodatabox FIDS）。數據採集於2026-03-05，後續可能有所變化，僅供參考。
+          <strong>數據說明：</strong>取消率 = 當日已取消 / 當日計劃總班次（Aerodatabox FIDS）。02-28為美伊戰爭爆發日（「午夜錘擊」行動），取消率在24小時內急升。數據採集於2026-03-05，後續可能有所變化，僅供參考。
         </div>
       </section>
 
@@ -833,7 +1059,7 @@
         <header class="section-header">
           <span class="section-number">Section 02</span>
           <h2 class="section-title">五大中東機場 · 7日每日取消班次</h2>
-          <p class="section-subtitle">數據日期：2026-03-05 · 未來可能變化</p>
+          <p class="section-subtitle">02-26（戰前兩日）至 03-04 · 數據採集於 2026-03-05</p>
         </header>
 
         <div class="table-container" style="margin-bottom:calc(var(--grid-unit)*2);">
@@ -861,7 +1087,7 @@
                 <th>機場</th>
                 <th>02-26</th>
                 <th>02-27</th>
-                <th class="breakpoint">02-28 ⚡</th>
+                <th class="breakpoint">02-28 💥 戰爭爆發</th>
                 <th>03-01</th>
                 <th>03-02</th>
                 <th>03-03</th>
@@ -876,7 +1102,7 @@
         </div>
 
         <div class="annotation">
-          <strong>數據說明：</strong>取消班次數據來自 Aerodatabox FIDS API。數據採集於2026-03-05，後續可能有所變化，僅供參考。
+          <strong>數據說明：</strong>取消班次數據來自 Aerodatabox FIDS API。02-28為美伊戰爭爆發日，各UAE機場取消班次在24–48小時內急增至歷史峰值。數據採集於2026-03-05，後續可能有所變化，僅供參考。
         </div>
       </section>
 
@@ -926,26 +1152,27 @@
             <span class="widget-title">中東地區航班實時地圖</span>
             <span class="live-badge">LIVE</span>
           </div>
-          <iframe class="widget-frame" src="https://www.flightera.net/en/widgets/map?lat=25.2&lon=45.8&zoom=5" loading="lazy" title="中東地區航班實時地圖"></iframe>
+          <iframe class="managed-iframe widget-frame" data-src="https://www.flightera.net/en/widgets/map?lat=25.2&lon=45.8&zoom=5" loading="lazy" title="中東地區航班實時地圖"></iframe>
         </div>
 
         <div class="widget-container">
           <div class="widget-header">
             <span class="widget-title">阿聯酋航空 (EK) · 即時航班動態</span>
-            <span class="live-badge">LIVE</span>
+            <span class="live-badge">DEPARTURE下有+號表示該航班已延遲起飛</span>
           </div>
-          <iframe class="widget-frame" src="https://www.flightera.net/en/widgets/airline?iata=EK&nrFlights=10&time=scheduled&showDelay=1" loading="lazy" title="阿聯酋航空即時航班"></iframe>
+          <iframe class="managed-iframe widget-frame" data-src="https://www.flightera.net/en/widgets/airline?iata=EK&nrFlights=10&time=scheduled&showDelay=1" loading="lazy" title="阿聯酋航空即時航班"></iframe>
         </div>
 
         <div class="annotation">
-          <strong>數據說明：</strong>地圖中心座標：北緯25.2°，東經45.8°（阿拉伯半島中心），縮放級別5。阿聯酋航空(EK)以迪拜(DXB)為樞紐，是中東地區最大航空公司之一。數據來自 Flightera.net，實時更新，可能有數分鐘延遲。受空域關閉影響，部分航班可能臨時改道或取消，地圖顯示為計劃航路。
+          <strong>數據說明：</strong>地圖中心座標：北緯25.2°，東經45.8°（阿拉伯半島中心），縮放級別5。
+          阿聯酋航空(EK)以迪拜(DXB)為樞紐，是中東地區最大航空公司之一。數據來自 Flightera.net，實時更新，可能有數分鐘延遲。受空域關閉影響，部分航班可能臨時改道或取消，地圖顯示為計劃航路。
         </div>
       </section>
 
       <!-- 頁腳 -->
       <footer class="site-footer">
         <p><strong>資料來源：</strong>Aerodatabox FIDS API（D1）/ FlightRadar24 via RapidAPI（S1/R1）/ FutureTicket API（F1）</p>
-        <p>採集時間：2026-03-05 ~ 03-06 北京時間 · 本報告為研究用途，不構成商業建議</p>
+        <p>採集時間：2026-03-05 ~ 03-06 北京時間 · 本文僅做資訊傳播用途，不構成商業建議</p>
       </footer>
 
     </main>
@@ -1042,7 +1269,7 @@
         const dayTotal = perAirport.reduce((a, b) => a + b, 0);
         const { bg: tbg, fg: tfg } = cc(dayTotal);
         let row = `<tr>
-          <td style="font-weight:${isBreakpoint?'800':'600'};color:${isBreakpoint?'var(--accent)':'var(--black)'};">${date}${isBreakpoint?' ⚡':''}</td>`;
+          <td style="font-weight:${isBreakpoint?'800':'600'};color:${isBreakpoint?'var(--accent)':'var(--black)'};">${date}${isBreakpoint?' 💥 戰爭爆發':''}</td>`;
         perAirport.forEach(v => {
           const { bg, fg } = cc(v);
           row += `<td style="background:${bg};color:${fg};">${v}</td>`;
@@ -1133,7 +1360,9 @@
 
       const syncActive = () => {
         let current = sections[0] ? sections[0].id : '';
-        const scrollPos = window.scrollY + 100;
+        const header = document.querySelector('.site-header');
+        const headerHeight = header ? header.offsetHeight : 56; // 如果找不到 header，回退到 56px
+        const scrollPos = window.scrollY + headerHeight + 8; // 加上一點緩衝
 
         sections.forEach((s) => {
           if (s.offsetTop <= scrollPos) current = s.id;
@@ -1146,6 +1375,99 @@
 
       syncActive();
       window.addEventListener('scroll', syncActive);
+      window.addEventListener('resize', syncActive);
+    })();
+
+    // 平滑跳轉（考慮固定頂部偏移）
+    (function(){
+      const headerEl = () => document.querySelector('.site-header');
+      const links = document.querySelectorAll('.nav-list a[href^="#"]');
+      if (!links.length) return;
+
+      links.forEach(link => {
+        link.addEventListener('click', function(e){
+          e.preventDefault();
+          const href = this.getAttribute('href');
+          const id = href && href.startsWith('#') ? href.slice(1) : null;
+          if (!id) return;
+          const target = document.getElementById(id);
+          if (!target) return;
+
+          const headerHeight = headerEl() ? headerEl().offsetHeight : 56;
+          const top = target.offsetTop - headerHeight - 8; // 額外緩衝
+          window.scrollTo({ top: top < 0 ? 0 : top, behavior: 'smooth' });
+
+          // 更新 URL hash，但不觸發跳轉
+          try { history.pushState(null, '', '#' + id); } catch (err) { location.hash = '#' + id; }
+        });
+      });
+    })();
+
+    // 控制 iframe 加载/刷新頻率，避免過於頻繁導致外部 widget 出錯
+    (function(){
+      const MIN_REFRESH_MS = 60 * 1000; // 最小刷新间隔：60 秒
+      const iframes = Array.from(document.querySelectorAll('.managed-iframe'));
+      if (!iframes.length) return;
+
+      function isElementInViewport(el){
+        const rect = el.getBoundingClientRect();
+        return rect.top < window.innerHeight && rect.bottom > 0 && rect.left < window.innerWidth && rect.right > 0;
+      }
+
+      function loadIframeOnce(iframe){
+        const now = Date.now();
+        const last = Number(iframe.dataset.lastReload) || 0;
+        if (iframe.src && (now - last) < MIN_REFRESH_MS) return; // 刷新间隔未到
+        if (!iframe.dataset.src) return;
+        iframe.dataset.lastReload = now;
+        // 首次加载或受控刷新：设置或重设 src
+        iframe.src = iframe.dataset.src;
+      }
+
+      // IntersectionObserver：仅当 iframe 可见时加载并启动受控轮询
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          const el = entry.target;
+          if (entry.isIntersecting) {
+            loadIframeOnce(el);
+            if (!el._managedInterval) {
+              // 当可见时按最小间隔刷新一次（如果需要）
+              el._managedInterval = setInterval(() => {
+                if (document.visibilityState === 'visible' && isElementInViewport(el)) {
+                  loadIframeOnce(el);
+                }
+              }, MIN_REFRESH_MS);
+            }
+          } else {
+            if (el._managedInterval) { clearInterval(el._managedInterval); el._managedInterval = null; }
+          }
+        });
+      }, { threshold: 0.1 });
+
+      iframes.forEach(fr => {
+        // 错误处理：若 iframe 无法载入，显示友好提示
+        fr.addEventListener('error', () => {
+          const note = document.createElement('div');
+          note.className = 'annotation';
+          note.innerHTML = '<strong>地圖載入失敗</strong>：若無法顯示，請手動重新載入或稍後再試。';
+          if (fr.parentNode) fr.parentNode.replaceChild(note, fr);
+        });
+
+        // 观察可见性
+        io.observe(fr);
+      });
+
+      // 当标签页从隐藏变为可见时，尝试刷新当前可见的 iframes（受最小间隔限制）
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') {
+          iframes.forEach(fr => { if (isElementInViewport(fr)) loadIframeOnce(fr); });
+        }
+      });
+
+      // 清理：在页面卸载时停止所有计时器
+      window.addEventListener('pagehide', () => {
+        iframes.forEach(fr => { if (fr._managedInterval) clearInterval(fr._managedInterval); });
+      });
     })();
   </script>
 

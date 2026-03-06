@@ -1,0 +1,868 @@
+<html lang="en" class="antialiased" vid="0"><head vid="1">
+    <meta charset="UTF-8" vid="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" vid="3">
+    <title vid="4">STRATA - Tokenized Private Credit</title>
+    <script src="https://cdn.tailwindcss.com" vid="5"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" vid="6"></script>
+    <style vid="7">
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+        :root {
+            --bg-color: #F5F5F0;
+            --text-primary: #0D0D0D;
+            --text-secondary: #8A8A8A;
+            --accent: #0D0D0D;
+            --border-subtle: #D1D1CB;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            overflow-x: hidden;
+            margin: 0;
+            cursor: crosshair; 
+        }
+
+        .mono {
+            font-family: 'Space Mono', monospace;
+        }
+
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-color);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--text-secondary);
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .bracket-corner {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border-color: var(--text-primary);
+            border-style: solid;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            opacity: 0.3;
+        }
+
+        .active-card .bracket-corner {
+            opacity: 1;
+            width: 24px;
+            height: 24px;
+        }
+        
+        .bl-tl { top: 0; left: 0; border-width: 1px 0 0 1px; }
+        .bl-tr { top: 0; right: 0; border-width: 1px 1px 0 0; }
+        .bl-br { bottom: 0; right: 0; border-width: 0 1px 1px 0; }
+        .bl-bl { bottom: 0; left: 0; border-width: 0 0 1px 1px; }
+
+        .meta-label {
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+        }
+
+        .hero-title {
+            font-size: clamp(3rem, 8vw, 6rem);
+            line-height: 0.9;
+            letter-spacing: -0.03em;
+            font-weight: 400;
+        }
+
+        .section-container {
+            transition: opacity 0.5s ease;
+        }
+        .section-container:hover {
+            opacity: 1;
+        }
+        .dimmed {
+            opacity: 0.4;
+        }
+
+        #hero-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .btn-primary {
+            background: transparent;
+            border: 1px solid var(--text-primary);
+            color: var(--text-primary);
+            padding: 12px 24px;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            position: relative;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .btn-primary:hover {
+            background: var(--text-primary);
+            color: var(--bg-color);
+            border-color: var(--text-primary);
+        }
+
+        .btn-primary::before, .btn-primary::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: var(--text-primary);
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+        
+        .btn-primary:hover::before { opacity: 1; top: -2px; left: -2px; }
+        .btn-primary:hover::after { opacity: 1; bottom: -2px; right: -2px; }
+
+        
+        .bar-chart-col {
+            width: 10%;
+            background-color: #D1D1CB;
+            transition: height 1s ease-in-out;
+            margin: 0 2px;
+        }
+        .bar-chart-col.active {
+            background-color: #0D0D0D;
+        }
+
+        .pipeline-node {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background-color: #8A8A8A;
+            border-radius: 50%;
+        }
+
+        .pipeline-line {
+            position: absolute;
+            height: 1px;
+            background-color: #D1D1CB;
+            top: 50%;
+            left: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body class="selection:bg-black selection:text-white" vid="8">
+
+    
+    <nav class="fixed top-0 left-0 w-full z-50 px-6 py-6 flex justify-between items-center" vid="9">
+        <div class="flex items-center gap-4" vid="10">
+            <span class="mono text-xs text-[#0D0D0D] opacity-60 font-bold tracking-widest" vid="11">[ STRATA RWA ]</span>
+        </div>
+        <div class="flex items-center gap-8" vid="12">
+            <span class="mono text-xs text-[#0D0D0D] opacity-60 hidden md:block tracking-wider" vid="13">STATUS: ACCREDITED ACCESS</span>
+            <button class="btn-primary" vid="14">Connect Portal</button>
+        </div>
+    </nav>
+
+    
+    <header class="relative w-full min-h-screen flex flex-col justify-end p-6 md:p-12 overflow-hidden pt-32" vid="15">
+        
+        <div class="relative z-10 w-full max-w-7xl mx-auto mb-12 flex flex-col gap-6" vid="16">
+            
+            <div class="relative w-full fade-in-up" style="height: 480px; animation-delay: 0.2s;" vid="17">
+                <div id="hero-canvas" style="position:absolute;top:0;left:0;width:100%;height:100%;" vid="18"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-end fade-in-up" style="animation-delay: 0.4s;" vid="19">
+                <div class="md:col-span-8" vid="20">
+                    <h1 class="hero-title text-[#0D0D0D]" vid="21">
+                        Private Credit.<br vid="22">
+                        Onchain.
+                    </h1>
+                </div>
+                <div class="md:col-span-4 flex flex-col gap-6" vid="23">
+                    <p class="text-[#8A8A8A] text-lg leading-relaxed max-w-sm" vid="24">
+                        Strata bridges institutional-grade private credit assets with onchain liquidity. Programmable yield, instant settlement, and full transparency.
+                    </p>
+                    <div class="mono text-xs text-[#8A8A8A]" vid="25">
+                        SCROLL TO EXPLORE MARKETS ↓
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="absolute top-6 left-6 w-4 h-4 border-t border-l border-[#0D0D0D] opacity-20" vid="26"></div>
+        <div class="absolute top-6 right-6 w-4 h-4 border-t border-r border-[#0D0D0D] opacity-20" vid="27"></div>
+        <div class="absolute bottom-6 left-6 w-4 h-4 border-b border-l border-[#0D0D0D] opacity-20" vid="28"></div>
+        <div class="absolute bottom-6 right-6 w-4 h-4 border-b border-r border-[#0D0D0D] opacity-20" vid="29"></div>
+    </header>
+
+    
+    <main class="w-full relative z-10 bg-[#F5F5F0]" vid="30">
+        
+        
+        <section class="w-full py-24 px-6 md:px-12 border-t border-[#D1D1CB]" vid="31">
+            <div class="w-full max-w-7xl mx-auto" vid="32">
+                <div class="mono text-xs text-[#8A8A8A] mb-6 flex items-center gap-2" vid="33">
+                    <span vid="34">[ 01 ]</span>
+                    <div class="h-[1px] w-8 bg-[#D1D1CB]" vid="35"></div>
+                    <span vid="36">HOW IT WORKS</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-16" vid="37">
+                    <h2 class="text-4xl md:text-5xl font-normal text-[#0D0D0D] tracking-tight leading-tight" vid="38">Origination,<br vid="39">infrastructure<br vid="40">&amp; portfolio.</h2>
+                    <p class="text-[#8A8A8A] text-lg leading-relaxed self-end max-w-md" vid="41">Institutional-grade deal flow, legally structured via SPV and settled atomically onchain. Choose your tranche, verify in real time.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-[#D1D1CB]" vid="42">
+                    
+                    <div class="bg-[#F5F5F0] p-10 flex flex-col gap-8 group hover:bg-[#ECECE7] transition-colors duration-300" vid="43">
+                        <h2 class="text-2xl font-normal text-[#0D0D0D] tracking-tight leading-snug" vid="44">Institutional grade,<br vid="45">verified assets.</h2>
+                        <p class="text-[#8A8A8A] text-sm leading-relaxed" vid="46">Direct deal flow from audited off-chain originators. Every loan is legally structured, tokenized via SPV, and monitored in real-time.</p>
+                        <ul class="mono text-xs text-[#8A8A8A] space-y-2 border-l border-[#D1D1CB] pl-4" vid="47">
+                            <li class="flex justify-between" vid="48"><span vid="49">TVL</span> <span class="text-[#0D0D0D]" vid="50">$142,500,000</span></li>
+                            <li class="flex justify-between" vid="51"><span vid="52">WEIGHTED APY</span> <span class="text-[#0D0D0D]" vid="53">12.4%</span></li>
+                            <li class="flex justify-between" vid="54"><span vid="55">ACTIVE POOLS</span> <span class="text-[#0D0D0D]" vid="56">42</span></li>
+                            <li class="flex justify-between" vid="57"><span vid="58">DEFAULT RATE</span> <span class="text-[#0D0D0D]" vid="59">0.02%</span></li>
+                        </ul>
+                        <div class="relative w-full h-32 bg-[#ECECE7] overflow-hidden group-hover:bg-[#E2E2DC] transition-colors duration-300" vid="60">
+                            <div class="bracket-corner bl-tl" vid="61"></div>
+                            <div class="bracket-corner bl-tr" vid="62"></div>
+                            <div class="bracket-corner bl-br" vid="63"></div>
+                            <div class="bracket-corner bl-bl" vid="64"></div>
+                            <canvas id="yield-canvas" class="w-full h-full opacity-60" vid="65"></canvas>
+                            <div class="absolute bottom-2 left-2 mono text-[9px] text-[#8A8A8A]" vid="66">LIVE_ORACLE_FEED_V2</div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-[#F5F5F0] p-10 flex flex-col gap-8 group hover:bg-[#ECECE7] transition-colors duration-300" vid="67">
+                        <h2 class="text-2xl font-normal text-[#0D0D0D] tracking-tight leading-snug" vid="68">Atomic settlement.<br vid="69">Zero friction.</h2>
+                        <p class="text-[#8A8A8A] text-sm leading-relaxed" vid="70">Legal frameworks embedded in smart contract logic. Automating compliance, distribution, and repayment flows on the blockchain layer.</p>
+                        <div class="flex flex-wrap gap-2" vid="71">
+                            <div class="px-3 py-1 border border-[#D1D1CB] text-[#8A8A8A] mono text-xs rounded-full" vid="72">ERC-3643</div>
+                            <div class="px-3 py-1 border border-[#D1D1CB] text-[#8A8A8A] mono text-xs rounded-full" vid="73">KYC/AML</div>
+                            <div class="px-3 py-1 border border-[#D1D1CB] text-[#8A8A8A] mono text-xs rounded-full" vid="74">ATOMIC SWAP</div>
+                        </div>
+                        <div class="relative w-full h-32 bg-[#ECECE7] overflow-hidden group-hover:bg-[#E2E2DC] transition-colors duration-300" vid="75">
+                            <div class="bracket-corner bl-tl" vid="76"></div>
+                            <div class="bracket-corner bl-tr" vid="77"></div>
+                            <div class="bracket-corner bl-br" vid="78"></div>
+                            <div class="bracket-corner bl-bl" vid="79"></div>
+                            <div id="pipeline-container" class="relative w-full h-full flex items-center justify-center" vid="80">
+                                <div class="absolute w-3/4 h-[1px] bg-[#D1D1CB]" vid="81"></div>
+                            </div>
+                            <div class="absolute top-2 right-2 mono text-[9px] text-[#8A8A8A] text-right" vid="82">PIPELINE: ACTIVE<br vid="83">BLOCKS: 842,912</div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-[#F5F5F0] p-10 flex flex-col gap-8 group hover:bg-[#ECECE7] transition-colors duration-300" vid="84">
+                        <h2 class="text-2xl font-normal text-[#0D0D0D] tracking-tight leading-snug" vid="85">Tranches &amp;<br vid="86">Yield.</h2>
+                        <p class="text-[#8A8A8A] text-sm leading-relaxed" vid="87">Choose your risk exposure. Senior tranches for stable, protected yield. Junior tranches for enhanced returns.</p>
+                        <div class="relative w-full flex-1 bg-[#ECECE7] overflow-hidden group-hover:bg-[#E2E2DC] transition-colors duration-300 p-4" vid="88">
+                            <div class="bracket-corner bl-tl" vid="89"></div>
+                            <div class="bracket-corner bl-tr" vid="90"></div>
+                            <div class="bracket-corner bl-br" vid="91"></div>
+                            <div class="bracket-corner bl-bl" vid="92"></div>
+                            <div class="w-full" vid="93">
+                                <div class="flex justify-between text-xs mono text-[#8A8A8A] mb-2 border-b border-[#D1D1CB] pb-2" vid="94">
+                                    <span vid="95">ASSET</span><span vid="96">YIELD</span>
+                                </div>
+                                <div class="flex flex-col gap-2" id="asset-list" vid="97"></div>
+                            </div>
+                        </div>
+                        <button class="text-[#0D0D0D] border-b border-[#0D0D0D] pb-1 hover:opacity-70 transition-opacity mono text-xs tracking-widest uppercase self-start" vid="98">View Active Offerings</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        
+        <section class="w-full py-24 px-6 md:px-12 border-t border-[#D1D1CB]" vid="99">
+            <div class="w-full max-w-7xl mx-auto" vid="100">
+                <div class="mono text-xs text-[#8A8A8A] mb-6 flex items-center gap-2" vid="101">
+                    <span vid="102">[ 02 ]</span>
+                    <div class="h-[1px] w-8 bg-[#D1D1CB]" vid="103"></div>
+                    <span vid="104">RISK FRAMEWORK</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-16" vid="105">
+                    <h2 class="text-4xl md:text-5xl font-normal text-[#0D0D0D] tracking-tight leading-tight" vid="106">Safe, secure,<br vid="107">consistent returns.</h2>
+                    <p class="text-[#8A8A8A] text-lg leading-relaxed self-end max-w-md" vid="108">Every instrument on Strata is structured to protect capital first. Multiple layers of legal, technical, and financial safeguards ensure predictable, sustainable yield.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-[#D1D1CB]" vid="109">
+                    
+                    <div class="bg-[#F5F5F0] p-8 flex flex-col gap-6 group hover:bg-[#ECECE7] transition-colors duration-300" vid="110">
+                        <div class="relative w-10 h-10" vid="111">
+                            <div class="absolute inset-0 border border-[#D1D1CB] group-hover:border-[#0D0D0D] transition-colors duration-300" vid="112"></div>
+                            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" vid="113">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" vid="114">
+                                    <path d="M8 1L2 4v4c0 3.3 2.5 6.4 6 7 3.5-.6 6-3.7 6-7V4L8 1z" stroke="#0D0D0D" stroke-width="1" fill="none" vid="115"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div vid="116">
+                            <div class="mono text-xs text-[#8A8A8A] mb-2 tracking-widest" vid="117">CAPITAL PROTECTION</div>
+                            <h3 class="text-xl font-normal text-[#0D0D0D] mb-3" vid="118">Senior tranche priority</h3>
+                            <p class="text-[#8A8A8A] text-sm leading-relaxed" vid="119">Senior creditors are repaid first in all liquidation scenarios. Structural seniority enforced by smart contract waterfall logic, not counterparty promises.</p>
+                        </div>
+                        <div class="mt-auto mono text-xs text-[#0D0D0D] border-t border-[#D1D1CB] pt-4" vid="120">
+                            LOSS RATE: 0.02% LTM
+                        </div>
+                    </div>
+                    
+                    <div class="bg-[#F5F5F0] p-8 flex flex-col gap-6 group hover:bg-[#ECECE7] transition-colors duration-300" vid="121">
+                        <div class="relative w-10 h-10" vid="122">
+                            <div class="absolute inset-0 border border-[#D1D1CB] group-hover:border-[#0D0D0D] transition-colors duration-300" vid="123"></div>
+                            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" vid="124">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" vid="125">
+                                    <circle cx="8" cy="8" r="6" stroke="#0D0D0D" stroke-width="1" vid="126"></circle>
+                                    <path d="M5 8h6M8 5v6" stroke="#0D0D0D" stroke-width="1" vid="127"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div vid="128">
+                            <div class="mono text-xs text-[#8A8A8A] mb-2 tracking-widest" vid="129">OVERCOLLATERALISATION</div>
+                            <h3 class="text-xl font-normal text-[#0D0D0D] mb-3" vid="130">130%+ collateral ratio</h3>
+                            <p class="text-[#8A8A8A] text-sm leading-relaxed" vid="131">All pools maintain mandatory overcollateralisation buffers. Real assets secured via legally perfected SPV structures in established jurisdictions.</p>
+                        </div>
+                        <div class="mt-auto mono text-xs text-[#0D0D0D] border-t border-[#D1D1CB] pt-4" vid="132">
+                            AVG RATIO: 142%
+                        </div>
+                    </div>
+                    
+                    <div class="bg-[#F5F5F0] p-8 flex flex-col gap-6 group hover:bg-[#ECECE7] transition-colors duration-300" vid="133">
+                        <div class="relative w-10 h-10" vid="134">
+                            <div class="absolute inset-0 border border-[#D1D1CB] group-hover:border-[#0D0D0D] transition-colors duration-300" vid="135"></div>
+                            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" vid="136">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" vid="137">
+                                    <rect x="2" y="2" width="12" height="12" stroke="#0D0D0D" stroke-width="1" vid="138"></rect>
+                                    <path d="M5 8l2 2 4-4" stroke="#0D0D0D" stroke-width="1" vid="139"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div vid="140">
+                            <div class="mono text-xs text-[#8A8A8A] mb-2 tracking-widest" vid="141">REAL-TIME MONITORING</div>
+                            <h3 class="text-xl font-normal text-[#0D0D0D] mb-3" vid="142">Onchain reporting</h3>
+                            <p class="text-[#8A8A8A] text-sm leading-relaxed" vid="143">Live oracle feeds push loan performance data onchain every block. Investors can verify collateral health, repayment status, and covenant compliance at any time.</p>
+                        </div>
+                        <div class="mt-auto mono text-xs text-[#0D0D0D] border-t border-[#D1D1CB] pt-4" vid="144">
+                            DATA LATENCY: &lt;12s
+                        </div>
+                    </div>
+                    
+                    <div class="bg-[#F5F5F0] p-8 flex flex-col gap-6 group hover:bg-[#ECECE7] transition-colors duration-300" vid="145">
+                        <div class="relative w-10 h-10" vid="146">
+                            <div class="absolute inset-0 border border-[#D1D1CB] group-hover:border-[#0D0D0D] transition-colors duration-300" vid="147"></div>
+                            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" vid="148">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" vid="149">
+                                    <path d="M2 14V6l6-4 6 4v8" stroke="#0D0D0D" stroke-width="1" fill="none" vid="150"></path>
+                                    <rect x="6" y="9" width="4" height="5" stroke="#0D0D0D" stroke-width="1" vid="151"></rect>
+                                </svg>
+                            </div>
+                        </div>
+                        <div vid="152">
+                            <div class="mono text-xs text-[#8A8A8A] mb-2 tracking-widest" vid="153">LEGAL INFRASTRUCTURE</div>
+                            <h3 class="text-xl font-normal text-[#0D0D0D] mb-3" vid="154">SPV ring-fencing</h3>
+                            <p class="text-[#8A8A8A] text-sm leading-relaxed" vid="155">Each credit pool is isolated in a bankruptcy-remote SPV. Investor claims are legally perfected prior to tokenisation, ensuring off-chain recourse in all scenarios.</p>
+                        </div>
+                        <div class="mt-auto mono text-xs text-[#0D0D0D] border-t border-[#D1D1CB] pt-4" vid="156">
+                            JURISDICTION: CAYMAN / BVI
+                        </div>
+                    </div>
+                    
+                    <div class="bg-[#F5F5F0] p-8 flex flex-col gap-6 group hover:bg-[#ECECE7] transition-colors duration-300" vid="157">
+                        <div class="relative w-10 h-10" vid="158">
+                            <div class="absolute inset-0 border border-[#D1D1CB] group-hover:border-[#0D0D0D] transition-colors duration-300" vid="159"></div>
+                            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" vid="160">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" vid="161">
+                                    <path d="M8 2v12M3 7l5-5 5 5" stroke="#0D0D0D" stroke-width="1" vid="162"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div vid="163">
+                            <div class="mono text-xs text-[#8A8A8A] mb-2 tracking-widest" vid="164">YIELD DISTRIBUTION</div>
+                            <h3 class="text-xl font-normal text-[#0D0D0D] mb-3" vid="165">Automated waterfall</h3>
+                            <p class="text-[#8A8A8A] text-sm leading-relaxed" vid="166">Repayments are collected onchain and distributed via smart contract waterfall — senior tranche first, then mezzanine, then equity. No manual handling of funds.</p>
+                        </div>
+                        <div class="mt-auto mono text-xs text-[#0D0D0D] border-t border-[#D1D1CB] pt-4" vid="167">
+                            DISTRIBUTION: T+0
+                        </div>
+                    </div>
+                    
+                    <div class="bg-[#F5F5F0] p-8 flex flex-col gap-6 group hover:bg-[#ECECE7] transition-colors duration-300" vid="168">
+                        <div class="relative w-10 h-10" vid="169">
+                            <div class="absolute inset-0 border border-[#D1D1CB] group-hover:border-[#0D0D0D] transition-colors duration-300" vid="170"></div>
+                            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" vid="171">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" vid="172">
+                                    <circle cx="8" cy="8" r="3" stroke="#0D0D0D" stroke-width="1" vid="173"></circle>
+                                    <path d="M8 1v2M8 13v2M1 8h2M13 8h2" stroke="#0D0D0D" stroke-width="1" vid="174"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div vid="175">
+                            <div class="mono text-xs text-[#8A8A8A] mb-2 tracking-widest" vid="176">AUDIT &amp; COMPLIANCE</div>
+                            <h3 class="text-xl font-normal text-[#0D0D0D] mb-3" vid="177">Third-party verified</h3>
+                            <p class="text-[#8A8A8A] text-sm leading-relaxed" vid="178">Smart contracts audited by leading security firms. Financial statements independently verified. Continuous KYC/AML screening via licensed compliance infrastructure.</p>
+                        </div>
+                        <div class="mt-auto mono text-xs text-[#0D0D0D] border-t border-[#D1D1CB] pt-4" vid="179">
+                            AUDITOR: CHAINSECURITY
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="w-full py-24 px-6 md:px-12 border-t border-[#D1D1CB]" vid="180">
+            <div class="w-full max-w-7xl mx-auto" vid="181">
+                <div class="mono text-xs text-[#8A8A8A] mb-6 flex items-center gap-2" vid="182">
+                    <span vid="183">[ 03 ]</span>
+                    <div class="h-[1px] w-8 bg-[#D1D1CB]" vid="184"></div>
+                    <span vid="185">PRODUCTS</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-16" vid="186">
+                    <h2 class="text-4xl md:text-5xl font-normal text-[#0D0D0D] tracking-tight leading-tight" vid="187">Active<br vid="188">offerings.</h2>
+                    <p class="text-[#8A8A8A] text-lg leading-relaxed self-end max-w-md" vid="189">Curated credit pools structured for risk-adjusted returns. Each instrument is legally isolated, over-collateralised, and monitored onchain in real time.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#D1D1CB]" vid="190">
+                    <div class="bg-[#F5F5F0] p-10 flex flex-col gap-8 group hover:bg-[#ECECE7] transition-colors duration-300 relative overflow-hidden" vid="191">
+                        <div class="bracket-corner bl-tl" vid="192"></div><div class="bracket-corner bl-tr" vid="193"></div><div class="bracket-corner bl-br" vid="194"></div><div class="bracket-corner bl-bl" vid="195"></div>
+                        <div class="flex justify-between items-start" vid="196"><div vid="197"><div class="mono text-[10px] text-[#8A8A8A] tracking-widest mb-1" vid="198">POOL TYPE</div><div class="mono text-xs text-[#0D0D0D]" vid="199">SME_HIGH_YIELD_IV</div></div><div class="px-3 py-1 border border-[#D1D1CB] text-[#8A8A8A] mono text-xs rounded-full" vid="200">SENIOR TRANCHE</div></div>
+                        <div vid="201"><div class="text-6xl md:text-7xl font-normal text-[#0D0D0D] tracking-tighter leading-none mb-2" vid="202">12.5<span class="text-3xl text-[#8A8A8A]" vid="203">%</span></div><div class="mono text-xs text-[#8A8A8A]" vid="204">WEIGHTED APY</div></div>
+                        <ul class="mono text-xs text-[#8A8A8A] space-y-2 border-l border-[#D1D1CB] pl-4" vid="205"><li class="flex justify-between" vid="206"><span vid="207">TERM</span><span class="text-[#0D0D0D]" vid="208">180 DAYS</span></li><li class="flex justify-between" vid="209"><span vid="210">MIN TICKET</span><span class="text-[#0D0D0D]" vid="211">$100,000 USDC</span></li><li class="flex justify-between" vid="212"><span vid="213">COLLATERAL</span><span class="text-[#0D0D0D]" vid="214">138%</span></li><li class="flex justify-between" vid="215"><span vid="216">ORIGINATOR</span><span class="text-[#0D0D0D]" vid="217">AUDITED</span></li></ul>
+                        <div class="mt-auto flex justify-between items-center border-t border-[#D1D1CB] pt-6" vid="218"><div vid="219"><div class="mono text-[10px] text-[#8A8A8A] mb-1" vid="220">POOL SIZE</div><div class="text-lg text-[#0D0D0D] tracking-tight" vid="221">$28,500,000</div></div><div vid="222"><div class="mono text-[10px] text-[#8A8A8A] mb-1 text-right" vid="223">UTILISATION</div><div class="text-lg text-[#0D0D0D] tracking-tight" vid="224">91.4%</div></div><button class="text-[#0D0D0D] border-b border-[#0D0D0D] pb-1 hover:opacity-50 transition-opacity mono text-xs tracking-widest uppercase" vid="225">Invest Now</button></div>
+                        <div class="absolute bottom-0 left-0 w-[91.4%] h-[2px] bg-[#0D0D0D] opacity-10 group-hover:opacity-20 transition-opacity duration-500" vid="226"></div>
+                    </div>
+                    <div class="bg-[#F5F5F0] p-10 flex flex-col gap-8 group hover:bg-[#ECECE7] transition-colors duration-300 relative overflow-hidden" vid="227">
+                        <div class="bracket-corner bl-tl" vid="228"></div><div class="bracket-corner bl-tr" vid="229"></div><div class="bracket-corner bl-br" vid="230"></div><div class="bracket-corner bl-bl" vid="231"></div>
+                        <div class="flex justify-between items-start" vid="232"><div vid="233"><div class="mono text-[10px] text-[#8A8A8A] tracking-widest mb-1" vid="234">POOL TYPE</div><div class="mono text-xs text-[#0D0D0D]" vid="235">US_TBILL_SHORT_DUR</div></div><div class="px-3 py-1 border border-[#D1D1CB] text-[#8A8A8A] mono text-xs rounded-full" vid="236">LIQUID</div></div>
+                        <div vid="237"><div class="text-6xl md:text-7xl font-normal text-[#0D0D0D] tracking-tighter leading-none mb-2" vid="238">5.2<span class="text-3xl text-[#8A8A8A]" vid="239">%</span></div><div class="mono text-xs text-[#8A8A8A]" vid="240">WEIGHTED APY</div></div>
+                        <ul class="mono text-xs text-[#8A8A8A] space-y-2 border-l border-[#D1D1CB] pl-4" vid="241"><li class="flex justify-between" vid="242"><span vid="243">LIQUIDITY</span><span class="text-[#0D0D0D]" vid="244">T+2</span></li><li class="flex justify-between" vid="245"><span vid="246">MIN TICKET</span><span class="text-[#0D0D0D]" vid="247">$50,000 USDC</span></li><li class="flex justify-between" vid="248"><span vid="249">UNDERLYING</span><span class="text-[#0D0D0D]" vid="250">US TREASURY</span></li><li class="flex justify-between" vid="251"><span vid="252">RISK</span><span class="text-[#0D0D0D]" vid="253">SOVEREIGN</span></li></ul>
+                        <div class="mt-auto flex justify-between items-center border-t border-[#D1D1CB] pt-6" vid="254"><div vid="255"><div class="mono text-[10px] text-[#8A8A8A] mb-1" vid="256">POOL SIZE</div><div class="text-lg text-[#0D0D0D] tracking-tight" vid="257">$54,000,000</div></div><div vid="258"><div class="mono text-[10px] text-[#8A8A8A] mb-1 text-right" vid="259">UTILISATION</div><div class="text-lg text-[#0D0D0D] tracking-tight" vid="260">78.2%</div></div><button class="text-[#0D0D0D] border-b border-[#0D0D0D] pb-1 hover:opacity-50 transition-opacity mono text-xs tracking-widest uppercase" vid="261">Invest Now</button></div>
+                        <div class="absolute bottom-0 left-0 w-[78.2%] h-[2px] bg-[#0D0D0D] opacity-10 group-hover:opacity-20 transition-opacity duration-500" vid="262"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="w-full py-24 px-6 md:px-12 border-t border-[#D1D1CB]" vid="263">
+            <div class="w-full max-w-7xl mx-auto" vid="264">
+                <div class="mono text-xs text-[#8A8A8A] mb-6 flex items-center gap-2" vid="265">
+                    <span vid="266">[ 04 ]</span>
+                    <div class="h-[1px] w-8 bg-[#D1D1CB]" vid="267"></div>
+                    <span vid="268">TRUST</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-16" vid="269">
+                    <h2 class="text-4xl md:text-5xl font-normal text-[#0D0D0D] tracking-tight leading-tight" vid="270">A foundation<br vid="271">of trust.</h2>
+                    <p class="text-[#8A8A8A] text-lg leading-relaxed self-end max-w-md" vid="272">Backed by institutional-grade partners, regulated custodians, and battle-tested legal counsel. The infrastructure beneath private credit, rebuilt for the onchain era.</p>
+                </div>
+
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-[#D1D1CB] mb-px" vid="273">
+                    <div class="bg-[#F5F5F0] p-8" vid="274">
+                        <div class="mono text-xs text-[#8A8A8A] mb-2" vid="275">TOTAL AUM</div>
+                        <div class="text-3xl font-normal text-[#0D0D0D] tracking-tight" vid="276">$142.5M</div>
+                    </div>
+                    <div class="bg-[#F5F5F0] p-8" vid="277">
+                        <div class="mono text-xs text-[#8A8A8A] mb-2" vid="278">DEALS CLOSED</div>
+                        <div class="text-3xl font-normal text-[#0D0D0D] tracking-tight" vid="279">214</div>
+                    </div>
+                    <div class="bg-[#F5F5F0] p-8" vid="280">
+                        <div class="mono text-xs text-[#8A8A8A] mb-2" vid="281">INSTITUTIONAL LPs</div>
+                        <div class="text-3xl font-normal text-[#0D0D0D] tracking-tight" vid="282">89</div>
+                    </div>
+                    <div class="bg-[#F5F5F0] p-8" vid="283">
+                        <div class="mono text-xs text-[#8A8A8A] mb-2" vid="284">UPTIME</div>
+                        <div class="text-3xl font-normal text-[#0D0D0D] tracking-tight" vid="285">99.98%</div>
+                    </div>
+                </div>
+
+                
+                <div class="bg-[#ECECE7] border border-[#D1D1CB] p-8 mb-px" vid="286">
+                    <div class="mono text-xs text-[#8A8A8A] mb-6" vid="287">BACKED &amp; INTEGRATED BY</div>
+                    <div class="flex flex-wrap items-center gap-x-12 gap-y-4" vid="288">
+                        <span class="mono text-sm text-[#0D0D0D] opacity-40 hover:opacity-80 transition-opacity tracking-widest cursor-default" vid="289">COINBASE PRIME</span>
+                        <span class="mono text-sm text-[#0D0D0D] opacity-40 hover:opacity-80 transition-opacity tracking-widest cursor-default" vid="290">FIREBLOCKS</span>
+                        <span class="mono text-sm text-[#0D0D0D] opacity-40 hover:opacity-80 transition-opacity tracking-widest cursor-default" vid="291">CHAINLINK</span>
+                        <span class="mono text-sm text-[#0D0D0D] opacity-40 hover:opacity-80 transition-opacity tracking-widest cursor-default" vid="292">CIRCLE</span>
+                        <span class="mono text-sm text-[#0D0D0D] opacity-40 hover:opacity-80 transition-opacity tracking-widest cursor-default" vid="293">ONDO FINANCE</span>
+                        <span class="mono text-sm text-[#0D0D0D] opacity-40 hover:opacity-80 transition-opacity tracking-widest cursor-default" vid="294">GAUNTLET</span>
+                        <span class="mono text-sm text-[#0D0D0D] opacity-40 hover:opacity-80 transition-opacity tracking-widest cursor-default" vid="295">AAVE</span>
+                    </div>
+                </div>
+
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-[#D1D1CB]" vid="296">
+                    <div class="bg-[#F5F5F0] p-8" vid="297">
+                        <div class="mono text-xs text-[#8A8A8A] mb-3 tracking-widest" vid="298">REGULATION</div>
+                        <p class="text-[#0D0D0D] text-sm leading-relaxed" vid="299">Operating under applicable securities law. Accredited investor verification enforced via ERC-3643 permissioned token standard. Full KYB/KYC pipeline integrated at wallet level.</p>
+                    </div>
+                    <div class="bg-[#F5F5F0] p-8" vid="300">
+                        <div class="mono text-xs text-[#8A8A8A] mb-3 tracking-widest" vid="301">CUSTODY</div>
+                        <p class="text-[#0D0D0D] text-sm leading-relaxed" vid="302">Investor assets held with qualified custodians. Fireblocks MPC wallets for protocol treasury. No commingling of investor and operational funds at any layer of the stack.</p>
+                    </div>
+                    <div class="bg-[#F5F5F0] p-8" vid="303">
+                        <div class="mono text-xs text-[#8A8A8A] mb-3 tracking-widest" vid="304">TRANSPARENCY</div>
+                        <p class="text-[#0D0D0D] text-sm leading-relaxed" vid="305">All pool data published onchain in real-time. Chainlink oracle attestations for NAV and collateral values. Monthly third-party financial reporting available to all LPs on request.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <footer class="w-full border-t border-[#D1D1CB]" vid="306">
+            
+            <div class="w-full py-32 px-6 md:px-12 border-b border-[#D1D1CB] flex flex-col md:flex-row items-start md:items-end justify-between gap-12 max-w-7xl mx-auto" vid="307">
+                <div vid="308">
+                    <div class="mono text-xs text-[#8A8A8A] mb-4" vid="309">[ READY TO DEPLOY ]</div>
+                    <h2 class="text-5xl md:text-7xl font-normal text-[#0D0D0D] tracking-tighter leading-none" vid="310">Deploy<br vid="311">capital.</h2>
+                </div>
+                <div class="flex flex-col gap-4 items-start md:items-end" vid="312">
+                    <button class="btn-primary" vid="313">Request Term Sheet</button>
+                    <span class="mono text-[10px] text-[#8A8A8A] uppercase text-right" vid="314">Minimum Ticket: $100k USDC&nbsp;&nbsp;//&nbsp;&nbsp;KYB / KYC Required</span>
+                </div>
+            </div>
+            
+            <div class="w-full px-6 md:px-12 py-12 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8" vid="315">
+                <div vid="316">
+                    <div class="mono text-xs text-[#0D0D0D] font-bold tracking-widest mb-4" vid="317">[ STRATA RWA ]</div>
+                    <p class="text-[#8A8A8A] text-xs leading-relaxed max-w-[180px]" vid="318">Tokenized private credit for institutional and accredited investors.</p>
+                </div>
+                <div vid="319">
+                    <div class="mono text-[10px] text-[#8A8A8A] tracking-widest mb-4" vid="320">PROTOCOL</div>
+                    <ul class="space-y-2" vid="321">
+                        <li vid="322"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="323">Pools</span></li>
+                        <li vid="324"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="325">Originators</span></li>
+                        <li vid="326"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="327">Governance</span></li>
+                        <li vid="328"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="329">Analytics</span></li>
+                    </ul>
+                </div>
+                <div vid="330">
+                    <div class="mono text-[10px] text-[#8A8A8A] tracking-widest mb-4" vid="331">RESOURCES</div>
+                    <ul class="space-y-2" vid="332">
+                        <li vid="333"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="334">Documentation</span></li>
+                        <li vid="335"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="336">Whitepaper</span></li>
+                        <li vid="337"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="338">Audit Reports</span></li>
+                        <li vid="339"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="340">Blog</span></li>
+                    </ul>
+                </div>
+                <div vid="341">
+                    <div class="mono text-[10px] text-[#8A8A8A] tracking-widest mb-4" vid="342">LEGAL</div>
+                    <ul class="space-y-2" vid="343">
+                        <li vid="344"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="345">Terms of Service</span></li>
+                        <li vid="346"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="347">Privacy Policy</span></li>
+                        <li vid="348"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="349">Risk Disclosures</span></li>
+                        <li vid="350"><span class="text-[#0D0D0D] text-xs hover:opacity-50 transition-opacity cursor-pointer" vid="351">KYC Policy</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-[#D1D1CB] px-6 md:px-12 py-6 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2" vid="352">
+                <span class="mono text-[10px] text-[#8A8A8A]" vid="353">© 2024 STRATA PROTOCOL. ALL RIGHTS RESERVED.</span>
+                <span class="mono text-[10px] text-[#8A8A8A]" vid="354">[ MAINNET V1.2.4 ]&nbsp;&nbsp;//&nbsp;&nbsp;NOT AVAILABLE TO US PERSONS</span>
+            </div>
+        </footer>
+
+    </main>
+
+    <script vid="355">
+        
+        
+        const initHero = () => {
+            const container = document.getElementById('hero-canvas');
+            const scene = new THREE.Scene();
+            const camera = new THREE.PerspectiveCamera(45, container.offsetWidth / container.offsetHeight, 0.1, 1000);
+            const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+            
+            renderer.setSize(container.offsetWidth, container.offsetHeight);
+            renderer.setPixelRatio(window.devicePixelRatio);
+            container.appendChild(renderer.domElement);
+
+            camera.position.z = 240;
+
+            
+            const globeRadius = 80;
+            const geometry = new THREE.SphereGeometry(globeRadius, 32, 32);
+            const wireframe = new THREE.WireframeGeometry(geometry);
+            const lineMaterial = new THREE.LineBasicMaterial({ 
+                color: 0x0D0D0D, 
+                transparent: true, 
+                opacity: 0.05 
+            });
+            const sphereLine = new THREE.LineSegments(wireframe, lineMaterial);
+            scene.add(sphereLine);
+
+            
+            const hubs = [
+                { name: 'London', lat: 51.5074, lon: -0.1278 },
+                { name: 'New York', lat: 40.7128, lon: -74.0060 },
+                { name: 'Singapore', lat: 1.3521, lon: 103.8198 },
+                { name: 'Dubai', lat: 25.2048, lon: 55.2708 }
+            ];
+
+            const convertCoords = (lat, lon, radius) => {
+                const phi = (90 - lat) * (Math.PI / 180);
+                const theta = (lon + 180) * (Math.PI / 180);
+                return new THREE.Vector3(
+                    -radius * Math.sin(phi) * Math.cos(theta),
+                    radius * Math.cos(phi),
+                    radius * Math.sin(phi) * Math.sin(theta)
+                );
+            };
+
+            const hubGroup = new THREE.Group();
+            scene.add(hubGroup);
+
+            hubs.forEach(hub => {
+                const pos = convertCoords(hub.lat, hub.lon, globeRadius);
+                const dotGeo = new THREE.SphereGeometry(1.2, 12, 12);
+                const dotMat = new THREE.MeshBasicMaterial({ color: 0x0D0D0D, transparent: true, opacity: 0.6 });
+                const dot = new THREE.Mesh(dotGeo, dotMat);
+                dot.position.copy(pos);
+                hubGroup.add(dot);
+            });
+
+            
+            const arcMaterial = new THREE.LineBasicMaterial({ 
+                color: 0x0D0D0D, 
+                transparent: true, 
+                opacity: 0.3 
+            });
+
+            const createArc = (startHub, endHub) => {
+                const start = convertCoords(startHub.lat, startHub.lon, globeRadius);
+                const end = convertCoords(endHub.lat, endHub.lon, globeRadius);
+                
+                
+                const mid = new THREE.Vector3().addVectors(start, end).multiplyScalar(0.5);
+                const distance = start.distanceTo(end);
+                mid.normalize().multiplyScalar(globeRadius + distance * 0.4);
+
+                const curve = new THREE.QuadraticBezierCurve3(start, mid, end);
+                const points = curve.getPoints(50);
+                const arcGeo = new THREE.BufferGeometry().setFromPoints(points);
+                const arc = new THREE.Line(arcGeo, arcMaterial);
+                hubGroup.add(arc);
+
+                
+                const sparkGeo = new THREE.SphereGeometry(0.6, 8, 8);
+                const sparkMat = new THREE.MeshBasicMaterial({ color: 0x0D0D0D, transparent: true, opacity: 0.8 });
+                const spark = new THREE.Mesh(sparkGeo, sparkMat);
+                hubGroup.add(spark);
+
+                return { curve, spark, t: Math.random() };
+            };
+
+            const activeArcs = [];
+            for (let i = 0; i < hubs.length; i++) {
+                for (let j = i + 1; j < hubs.length; j++) {
+                    activeArcs.push(createArc(hubs[i], hubs[j]));
+                }
+            }
+
+            const animate = () => {
+                requestAnimationFrame(animate);
+                
+                sphereLine.rotation.y += 0.001;
+                hubGroup.rotation.y += 0.001;
+
+                activeArcs.forEach(arc => {
+                    arc.t += 0.005;
+                    if (arc.t > 1) arc.t = 0;
+                    const pos = arc.curve.getPoint(arc.t);
+                    arc.spark.position.copy(pos);
+                });
+
+                renderer.render(scene, camera);
+            };
+
+            animate();
+
+            window.addEventListener('resize', () => {
+                camera.aspect = container.offsetWidth / container.offsetHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize(container.offsetWidth, container.offsetHeight);
+            });
+        };
+
+        const initYieldGraph = () => {
+            const canvas = document.getElementById('yield-canvas');
+            const ctx = canvas.getContext('2d');
+            
+            const resize = () => {
+                canvas.width = canvas.parentElement.offsetWidth;
+                canvas.height = canvas.parentElement.offsetHeight;
+            };
+            resize();
+            window.addEventListener('resize', resize);
+
+            let offset = 0;
+            const points = [];
+            const numPoints = 50;
+
+            for(let i=0; i<numPoints; i++) {
+                points.push({
+                    val: Math.random(),
+                    target: Math.random(),
+                    speed: 0.02 + Math.random() * 0.03
+                });
+            }
+            
+            const draw = () => {
+                ctx.fillStyle = '#ECECE7';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                ctx.strokeStyle = 'rgba(209, 209, 203, 0.5)';
+                ctx.lineWidth = 1;
+                const gridSpacing = 40;
+                for(let x=0; x<canvas.width; x+=gridSpacing) {
+                    ctx.beginPath();
+                    ctx.moveTo(x, 0);
+                    ctx.lineTo(x, canvas.height);
+                    ctx.stroke();
+                }
+                ctx.beginPath();
+                ctx.strokeStyle = '#0D0D0D';
+                ctx.lineWidth = 2;
+                const step = canvas.width / (numPoints - 1);
+                const baseY = canvas.height * 0.7;
+                const rangeY = canvas.height * 0.4;
+                ctx.moveTo(0, baseY - points[0].val * rangeY);
+                for(let i=0; i<numPoints; i++) {
+                    const p = points[i];
+                    p.val += (p.target - p.val) * p.speed;
+                    if(Math.abs(p.target - p.val) < 0.01) {
+                        p.target = Math.random();
+                    }
+                    const x = i * step;
+                    const y = baseY - p.val * rangeY;
+                    if (i === 0) ctx.moveTo(x, y);
+                    else {
+                        const prevX = (i-1) * step;
+                        const prevY = baseY - points[i-1].val * rangeY;
+                        const midX = (prevX + x) / 2;
+                        ctx.quadraticCurveTo(prevX, prevY, midX, (prevY + y) / 2);
+                    }
+                }
+                ctx.lineTo(canvas.width, baseY - points[numPoints-1].val * rangeY);
+                ctx.stroke();
+                ctx.lineTo(canvas.width, canvas.height);
+                ctx.lineTo(0, canvas.height);
+                ctx.fillStyle = 'rgba(13, 13, 13, 0.05)';
+                ctx.fill();
+                requestAnimationFrame(draw);
+            };
+            draw();
+        };
+
+        const initPipeline = () => {
+            const container = document.getElementById('pipeline-container');
+            const createNode = () => {
+                const node = document.createElement('div');
+                node.className = 'absolute w-3 h-3 bg-[#0D0D0D] rotate-45 border border-[#F5F5F0]';
+                node.style.left = '-10px';
+                node.style.top = 'calc(50% - 6px)';
+                if(Math.random() > 0.5) {
+                    const label = document.createElement('div');
+                    label.className = 'absolute top-[-20px] left-[-10px] whitespace-nowrap mono text-[8px] text-[#8A8A8A]';
+                    label.innerText = 'TX_' + Math.floor(Math.random() * 9999);
+                    node.appendChild(label);
+                }
+                container.appendChild(node);
+                const duration = 4000;
+                const startTime = Date.now();
+                const animateNode = () => {
+                    const elapsed = Date.now() - startTime;
+                    const progress = elapsed / duration;
+                    if (progress >= 1) {
+                        node.remove();
+                        return;
+                    }
+                    node.style.left = (progress * 100) + '%';
+                    const yOffset = Math.sin(progress * Math.PI * 4) * 20;
+                    node.style.transform = `translateY(${yOffset}px) rotate(45deg)`;
+                    requestAnimationFrame(animateNode);
+                }
+                animateNode();
+            };
+            setInterval(createNode, 800);
+        };
+
+        const initAssetList = () => {
+            const container = document.getElementById('asset-list');
+            const assets = [
+                { name: 'SENIOR_DEBT_IV', yield: '8.4%' },
+                { name: 'REAL_ESTATE_B2', yield: '11.2%' },
+                { name: 'SME_CREDIT_POOL', yield: '14.5%' },
+                { name: 'TRADE_FIN_X', yield: '9.1%' }
+            ];
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            assets.forEach((asset, i) => {
+                const row = document.createElement('div');
+                row.className = 'flex justify-between items-center text-sm font-light text-[#0D0D0D] py-2 border-b border-[#D1D1CB] border-dashed';
+                row.innerHTML = `
+                    <span class="mono tracking-wider asset-name" data-final="${asset.name}">${asset.name}</span>
+                    <span class="font-semibold">${asset.yield}</span>
+                `;
+                container.appendChild(row);
+            });
+            const scramble = (element, targetText) => {
+                let iterations = 0;
+                const interval = setInterval(() => {
+                    element.innerText = targetText.split('')
+                        .map((letter, index) => {
+                            if(index < iterations) return targetText[index];
+                            if(targetText[index] === ' ' || targetText[index] === '_' ) return targetText[index];
+                            return chars[Math.floor(Math.random() * 36)];
+                        })
+                        .join('');
+                    if(iterations >= targetText.length) clearInterval(interval);
+                    iterations += 1/2;
+                }, 30);
+            };
+            setInterval(() => {
+                const rows = document.querySelectorAll('.asset-name');
+                const targetRow = rows[Math.floor(Math.random() * rows.length)];
+                scramble(targetRow, targetRow.dataset.final);
+            }, 2500);
+        };
+
+        window.onload = () => {
+            initHero();
+            initYieldGraph();
+            initPipeline();
+            initAssetList();
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.remove('dimmed');
+                    } else {
+                        entry.target.classList.add('dimmed');
+                    }
+                });
+            }, { threshold: 0.5 });
+            document.querySelectorAll('.section-container').forEach(sec => {
+                observer.observe(sec);
+            });
+        };
+    </script>
+
+
+</body></html>

@@ -1,0 +1,68 @@
+name: AviationStack Flight Data Crawler
+
+on:
+  workflow_dispatch:
+    inputs:
+      schedule:
+        description: 'Run schedule (optional)'
+        required: false
+        default: ''
+
+  schedule:
+    # Run daily at 10:00 UTC
+    - cron: '0 10 * * *'
+
+  push:
+    branches:
+      - main
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create .env file
+        run: |
+          echo "AVIATIONSTACK_API_KEY=${{ secrets.AVIATIONSTACK_API_KEY }}" > .env
+
+      - name: Run crawler
+        run: python aviationstack_crawler.py
+
+      - name: Upload results
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: flight-data-${{ github.run_number }}
+          path: output/
+          retention-days: 30
+
+      - name: Commit results (optional)
+        if: github.event_name == 'schedule'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/*.json || true
+          git add output/*.csv || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update flight data [skip ci]"
+          git push || true

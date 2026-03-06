@@ -1,0 +1,99 @@
+# AviationStack API Crawler Configuration
+
+# Departure airports (Hong Kong and China mainland) — 只保留主要枢纽
+departure_airports:
+  hong_kong:
+    - HKG  # Hong Kong
+
+  china_mainland:
+    - PEK  # Beijing Capital
+    - PVG  # Shanghai Pudong
+    - CAN  # Guangzhou
+
+# Destination airports (Japan)
+destination_airports:
+  - NRT  # Tokyo Narita
+  - HND  # Tokyo Haneda
+  - KIX  # Osaka Kansai
+  - ITM  # Osaka Itami
+  - NGO  # Nagoya
+  - FUK  # Fukuoka
+  - CTS  # Sapporo
+  - OKA  # Okinawa
+
+# Middle East hubs for Aerodatabox disruption analysis (D1)
+middle_east_hubs:
+  - DXB  # Dubai
+  - DOH  # Doha
+  - AUH  # Abu Dhabi
+  - JED  # Jeddah
+  - RUH  # Riyadh
+
+# European destinations for substitution analysis (S1)
+european_dest:
+  - LHR  # London Heathrow
+  - CDG  # Paris Charles de Gaulle
+  - FRA  # Frankfurt
+  - AMS  # Amsterdam
+  - FCO  # Rome
+
+# High-risk country airports for connectivity resilience (R1)
+# 缩减至2个最关键目标，节省配额（4出发地×2=8次请求）
+high_risk_airports:
+  - THR  # Tehran, Iran
+  - BGW  # Baghdad, Iraq
+
+# API endpoints to query
+endpoints:
+  - routes        # Airline routes database
+  - schedules     # Flight schedules
+  - flights       # Real-time flight data
+
+# Flight status monitoring
+flight_monitoring:
+  # Past 72 hours
+  hours_back: 168
+  # Flight statuses to track
+  statuses:
+    - cancelled
+    - delayed
+    - active
+    - landed
+
+# Route comparison settings
+route_comparison:
+  # Compare flight duration changes
+  compare_duration: true
+  # Identify new routes (compare against historical data)
+  identify_new_routes: true
+  # Historical data period (days)
+  historical_period: 30
+
+# Output settings
+output:
+  directory: output
+  formats:
+    - csv
+    - json
+  filename_prefix: aviationstack_flights_
+
+# Query settings
+query:
+  limit: 50          # Max records per request (free tier: 50)
+  batch_size: 10     # Number of concurrent requests
+  delay: 6.0         # 每次请求后等待秒数 — 保守设置，避免任何 429
+
+# 分析参数
+analysis:
+  sample_days: 7     # D1: 7天 × 5机场 × 2段 = 70次 FIDS 请求
+
+# Data filtering
+filters:
+  include_codeshare: true   # Include codeshare flights
+  min_duration: 60          # Minimum flight duration (minutes)
+  max_duration: 600         # Maximum flight duration (minutes)
+
+# Logging
+logging:
+  level: INFO
+  file: logs/crawler.log
