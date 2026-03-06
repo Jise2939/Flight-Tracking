@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>空域突發監測台：航班營運斷裂度追蹤</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #f0f4f8;
+      --surface: rgba(255, 255, 255, 0.72);
+      --surface-hover: rgba(255, 255, 255, 0.9);
+      --text-primary: #1a202c;
+      --text-secondary: #4a5568;
+      --border-subtle: rgba(255, 255, 255, 0.5);
+      --alert: #e53e3e;
+      --accent-red: #e53e3e;
+      --accent-amber: #d69e2e;
+      --accent-green: #38a169;
+      --accent-teal: #319795;
+      --red: #e53e3e;
+      --amber: #d69e2e;
+      --teal: #319795;
+      --green: #38a169;
+      --shadow: 0 8px 32px rgba(31, 38, 135, 0.07);
+      --shadow-lg: 0 20px 60px rgba(31, 38, 135, 0.12);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background:
+        radial-gradient(circle at 10% 20%, rgba(100, 181, 246, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(144, 202, 249, 0.06) 0%, transparent 40%),
+        linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      overflow-x: hidden;
+      margin: 0;
+      position: relative;
+      min-height: 100vh;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background:
+        linear-gradient(rgba(255, 255, 255, 0.4) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.4) 1px, transparent 1px);
+      background-size: 60px 60px;
+      opacity: 0.5;
+      z-index: -2;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.85; box-shadow: 0 0 0 0 rgba(56, 161, 105, 0.3); }
+      50% { opacity: 1; box-shadow: 0 0 0 6px rgba(56, 161, 105, 0); }
+    }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: rgba(0,0,0,0.03); }
+    ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 3px; }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      padding: 0.9rem 1.2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: var(--shadow);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.42rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      border: 1px solid rgba(0,0,0,0.08);
+      padding: 0.16rem 0.45rem;
+      border-radius: 999px;
+      white-space: nowrap;
+      background: rgba(255, 255, 255, 0.6);
+    }
+    .pulse {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent-green);
+      animation: pulseGlow 2.5s infinite;
+    }
+    .site-header h1 {
+      font-size: 0.98rem;
+      font-weight: 500;
+      letter-spacing: -0.015em;
+      color: var(--text-primary);
+    }
+    .site-header h1 em { font-style: normal; color: var(--text-secondary); }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 410px minmax(0, 1fr);
+      min-height: calc(100vh - 56px);
+      max-width: 1680px;
+      margin: 0 auto;
+    }
+
+    .left {
+      background: rgba(255, 255, 255, 0.55);
+      border-right: 1px solid rgba(255, 255, 255, 0.6);
+      padding: 1.1rem;
+      overflow-y: auto;
+      position: sticky;
+      top: 56px;
+      height: calc(100vh - 56px);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .left-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin-bottom: 1.2rem;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .left-nav a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 0.7rem;
+      text-decoration: none;
+      color: var(--text-secondary);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.67rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      transition: all 0.2s ease;
+    }
+    .left-nav a:last-child { border-bottom: none; }
+    .left-nav a:hover { background: rgba(56, 161, 105, 0.1); color: var(--text-primary); }
+    .left-nav a.active {
+      background: rgba(56, 161, 105, 0.15);
+      color: var(--accent-green);
+      box-shadow: inset 3px 0 0 var(--accent-green);
+    }
+    .left-nav .nav-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      opacity: 0.9;
+      box-shadow: 0 0 6px currentColor;
+    }
+
+    .text-block {
+      margin-bottom: 0.85rem;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.6);
+      padding: 0.92rem 0.84rem;
+      transition: all 0.2s ease;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+    .text-block:hover {
+      background: rgba(255, 255, 255, 0.85);
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-2px);
+    }
+    .text-block .tb-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      font-weight: 400;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+    }
+    .text-block h2 {
+      font-size: 1.15rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 0.65rem;
+      color: var(--text-primary);
+    }
+    .text-block h2 em { font-style: normal; color: var(--text-secondary); }
+    .text-block p {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      line-height: 1.72;
+    }
+    .text-block p strong { color: var(--text-primary); font-weight: 600; }
+    .divider { height: 1px; background: var(--border-subtle); margin: 0.85rem 0; }
+
+    .meta-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.03em;
+      color: var(--text-secondary);
+      padding: 0.48rem 0.55rem;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .meta-item:last-child { border-bottom: none; }
+    .mdot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      box-shadow: 0 0 5px currentColor;
+    }
+
+    .right {
+      min-width: 0;
+      padding: 1.12rem;
+      overflow-y: auto;
+    }
+
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 1.15rem;
+    }
+    .kpi {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 0.86rem 0.82rem;
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+      transition: all 0.2s ease;
+    }
+    .kpi:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-lg);
+      background: rgba(255, 255, 255, 0.9);
+    }
+    .kpi-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 0.38rem;
+    }
+    .kpi-value {
+      font-size: 1.55rem;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .kpi-sub {
+      margin-top: 0.35rem;
+      font-size: 0.64rem;
+      line-height: 1.45;
+      color: var(--text-secondary);
+    }
+    .c-red { color: var(--accent-red); }
+    .c-green { color: var(--accent-green); }
+    .c-gold { color: var(--accent-amber); }
+    .c-teal { color: var(--accent-teal); }
+
+    .data-section { margin-bottom: 2rem; }
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 0.38rem;
+    }
+    .section-label::after {
+      content: "";
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--border-subtle);
+    }
+    .data-section > h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      color: var(--text-primary);
+      margin-bottom: 0.95rem;
+    }
+
+    .box {
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      background: rgba(255, 255, 255, 0.65);
+      padding: 1rem;
+      border-radius: 16px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: var(--shadow);
+    }
+    .box-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 0.75rem;
+    }
+    .chip {
+      font-size: 0.56rem;
+      font-family: 'Space Mono', monospace;
+      letter-spacing: 0.06em;
+      border: 1px solid rgba(229, 62, 62, 0.3);
+      padding: 0.1rem 0.34rem;
+      color: var(--accent-red);
+      background: rgba(229, 62, 62, 0.08);
+      border-radius: 4px;
+    }
+    .box + .box, .box + .table-wrap { margin-top: 0.82rem; }
+
+    .heatmap { display: grid; grid-template-columns: 72px repeat(7, 1fr); gap: 4px; }
+    .hm-h {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.55rem;
+      font-weight: 400;
+      color: var(--text-secondary);
+      text-align: center;
+      letter-spacing: 0.04em;
+    }
+    .hm-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+    }
+    .hm-cell {
+      border: 1px solid rgba(0,0,0,0.06);
+      padding: 6px 2px;
+      text-align: center;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem;
+      font-weight: 700;
+      border-radius: 4px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      background: rgba(255, 255, 255, 0.65);
+      border-radius: 16px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: var(--shadow);
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.74rem; }
+    thead th {
+      padding: 0.62rem 0.74rem;
+      text-align: left;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.56rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+      white-space: nowrap;
+      background: rgba(56, 161, 105, 0.08);
+    }
+    tbody tr { border-bottom: 1px solid rgba(0,0,0,0.06); }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(56, 161, 105, 0.06); }
+    tbody td { padding: 0.56rem 0.72rem; vertical-align: middle; white-space: nowrap; }
+    .before { color: var(--accent-green); font-weight: 600; }
+    .after { color: var(--accent-red); font-weight: 600; }
+
+    .callout {
+      margin-top: 0.75rem;
+      border: 1px solid rgba(214, 158, 46, 0.2);
+      border-left: 3px solid var(--accent-amber);
+      padding: 0.85rem 1rem;
+      font-size: 0.7rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      background: rgba(255, 251, 240, 0.8);
+      border-radius: 8px;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .callout strong { color: #b7791f; }
+
+    .data-date-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      background: rgba(255, 255, 255, 0.7);
+      border: 1px solid rgba(0,0,0,0.08);
+      padding: 0.3rem 0.6rem;
+      margin-bottom: 0.75rem;
+      border-radius: 8px;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .price-grid {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      gap: 6px;
+      margin-bottom: 1rem;
+    }
+    .price-cell {
+      background: rgba(255, 255, 255, 0.6);
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: 8px;
+      padding: 0.5rem 0.3rem;
+      text-align: center;
+      transition: all 0.15s ease;
+    }
+    .price-cell:hover {
+      background: rgba(255, 255, 255, 0.9);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .price-cell.no-data {
+      background: rgba(0,0,0,0.03);
+      opacity: 0.5;
+    }
+    .price-date {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.55rem;
+      color: var(--text-secondary);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+    .price-value {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      display: block;
+    }
+    .price-cell.no-data .price-value {
+      color: var(--text-secondary);
+      font-weight: 400;
+      font-size: 0.7rem;
+    }
+
+    .price-stats {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .stat-item {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.6);
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: 12px;
+      padding: 0.6rem 0.8rem;
+      text-align: center;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .stat-label {
+      display: block;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.55rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.2rem;
+    }
+    .stat-value {
+      display: block;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.1rem;
+    }
+    .stat-date {
+      display: block;
+      font-size: 0.6rem;
+      color: var(--text-secondary);
+    }
+
+    @media (max-width: 1200px) {
+      .price-grid { grid-template-columns: repeat(6, 1fr); }
+    }
+    @media (max-width: 960px) {
+      .price-grid { grid-template-columns: repeat(5, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .price-grid { grid-template-columns: repeat(4, 1fr); gap: 4px; }
+      .price-cell { padding: 0.4rem 0.2rem; }
+      .price-value { font-size: 0.7rem; }
+      .price-stats { flex-direction: column; gap: 0.5rem; }
+    }
+
+    .widget-section {
+      margin-top: 1rem;
+      padding: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      background: rgba(255, 255, 255, 0.65);
+      border-radius: 16px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: var(--shadow);
+    }
+    .widget-frame {
+      width: 100%;
+      height: 500px;
+      border: none;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 12px;
+    }
+
+    .placeholder-section {
+      min-height: 200px;
+      border: 2px dashed rgba(0,0,0,0.1);
+      background: rgba(255, 255, 255, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-secondary);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      border-radius: 12px;
+    }
+
+    .site-footer {
+      border-top: 1px solid rgba(0,0,0,0.06);
+      padding: 0.95rem 1.15rem;
+      text-align: center;
+      color: var(--text-secondary);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.03em;
+      line-height: 1.75;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .pulse { animation: none; }
+    }
+    @media (max-width: 960px) {
+      .layout {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+      .left {
+        position: static;
+        top: auto;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+      }
+      .right { overflow: visible; }
+      .kpi-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 640px) {
+      .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+      }
+      .site-header h1 { font-size: 0.92rem; }
+      .left, .right { padding: 0.9rem; }
+      .heatmap { grid-template-columns: 52px repeat(7, 1fr); gap: 2px; }
+      .hm-cell { font-size: 0.5rem; padding: 5px 1px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── TOP BAR ── -->
+<header class="site-header">
+  <div class="eyebrow"><span class="pulse"></span>即時監測 · 2026-03-06</div>
+  <h1>機場航班運行中控台 · <em>中東空域突發監測</em></h1>
+</header>
+
+<div class="layout">
+
+  <!-- ══════════ LEFT: 固定叙述区 ══════════ -->
+  <aside class="left">
+
+    <!-- 导航 -->
+    <nav class="left-nav">
+      <a href="#section1" class="active"><span class="nav-dot" style="background:var(--red)"></span>第一部分 · 取消率</a>
+      <a href="#section2"><span class="nav-dot" style="background:var(--amber)"></span>第二部分 · 取消班次</a>
+      <a href="#section3"><span class="nav-dot" style="background:var(--teal)"></span>第三部分 · 未來機票</a>
+      <a href="#section4"><span class="nav-dot" style="background:var(--green)"></span>第四部分 · 中東監測</a>
+    </nav>
+
+    <!-- 文本块 1：导言 -->
+    <div class="text-block">
+      <div class="tb-label">背景</div>
+      <h2>一場<em>驟然而至</em>的空域危機</h2>
+      <p>
+        2026年2月28日，中東核心空域驟然關閉。
+        迪拜、多哈、阿布扎比三港取消率在24小時內從不足1%跳升至35–52%，
+        次日達到<strong>完全停擺</strong>。
+      </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 文本块 2：核心发现 -->
+    <div class="text-block">
+      <div class="tb-label">核心發現</div>
+      <p>
+        <strong>UAE vs 沙特：8倍分化。</strong>
+        UAE三港取消率峰值100%，沙特（JED/RUH）同日僅約6–14%，
+        兩國獨立空域管制機制形成顯著地理分化。
+      </p>
+      <br>
+      <p>
+        <strong>替代航線仍在營運。</strong>
+        危機期間，28條中歐直飛航線持續營運，
+        北極/中亞航路成為實質性替代通道。
+      </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 数据来源 -->
+    <div class="meta-stack">
+      <div class="meta-item"><span class="mdot" style="background:var(--amber)"></span>D1：Aerodatabox FIDS（02-26 ~ 03-04）</div>
+      <div class="meta-item"><span class="mdot" style="background:var(--teal)"></span>S1/R1：FlightRadar24 即時（03-05採集）</div>
+      <div class="meta-item"><span class="mdot" style="background:var(--green)"></span>F1：FutureTicket API（03-06採集，IKA→HKG）</div>
+      <div class="meta-item"><span class="mdot" style="background:var(--red)"></span>事件斷點：2026-02-28</div>
+    </div>
+
+  </aside>
+
+  <!-- ══════════ RIGHT: 滾動數據區 ══════════ -->
+  <main class="right">
+
+    <!-- KPI -->
+    <div class="kpi-row">
+      <div class="kpi">
+        <div class="kpi-label">UAE三港峰值</div>
+        <div class="kpi-value c-red">100%</div>
+        <div class="kpi-sub">DXB/DOH/AUH 03-01全面停擺</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">爆發前基線</div>
+        <div class="kpi-value c-green">&lt;1%</div>
+        <div class="kpi-sub">02-26/27 五機場均值0.3%</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">UAE vs 沙特</div>
+        <div class="kpi-value c-gold">8×</div>
+        <div class="kpi-sub">UAE均值83% vs 沙特12%</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">總取消班次</div>
+        <div class="kpi-value c-teal">5,651</div>
+        <div class="kpi-sub">五機場7日累計</div>
+      </div>
+    </div>
+
+    <!-- ══════════ 第一部分：取消率 ══════════ -->
+    <div class="data-section" id="section1">
+      <div class="section-label">第一部分</div>
+      <h3>五大中東機場 · 7日每日取消率</h3>
+
+      <div class="data-date-badge">
+        📅 數據日期：2026-03-05 · 未來可能變化
+      </div>
+
+      <div class="box" style="margin-bottom:1rem;">
+        <div class="box-title">熱力圖 · 每日取消率 <span class="chip">⚡ 斷點 02-28</span></div>
+        <div class="heatmap" id="heatmap-rates"></div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>機場</th>
+              <th>02-26</th><th>02-27</th>
+              <th style="color:var(--red)">02-28 ⚡</th>
+              <th>03-01</th><th>03-02</th><th>03-03</th><th>03-04</th>
+              <th>爆發前均值</th><th>爆發後均值</th>
+            </tr>
+          </thead>
+          <tbody id="rateTable"></tbody>
+        </table>
+      </div>
+
+      <div class="callout">
+        <strong>數據說明：</strong>取消率 = 當日已取消 / 當日計劃總班次（Aerodatabox FIDS）。
+        數據採集於2026-03-05，後續可能有所變化，僅供參考。
+      </div>
+    </div>
+
+    <!-- ══════════ 第二部分：取消具体数字 ══════════ -->
+    <div class="data-section" id="section2">
+      <div class="section-label">第二部分</div>
+      <h3>五大中東機場 · 7日每日取消班次</h3>
+
+      <div class="data-date-badge">
+        📅 數據日期：2026-03-05 · 未來可能變化
+      </div>
+
+      <div class="box" style="margin-bottom:1rem;">
+        <div class="box-title">熱力圖 · 每日取消班次 <span class="chip">⚡ 斷點 02-28</span></div>
+        <div class="heatmap" id="heatmap-counts"></div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>機場</th>
+              <th>02-26</th><th>02-27</th>
+              <th style="color:var(--red)">02-28 ⚡</th>
+              <th>03-01</th><th>03-02</th><th>03-03</th><th>03-04</th>
+              <th>總取消</th><th>總班次</th>
+            </tr>
+          </thead>
+          <tbody id="countTable"></tbody>
+        </table>
+      </div>
+
+      <div class="callout">
+        <strong>數據說明：</strong>取消班次數據來自 Aerodatabox FIDS API。
+        數據採集於2026-03-05，後續可能有所變化，僅供參考。
+      </div>
+    </div>
+
+    <!-- ══════════ 第三部分：未来机票 ══════════ -->
+    <div class="data-section" id="section3">
+      <div class="section-label">第三部分</div>
+      <h3>德黑蘭 → 香港 · 未來機票價格</h3>
+
+      <div class="data-date-badge">
+        📅 數據採集：2026-03-06 · 價格單位：HKD（港元）
+      </div>
+
+      <div class="price-grid" id="priceGrid"></div>
+
+      <div class="price-stats">
+        <div class="stat-item">
+          <span class="stat-label">最低價格</span>
+          <span class="stat-value" style="color:var(--accent-green)">$6,737</span>
+          <span class="stat-date">04-02</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">最高價格</span>
+          <span class="stat-value" style="color:var(--accent-red)">$11,423</span>
+          <span class="stat-date">03-28~30</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">平均價格</span>
+          <span class="stat-value" style="color:var(--accent-teal)">$9,142</span>
+          <span class="stat-date">16個航班</span>
+        </div>
+      </div>
+
+      <div class="callout">
+        <strong>數據說明：</strong>
+        數據來源 FutureTicket API（2026-03-06）。價格為德黑蘭(IKA) → 香港(HKG) 單程經濟艙最低價格，單位為港元(HKD)。灰色日期表示該日無航班、尚未開售或已售罄。機票價格受供需影響即時變動，受中東空域關閉影響，部分航班可能臨時調整。
+      </div>
+    </div>
+
+    <!-- ══════════ 第四部分：嵌入widgets ══════════ -->
+    <div class="data-section" id="section4">
+      <div class="section-label">第四部分</div>
+      <h3>中東空域 · 即時航班監測</h3>
+
+      <div class="data-date-badge">
+        📡 即時數據：Flightera.net · 約每30秒更新
+      </div>
+
+      <div class="box" style="margin-bottom:1rem;">
+        <div class="box-title">中東地區航班實時地圖 <span class="chip">LIVE</span></div>
+        <div class="widget-section" style="padding:0.5rem;">
+          <iframe
+            class="widget-frame"
+            src="https://www.flightera.net/en/widgets/map?lat=25.2&lon=45.8&zoom=5"
+            loading="lazy"
+            title="中東地區航班實時地圖">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">阿聯酋航空 (EK) · 即時航班動態</div>
+        <div class="widget-section" style="padding:0.5rem;">
+          <iframe
+            class="widget-frame"
+            src="https://www.flightera.net/en/widgets/airline?iata=EK&nrFlights=10&time=scheduled&showDelay=1"
+            loading="lazy"
+            title="阿聯酋航空即時航班">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="callout">
+        <strong>數據說明：</strong><br>
+        • 地圖中心座標：北緯25.2°，東經45.8°（阿拉伯半島中心），縮放級別5<br>
+        • 阿聯酋航空(EK)以迪拜(DXB)為樞紐，是中東地區最大航空公司之一<br>
+        • 數據來自 Flightera.net，實時更新，可能有數分鐘延遲<br>
+        • 受空域關閉影響，部分航班可能臨時改道或取消，地圖顯示為計劃航路
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="site-footer">
+  <p>資料來源：Aerodatabox FIDS API（D1）/ FlightRadar24 via RapidAPI（S1/R1）/ FutureTicket API（F1）</p>
+  <p>採集時間：2026-03-05 ~ 03-06 北京時間 · 本報告為研究用途，不構成商業建議</p>
+</footer>
+
+<script>
+const DATES = ['02-26','02-27','02-28','03-01','03-02','03-03','03-04'];
+const D1 = {
+  DXB: { 
+    city:'迪拜', 
+    rates:[0.62,0.92,52.14,100,98.14,90.83,75.3],
+    counts:[4,6,378,692,632,624,378],
+    totals:[641,649,725,692,644,687,502]
+  },
+  DOH: { 
+    city:'多哈', 
+    rates:[0.92,0.6,50,100,100,100,100],
+    counts:[3,2,184,349,330,324,329],
+    totals:[325,336,368,349,330,324,329]
+  },
+  AUH: { 
+    city:'阿布扎比',
+    rates:[0,0,35.47,100,91.47,93.1,93.03],
+    counts:[0,0,72,252,193,189,187],
+    totals:[216,223,203,252,211,203,201]
+  },
+  JED: { 
+    city:'吉達',
+    rates:[0,0.43,14.29,20.29,16.52,13.78,7.94],
+    counts:[0,2,70,99,77,66,37],
+    totals:[520,470,490,488,466,479,466]
+  },
+  RUH: { 
+    city:'利雅得',
+    rates:[0,0,5.97,13.73,11.76,12.69,7.6],
+    counts:[0,0,21,46,38,42,25],
+    totals:[355,326,352,335,323,331,329]
+  },
+};
+
+function rc(v) {
+  if (v >= 90) return { bg:'#FED7D7', fg:'#C53030' };
+  if (v >= 50) return { bg:'#FEFCBF', fg:'#B7791F' };
+  if (v >= 20) return { bg:'#C6F6D5', fg:'#276749' };
+  if (v >= 5)  return { bg:'#BEE3F8', fg:'#2B6CB0' };
+  return               { bg:'#E2E8F0', fg:'#4A5568' };
+}
+
+function cc(v) {
+  if (v >= 500) return { bg:'#FED7D7', fg:'#C53030' };
+  if (v >= 200) return { bg:'#FEFCBF', fg:'#B7791F' };
+  if (v >= 100) return { bg:'#C6F6D5', fg:'#276749' };
+  if (v >= 50)  return { bg:'#BEE3F8', fg:'#2B6CB0' };
+  return                { bg:'#E2E8F0', fg:'#4A5568' };
+}
+
+// ══════════ 第一部分：取消率热力图 ══════════
+(function() {
+  const el = document.getElementById('heatmap-rates');
+  el.innerHTML = '<div class="hm-h"></div>' +
+    DATES.map(d => `<div class="hm-h" style="${d==='02-28'?'color:#D98598':''}">${d}${d==='02-28'?' ⚡':''}</div>`).join('');
+  Object.entries(D1).forEach(([code, info]) => {
+    el.innerHTML += `<div class="hm-label">${info.city} ${code}</div>`;
+    info.rates.forEach(v => {
+      const { bg, fg } = rc(v);
+      el.innerHTML += `<div class="hm-cell" style="background:${bg};color:${fg}" title="${info.city} ${code} ${v}%">${v.toFixed(v>=10?0:1)}%</div>`;
+    });
+  });
+})();
+
+// ══════════ 第一部分：取消率表格 ══════════
+(function() {
+  const tbody = document.getElementById('rateTable');
+  Object.entries(D1).forEach(([code, info]) => {
+    const pre  = (info.rates[0] + info.rates[1]) / 2;
+    const post = info.rates.slice(2).reduce((a,b)=>a+b,0) / 5;
+    const cells = info.rates.map((v, i) => {
+      const { bg, fg } = rc(v);
+      const bld = i===2 ? 'font-weight:800;font-size:0.88rem;' : '';
+      return `<td style="background:${bg};color:${fg};${bld}">${v.toFixed(1)}%</td>`;
+    }).join('');
+    tbody.innerHTML += `
+      <tr>
+        <td><span style="font-weight:800;font-size:0.95rem">${info.city} ${code}</span></td>
+        ${cells}
+        <td class="before">${pre.toFixed(1)}%</td>
+        <td class="after">${post.toFixed(1)}%</td>
+      </tr>`;
+  });
+})();
+
+// ══════════ 第二部分：取消班次热力图 ══════════
+(function() {
+  const el = document.getElementById('heatmap-counts');
+  el.innerHTML = '<div class="hm-h"></div>' +
+    DATES.map(d => `<div class="hm-h" style="${d==='02-28'?'color:#D98598':''}">${d}${d==='02-28'?' ⚡':''}</div>`).join('');
+  Object.entries(D1).forEach(([code, info]) => {
+    el.innerHTML += `<div class="hm-label">${info.city} ${code}</div>`;
+    info.counts.forEach(v => {
+      const { bg, fg } = cc(v);
+      el.innerHTML += `<div class="hm-cell" style="background:${bg};color:${fg}" title="${info.city} ${code} ${v}班">${v}</div>`;
+    });
+  });
+})();
+
+// ══════════ 第二部分：取消班次表格 ══════════
+(function() {
+  const tbody = document.getElementById('countTable');
+  Object.entries(D1).forEach(([code, info]) => {
+    const totalCancelled = info.counts.reduce((a,b)=>a+b,0);
+    const totalFlights = info.totals.reduce((a,b)=>a+b,0);
+    const cells = info.counts.map((v, i) => {
+      const { bg, fg } = cc(v);
+      const bld = i===2 ? 'font-weight:800;font-size:0.88rem;' : '';
+      return `<td style="background:${bg};color:${fg};${bld}">${v}</td>`;
+    }).join('');
+    tbody.innerHTML += `
+      <tr>
+        <td><span style="font-weight:800;font-size:0.95rem">${info.city} ${code}</span></td>
+        ${cells}
+        <td class="after">${totalCancelled}</td>
+        <td>${totalFlights}</td>
+      </tr>`;
+  });
+})();
+
+// ══════════ 第三部分：未来机票紧凑网格 ══════════
+// 数据来源：futureticket_ika_hkg_20260306.json
+// 采集时间：2026-03-06
+// 航线：德黑兰(IKA) → 香港(HKG) 单程
+// 单位：港元(HKD)
+(function() {
+  const priceData = [
+    { date: '03-06', price: null }, { date: '03-07', price: null },
+    { date: '03-08', price: null }, { date: '03-09', price: null },
+    { date: '03-10', price: null }, { date: '03-11', price: null },
+    { date: '03-12', price: null }, { date: '03-13', price: null },
+    { date: '03-14', price: null }, { date: '03-15', price: null },
+    { date: '03-16', price: null }, { date: '03-17', price: null },
+    { date: '03-18', price: null }, { date: '03-19', price: null },
+    { date: '03-20', price: null }, { date: '03-21', price: 9061 },
+    { date: '03-22', price: 11040 }, { date: '03-23', price: 9061 },
+    { date: '03-24', price: 9061 }, { date: '03-25', price: 7597 },
+    { date: '03-26', price: 11412 }, { date: '03-27', price: 11412 },
+    { date: '03-28', price: 11423 }, { date: '03-29', price: 11423 },
+    { date: '03-30', price: 11423 }, { date: '03-31', price: 7597 },
+    { date: '04-01', price: 7425 }, { date: '04-02', price: 6737 },
+    { date: '04-03', price: 9061 }, { date: '04-04', price: 7425 },
+    { date: '04-05', price: 9239 }
+  ];
+
+  // 生成紧凑网格
+  const grid = document.getElementById('priceGrid');
+  if (grid) {
+    priceData.forEach(d => {
+      const hasPrice = d.price !== null;
+      const priceDisplay = hasPrice
+        ? `$${d.price.toLocaleString()}`
+        : '—';
+      const cellClass = hasPrice ? 'price-cell' : 'price-cell no-data';
+
+      grid.innerHTML += `
+        <div class="${cellClass}">
+          <span class="price-date">${d.date}</span>
+          <span class="price-value">${priceDisplay}</span>
+        </div>
+      `;
+    });
+  }
+})();
+
+// 左侧导航高亮（滚动联动）
+(function() {
+  const sections = document.querySelectorAll('.data-section');
+  const links = document.querySelectorAll('.left-nav a');
+  const right = document.querySelector('.right');
+  if (!right) return;
+
+  const syncActive = () => {
+    let current = sections[0] ? sections[0].id : '';
+    const mark = right.scrollTop + 80;
+    sections.forEach((s) => {
+      if (s.offsetTop <= mark) current = s.id;
+    });
+    links.forEach((a) => {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  };
+
+  syncActive();
+  right.addEventListener('scroll', () => {
+    syncActive();
+  });
+})();
+</script>
+</body>
+</html>
