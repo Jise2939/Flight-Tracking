@@ -1115,38 +1115,26 @@
       <section class="data-section" id="section4">
         <header class="section-header">
           <span class="section-number">Section 04</span>
-          <h2 class="section-title">中東空域 · 即時航班監測</h2>
-          <p class="section-subtitle">即時數據：Flightera.net · 實時更新</p>
+          <h2 class="section-title">中東空域 · 航班監測</h2>
+          <p class="section-subtitle">截圖時間：2026-03-06 23:13 · 數據來源：Flightera.net</p>
         </header>
 
         <div class="widget-container">
           <div class="widget-header">
-            <span class="widget-title">中東地區航班實時地圖</span>
-            <span class="live-badge">LIVE</span>
+            <span class="widget-title">中東地區航班地圖</span>
+            <span class="live-badge" style="border-color: var(--color-sub); color: var(--color-sub);">截圖</span>
           </div>
-          <iframe class="managed-iframe widget-frame" style="height: 350px;" data-src="https://www.flightera.net/en/widgets/map?lat=25.2&lon=45.8&zoom=5" loading="lazy" title="中東地區航班實時地圖"></iframe>
-        </div>
-
-        <div class="widget-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
-          <div class="widget-container">
-            <div class="widget-header">
-              <span class="widget-title">多哈 (DOH)</span>
-              <span class="live-badge">LIVE</span>
+          <div style="position: relative; border: 1px solid rgba(224,117,99,0.18); background: var(--color-base);">
+            <img src="截屏2026-03-06 下午11.13.19.png" alt="中東地區航班地圖 - 2026-03-06 23:13" style="width: 100%; height: auto; display: block;">
+            <div style="position: absolute; bottom: 0.75rem; right: 0.75rem; background: rgba(0,0,0,0.7); color: #fff; padding: 0.4rem 0.8rem; font-size: var(--text-xs); border-radius: 4px;">
+              2026-03-06 23:13
             </div>
-            <iframe class="managed-iframe widget-frame" style="height: 300px;" data-src="https://www.flightera.net/en/widgets/airport?iata=DOH&depArr=dep&nrFlights=10&airlineIata=&time=scheduled&showDelay=1" loading="lazy" title="多哈機場即時航班"></iframe>
-          </div>
-
-          <div class="widget-container">
-            <div class="widget-header">
-              <span class="widget-title">迪拜 (DXB)</span>
-              <span class="live-badge">LIVE</span>
-            </div>
-            <iframe class="managed-iframe widget-frame" style="height: 300px;" data-src="https://www.flightera.net/en/widgets/airport?iata=DXB&depArr=dep&nrFlights=10&airlineIata=&time=scheduled&showDelay=1" loading="lazy" title="迪拜機場即時航班"></iframe>
           </div>
         </div>
 
-        <div class="annotation">
-          <strong>數據說明：</strong>地圖顯示中東地區航班概況。多哈(DOH)與迪拜(DXB)為中東重要航空樞紐，數據來自 Flightera.net，實時更新，可能有數分鐘延遲。受空域關閉影響，部分航班可能臨時改道或取消，地圖顯示為計劃航路。
+        <div class="annotation" style="margin-top: 1.5rem;">
+          <strong>數據說明：</strong>截圖顯示中東地區航班概況，攝於 2026-03-06 23:13 北京時間。中東核心空域關閉後，大量航班改道或取消，地圖顯示為當時空域狀態。<br>
+          <a href="https://www.flightera.net/en/widgets/map?lat=25.2&lon=45.8&zoom=5" target="_blank" style="color: var(--color-accent);">點擊前往 Flightera.net 查看最新狀態 ↗</a>
         </div>
       </section>
 
@@ -1473,13 +1461,36 @@
         return rect.top < window.innerHeight && rect.bottom > 0 && rect.left < window.innerWidth && rect.right > 0;
       }
 
+      // 仅当真正发起加载请求时才启动超时检测与事件监听，避免在未可见时誤判為加載失敗
       function loadIframeOnce(iframe){
         const now = Date.now();
         const last = Number(iframe.dataset.lastReload) || 0;
         if (iframe.src && (now - last) < MIN_REFRESH_MS) return; // 刷新间隔未到
         if (!iframe.dataset.src) return;
         iframe.dataset.lastReload = now;
-        // 首次加载或受控刷新：设置或重设 src
+
+        // 开始加载并设置超时检测（仅在实际尝试加载时）
+        const timeoutId = setTimeout(() => {
+          if (!iframe._loadSuccess) showFallback(iframe);
+        }, 5000);
+
+        // 加载成功检测
+        function onLoad() {
+          iframe._loadSuccess = true;
+          clearTimeout(timeoutId);
+          iframe.removeEventListener('load', onLoad);
+          iframe.removeEventListener('error', onError);
+        }
+        function onError() {
+          clearTimeout(timeoutId);
+          showFallback(iframe);
+          iframe.removeEventListener('load', onLoad);
+          iframe.removeEventListener('error', onError);
+        }
+        iframe.addEventListener('load', onLoad);
+        iframe.addEventListener('error', onError);
+
+        // 发起加载
         iframe.src = iframe.dataset.src;
       }
 
@@ -1494,27 +1505,12 @@
         });
       }, { threshold: 0.1 });
 
+      // 对页面首次可见的 iframe 进行立即加载（例如顶部的地图）；其余的继续由 Observer 触发
       iframes.forEach(fr => {
-        // 加载超时检测（5 秒）
-        const timeoutId = setTimeout(() => {
-          if (!fr._loadSuccess) {
-            showFallback(fr);
-          }
-        }, 5000);
-
-        // 加载成功检测
-        fr.addEventListener('load', () => {
-          fr._loadSuccess = true;
-          clearTimeout(timeoutId);
-        });
-
-        // 错误处理
-        fr.addEventListener('error', () => {
-          clearTimeout(timeoutId);
-          showFallback(fr);
-        });
-
-        // 观察可见性
+        if (isElementInViewport(fr)) {
+          fr._hasLoaded = true;
+          loadIframeOnce(fr);
+        }
         io.observe(fr);
       });
 
@@ -1522,21 +1518,21 @@
       function showFallback(iframe) {
         if (iframe._fallbackShown) return;
         iframe._fallbackShown = true;
-        
         const container = iframe.parentNode;
         if (!container) return;
-        
+
         // 創建備選卡片
         const fallback = document.createElement('div');
         fallback.className = 'annotation';
         fallback.style.cssText = 'text-align: center; padding: 2rem;';
         fallback.innerHTML = `
           <strong>航班地圖暫時無法載入</strong><br><br>
-          由於訪問頻率限制，外部服務暫時不可用。<br>
+          由於訪問頻率限制或第三方服務阻擋，外部小工具暫時不可用。<br>
           <a href="https://www.flightera.net" target="_blank" style="color: var(--color-accent);">點擊此處在新窗口查看 Flightera ↗</a>
+          <div style="margin-top:0.75rem;"><button type="button" style="background:var(--color-accent);color:#fff;border:none;padding:0.4rem 0.8rem;border-radius:4px;cursor:pointer;font-weight:700;" onclick="(function(f){f.style.display='block';f.src=f.dataset.src;f._fallbackShown=false;})(this.parentNode.previousElementSibling)">嘗試在頁內載入</button></div>
         `;
-        
-        // 隱藏 iframe 顯示備選
+
+        // 隱藏 iframe（保留 DOM 位置）並插入備選內容
         iframe.style.display = 'none';
         container.appendChild(fallback);
       }
