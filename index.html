@@ -1062,7 +1062,7 @@
 
           <div class="tl-item">
             <div class="tl-date">1月-2月27日</div>
-            <div class="tl-content">美伊關於核武器的三輪外交談判失敗，雙方關係急劇惡化。</div>
+            <div class="tl-content">美伊三輪外交談判失敗。</div>
           </div>
 
           <div class="tl-phase tl-phase-war">
@@ -1477,7 +1477,6 @@
         const now = Date.now();
         const last = Number(iframe.dataset.lastReload) || 0;
         if (iframe.src && (now - last) < MIN_REFRESH_MS) return; // 刷新间隔未到
-        if (!iframe.dataset.src) return;
         if (!iframe.dataset.src) return;
         iframe.dataset.lastReload = now;
         // 首次加载或受控刷新：设置或重设 src
