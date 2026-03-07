@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>美以伊戰事下的中東航空停擺 — 數據新聞</title>
+  <title>美以伊戰事下的中東航空停擺</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
@@ -65,7 +65,7 @@
     }
 
     html {
-      font-size: 16px;
+      font-size: 18px; 
       scroll-behavior: smooth;
     }
 
@@ -153,7 +153,7 @@
        ═══════════════════════════════════════════════════════════════ */
 
     .sidebar {
-      flex: 0 0 360px;
+      flex: 0 0 240px;
       position: sticky;
       top: 3.5rem;
       height: calc(100vh - 3.5rem);
@@ -309,62 +309,9 @@
       min-width: 0;
     }
 
-    /* KPI 區域 */
-    .kpi-section {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: var(--gutter);
-      margin-bottom: calc(var(--grid-unit) * 3);
-      padding-bottom: calc(var(--grid-unit) * 2);
-      border-bottom: 1px solid var(--gray-200);
-    }
-
-    .kpi-item {
-      position: relative;
-    }
-
-    .kpi-item::after {
-      content: '';
-      position: absolute;
-      right: calc(var(--gutter) / -2);
-      top: 0;
-      bottom: 0;
-      width: 1px;
-      background: var(--gray-200);
-    }
-
-    .kpi-item:last-child::after {
-      display: none;
-    }
-
-    .kpi-label {
-      font-family: var(--font-display);
-      font-size: var(--text-xs);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--color-sub);
-      margin-bottom: 0.75rem;
-    }
-
-    .kpi-value {
-      font-family: var(--font-display);
-      font-size: var(--text-4xl);
-      font-weight: 700;
-      line-height: 1;
-      letter-spacing: -0.03em;
-      margin-bottom: 0.5rem;
-      color: var(--color-text);
-    }
-
-    .kpi-sub {
-      font-size: var(--text-xs);
-      color: var(--color-sub);
-      line-height: 1.5;
-    }
-
-    .kpi-value.accent {
-      color: var(--color-accent);
+    /* 为每个章节设置 scroll-margin-top 与侧栏 sticky top 保持一致 */
+    .data-section, .section-header {
+      scroll-margin-top: 5.5rem; /* 与 .site-header 和 .sidebar 的 top 值一致 */
     }
 
     /* 章節標題 */
@@ -487,9 +434,9 @@
       font-size: var(--text-xs);
       line-height: 1.7;
       color: var(--color-sub);
-      padding: 1.5rem;
+      padding: 1.25rem;
       background: rgba(224,117,99,0.03);
-      border-left: 4px solid var(--color-accent);
+      border-left: 2px solid var(--color-accent);
     }
 
     .annotation strong {
@@ -576,11 +523,6 @@
       font-size: var(--text-xs);
       color: var(--color-sub);
     }
-
-    /* ═══════════════════════════════════════════════════════════════
-       時間線 — 統一設計語言
-       所有字體、間距、顏色遵循同一套規則
-       ═══════════════════════════════════════════════════════════════ */
 
     .timeline {
       position: relative;
@@ -773,19 +715,6 @@
     }
 
     @media (max-width: 640px) {
-      .kpi-section {
-        grid-template-columns: 1fr;
-      }
-
-      .kpi-item::after {
-        display: none;
-      }
-
-      .kpi-item {
-        border-bottom: 1px solid rgba(224,117,99,0.08);
-        padding-bottom: 1.5rem;
-      }
-
       .stats-row {
         grid-template-columns: 1fr;
       }
@@ -820,8 +749,8 @@
        頂部導航
        ═══════════════════════════════════════════════════════════════ -->
   <header class="site-header">
-    <div class="header-id">數據新聞</div>
-    <h1 class="header-title"><strong>美以伊戰事下的中東航空停擺</strong> <span style="font-weight:300;color:var(--color-sub);">— 數據新聞</span></h1>
+    <div class="header-id">©DMC 2026</div>
+    <h1 class="header-title"><strong>數據新聞</strong></span></h1>
     <div class="header-meta">2026-03-06</div>
   </header>
 
@@ -835,7 +764,7 @@
       <nav class="nav-section" style="border-top:none;padding-top:0;">
         <div class="nav-label">導航</div>
         <ul class="nav-list">
-          <li><a href="#section0" class="active"><span class="nav-number">00</span>背景</a></li>
+          <li><a href="#section0" class="active"><span class="nav-number">00</span>事件背景</a></li>
           <li><a href="#section1"><span class="nav-number">01</span>客運影響</a></li>
           <li><a href="#section2"><span class="nav-number">02</span>貨運影響</a></li>
           <li><a href="#section3"><span class="nav-number">03</span>時間線</a></li>
@@ -843,27 +772,7 @@
         </ul>
       </nav>
 
-      <div class="info-block" style="margin-top: auto;">
-        <div class="info-label">關鍵洞察</div>
-        <p class="info-text">
-          <strong>客運：UAE vs 沙特 8倍分化。</strong>UAE三港取消率峰值100%，沙特（JED/RUH）同日僅約6–14%，兩國獨立空域管制機制形成顯著地理分化。
-        </p>
-        <p class="info-text">
-          <strong>貨運容量週環比 −18%。</strong>亞洲–中東–歐洲走廊貨機+腹艙容量驟降40%，Qatar Airways Cargo、FedEx、Cargolux相繼暫停中東運營。
-        </p>
-        <p class="info-text">
-          <strong>運費加速上漲。</strong>東南亞–歐洲空運費 +6%，中東–歐洲 +8%，航空燃油周漲3.6%，多家承運人準備徵收戰爭風險附加費。
-        </p>
-
-        <ul class="meta-list">
-          <li><span class="meta-key">數據源 D1</span><span class="meta-value">Aerodatabox FIDS</span></li>
-          <li><span class="meta-key">數據源 S1/R1</span><span class="meta-value">FlightRadar24</span></li>
-          <li><span class="meta-key">數據源 C1</span><span class="meta-value">FreightWaves / Rotate / Freightos</span></li>
-          <li><span class="meta-key">戰爭爆發日</span><span class="meta-value" style="color:var(--color-accent);">2026-02-28</span></li>
-        </ul>
-      </div>
-
-    </aside>
+      </aside>
 
     <!-- ═══════════════════════════════════════════════════════════════
          主內容區
@@ -871,69 +780,42 @@
     <main class="main-content">
 
       <!-- Section 00：背景 -->
-      <section class="data-section" id="section0" style="margin-top:calc(var(--grid-unit) * -1);margin-bottom:calc(var(--grid-unit)*3);padding-bottom:calc(var(--grid-unit)*3);border-bottom:2px solid var(--color-text);">
+      <section class="data-section" id="section0" style="margin-top:calc(var(--grid-unit) * -1);margin-bottom:calc(var(--grid-unit)*2);padding-bottom:calc(var(--grid-unit)*2);border-bottom:2px solid var(--color-text);">
         <header class="section-header">
           <span class="section-number">Section 00</span>
           <h2 class="section-title">美以伊戰事下的中東航空停擺</h2>
-          <p class="section-subtitle">2026.02.28 — 中東核心空域關閉事件</p>
         </header>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--grid-gap);margin-bottom:calc(var(--grid-unit)*2);">
+        <div>
           <div>
             <p class="info-text">
-              2010年代起，中東樞紐成為連結亞歐非三大洲的關鍵節點，中東天空是全球最繁忙的航空十字路口之一。迪拜（DXB）、多哈（DOH）、阿布扎比（AUH）三大樞紐每日承載超過4,500個架次，串聯歐亞非三洲的中轉流量。
-            </p>
-            <p class="info-text">
-              2026年2月28日，隨著美伊關係急劇惡化，突如其來的軍事衝突在中東地區爆發，中東核心空域關閉。迪拜、多哈、阿布扎比三港取消率在24小時內從不足1%跳升至35–52%，次日<strong>幾近達到完全停擺</strong>。
+              2010年代起，中東樞紐成為連結亞歐非三大洲的關鍵節點，中東天空是全球最繁忙的航空十字路口之一。迪拜、多哈、阿布扎比等國際機場每日承載超過4,500個架次，串聯歐亞非三洲的中轉流量。<strong>2026年2月28日，</strong>美以對伊朗發動大規模軍事打擊。伊朗隨即向以色列發射導彈進行反擊，並宣布關閉本國領空。
             </p>
           </div>
           <div>
             <p class="info-text">
-              作為回應，國際民航組織（ICAO）發布<strong>最高級別警告</strong>，多國政府隨即宣布「禁止所有民航客機飛越伊朗及周邊衝突空域」。海灣三國（阿聯酋、卡塔爾、巴林）雖未直接成為戰場，但出於安全考量與領空管制，大量進出該區域的國際航線被強制取消或無限期繞飛。
+              國際民航組織（ICAO）發布<strong>最高級別警告</strong>，中東地區多國政府隨即宣布「禁止所有民航客機飛越伊朗及周邊衝突空域」。其他國家雖未直接成為戰場，但受導彈攔截作業以及安全考量等因素影響，大量進出該區域的國際航線被緊急取消或強制繞飛。<strong>中東核心空域關閉</strong>。
             </p>
-            <p class="info-text">
-              本報告基於 Aerodatabox FIDS、FlightRadar24 及 FutureTicket API 的實時數據，系統呈現此次危機對<strong>客運</strong>和<strong>貨運</strong>兩大維度的量化衝擊。
+            <p class="info-text"> 
+              隨著有效運力驟減且飛行距離大幅增加，多條相關航線的空運運費在短時間內急劇攀升，物流成本顯著增加。大量旅客行程受阻，同時航空貨運艙位出現嚴重短缺。
             </p>
           </div>
         </div>
 
-        <!-- KPI 區域 -->
-        <section class="kpi-section" style="margin-bottom:0;border-bottom:none;">
-          <div class="kpi-item">
-            <div class="kpi-label">阿聯酋三港峰值</div>
-            <div class="kpi-value accent">100%</div>
-            <div class="kpi-sub">DXB/DOH/AUH<br>戰爭爆發翌日（03-01）全面停擺</div>
-          </div>
-          <div class="kpi-item">
-            <div class="kpi-label">戰前基線</div>
-            <div class="kpi-value">&lt;1%</div>
-            <div class="kpi-sub">02-26/27<br>五機場均值 0.3%</div>
-          </div>
-          <div class="kpi-item">
-            <div class="kpi-label">阿聯酋 vs 沙特</div>
-            <div class="kpi-value accent">8×</div>
-            <div class="kpi-sub">阿聯酋均值 83%<br>vs 沙特 12%（空域管制差異）</div>
-          </div>
-          <div class="kpi-item">
-            <div class="kpi-label">總取消班次</div>
-            <div class="kpi-value">5,651</div>
-            <div class="kpi-sub">五機場<br>7日累計（02-26 至 03-04）</div>
-          </div>
-        </section>
       </section>
 
       <!-- Section 01：客運影響 -->
-      <section class="data-section" id="section1" style="margin-bottom:calc(var(--grid-unit)*4);padding-bottom:calc(var(--grid-unit)*3);border-bottom:2px solid var(--color-text);">
+      <section class="data-section" id="section1" style="margin-bottom:calc(var(--grid-unit)*2);padding-bottom:calc(var(--grid-unit)*1);border-bottom:2px solid var(--color-text);">
         <header class="section-header">
           <span class="section-number">Section 01</span>
           <h2 class="section-title">客運影響</h2>
-          <p class="section-subtitle">五大中東機場 · 取消率、取消班次與未來機票價格</p>
         </header>
+        <p class="info-text">美以伊軍事衝突迫使中東多國關閉領空，迪拜國際機場等連結歐亞非三大洲的主要樞紐陷入停擺。2月28日，包括阿聯酋航空在內的多家航空公司緊急暫停所有往返航班，數以萬計的跨洲旅客行程受阻。</p>
 
         <!-- 01-A 取消率 -->
-        <div style="margin-bottom:calc(var(--grid-unit)*3);">
+        <div style="margin-top:calc(var(--grid-unit) * 2);margin-bottom:calc(var(--grid-unit)*3);">
           <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:0.5rem;color:var(--color-text);">A · 每日取消率</h3>
-          <p class="section-subtitle" style="margin-bottom:1.5rem;">02-26（戰前兩日）至 03-04 · 數據採集於 2026-03-05</p>
+          <p style="font-size:var(--text-sm);color:var(--color-sub);margin-bottom:0.75rem;line-height:1.6;">下表呈現戰爭爆發前至爆發後五個中東主要機場的航班取消率變化，顏色越深代表取消率越高。02-28戰爭爆發當日，阿聯酋三港（DXB、DOH、AUH）取消率從不足1%急升至35–52%，次日達到100%完全停擺。數據採集於 2026-03-05。</p>
 
           <div class="table-container">
             <table>
@@ -957,119 +839,114 @@
           </div>
 
           <div class="annotation">
-            <strong>數據說明：</strong>取消率 = 當日已取消 / 當日計劃總班次（Aerodatabox FIDS）。02-28為美伊戰爭爆發日（「午夜錘擊」行動），取消率在24小時內急升。數據採集於2026-03-05，後續可能有所變化，僅供參考。
+            <strong>數據說明：</strong>取消率 = 當日已取消 / 當日計劃總班次（Aerodatabox FIDS）。數據採集於2026-03-05 北京時間，後續可能有所變化、存在一定誤差，僅供參考。
           </div>
         </div>
 
         <!-- 01-B 取消班次 -->
         <div style="margin-bottom:calc(var(--grid-unit)*3);">
-          <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:0.5rem;color:var(--color-text);">B · 每日取消班次</h3>
-          <p class="section-subtitle" style="margin-bottom:1.5rem;">02-26（戰前兩日）至 03-04 · 數據採集於 2026-03-05</p>
+          <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:0.5rem;color:var(--color-text);">B · 每日取消班次趨勢</h3>
+          <p style="font-size:var(--text-sm);color:var(--color-sub);margin-bottom:0.75rem;line-height:1.6;">下圖呈現五個中東主要機場每日取消航班數量的變化趨勢。戰爭爆發後，阿聯酋三港（DXB、DOH、AUH）取消班次呈斷崖式上升，次日達到峰值；沙特阿拉伯兩港（JED、RUH）則維持在較低水平。</p>
 
-          <div class="table-container" style="margin-bottom:calc(var(--grid-unit)*2);">
-            <table>
-              <thead>
-                <tr>
-                  <th>日期</th>
-                  <th>DXB<br><span style="font-weight:400;text-transform:none;letter-spacing:0;">迪拜</span></th>
-                  <th>DOH<br><span style="font-weight:400;text-transform:none;letter-spacing:0;">多哈</span></th>
-                  <th>AUH<br><span style="font-weight:400;text-transform:none;letter-spacing:0;">阿布扎比</span></th>
-                  <th>JED<br><span style="font-weight:400;text-transform:none;letter-spacing:0;">吉達</span></th>
-                  <th>RUH<br><span style="font-weight:400;text-transform:none;letter-spacing:0;">利雅得</span></th>
-                  <th>當日合計</th>
-                </tr>
-              </thead>
-              <tbody id="dailySummaryTable"></tbody>
-            </table>
-          </div>
+          <!-- 折線圖 -->
+          <div id="chartContainer" style="width:100%;margin-bottom:1rem;position:relative;">
+            <!-- 圖例 -->
+            <div style="display:flex;flex-wrap:wrap;gap:1.5rem;margin-bottom:1rem;padding:0.75rem 1rem;background:rgba(224,117,99,0.03);border-left:4px solid var(--color-accent);">
+              <div style="display:flex;align-items:center;gap:0.5rem;">
+                <div style="width:20px;height:3px;background:#E07563;"></div>
+                <span style="font-size:var(--text-xs);font-weight:600;">DXB 迪拜</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:0.5rem;">
+                <div style="width:20px;height:3px;background:#2C2C2C;"></div>
+                <span style="font-size:var(--text-xs);font-weight:600;">DOH 多哈</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:0.5rem;">
+                <div style="width:20px;height:3px;background:#5C5C5C;"></div>
+                <span style="font-size:var(--text-xs);font-weight:600;">AUH 阿布扎比</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:0.5rem;">
+                <div style="width:20px;height:3px;background:#a0a0a0;"></div>
+                <span style="font-size:var(--text-xs);font-weight:600;">JED 吉達</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:0.5rem;">
+                <div style="width:20px;height:3px;background:#d0d0d0;"></div>
+                <span style="font-size:var(--text-xs);font-weight:600;">RUH 利雅得</span>
+              </div>
+            </div>
 
-          <div class="table-container">
-            <table>
-              <thead>
-                <tr>
-                  <th>國家</th>
-                  <th>機場</th>
-                  <th>02-26</th>
-                  <th>02-27</th>
-                  <th class="breakpoint">02-28 戰爭爆發</th>
-                  <th>03-01</th>
-                  <th>03-02</th>
-                  <th>03-03</th>
-                  <th>03-04</th>
-                  <th>總取消</th>
-                  <th>總班次</th>
-                  <th>平均取消率</th>
-                </tr>
-              </thead>
-              <tbody id="countTable"></tbody>
-            </table>
+            <!-- 折線圖 Canvas -->
+            <div style="width:100%;border:1px solid rgba(224,117,99,0.18);background:var(--color-base);padding:1.25rem 1.5rem 0.75rem;position:relative;">
+              <canvas id="lineChart" style="width:100%;display:block;"></canvas>
+              <div id="lineTooltip" style="position:fixed;display:none;background:#2c2c2c6b;color:#fff;padding:0.5rem 0.75rem;font-size:0.75rem;border-radius:4px;pointer-events:none;white-space:nowrap;z-index:9999;font-family:var(--font-sans);box-shadow:0 4px 12px rgba(0,0,0,0.2);line-height:1.7;"></div>
+
+
+                          <!-- Tooltip -->
+
+                          <div id="chartTooltip" style="position:fixed;display:none;background:#2c2c2c6b;color:#fff;padding:0.5rem 0.75rem;font-size:0.75rem;border-radius:4px;pointer-events:none;white-space:nowrap;z-index:9999;font-family:var(--font-sans);box-shadow:0 4px 12px rgba(0,0,0,0.2);"></div>
+                          <!-- Y軸標籤 -->
+
+                          <div style="display:flex;justify-content:space-between;margin-top:1rem;font-size:var(--text-xs);color:var(--color-sub);">
+
+                            <span>0</span>
+
+                            <span>175</span>
+
+                            <span>350</span>
+
+                            <span>525</span>
+
+                            <span>700</span>
+
+                          </div>
+
+                        </div>
+                        <!-- 標註 -->
+            <div style="margin-top:1rem;padding:0.5rem 1rem;background:rgba(224,117,99,0.03);border-left:2px solid #E07563;">
+              <span style="font-size:var(--text-xs);color:#E07563;font-weight:600;">02-28 — DXB取消班次從6班暴增至378班，03-01達峰值692班</span>
+            </div>
           </div>
 
           <div class="annotation">
-            <strong>數據說明：</strong>取消班次數據來自 Aerodatabox FIDS API。02-28為美伊戰爭爆發日，各UAE機場取消班次在24–48小時內急增至歷史峰值。數據採集於2026-03-05，後續可能有所變化，僅供參考。
+            <strong>數據說明：</strong>取消班次數據來自 Aerodatabox FIDS API 對客運航班的統計。日期為當地時間（中東 GST, UTC+4），與北京時間（UTC+8）相差4小時。數據採集於2026-03-05 北京時間，後續可能有所變化、存在一定誤差，僅供參考。
           </div>
         </div>
 
       </section>
 
       <!-- Section 02：貨運影響 -->
-      <section class="data-section" id="section2" style="margin-bottom:calc(var(--grid-unit)*4);padding-bottom:calc(var(--grid-unit)*3);border-bottom:2px solid var(--color-text);">
+      <section class="data-section" id="section2" style="margin-bottom:calc(var(--grid-unit)*2);padding-bottom:calc(var(--grid-unit)*3);border-bottom:2px solid var(--color-text);">
         <header class="section-header">
           <span class="section-number">Section 02</span>
           <h2 class="section-title">航空貨運影響</h2>
-          <p class="section-subtitle">中東樞紐關閉引發全球供應鏈震盪 · 運費急漲 · 航線重組</p>
         </header>
-
-        <!-- 貨運 KPI -->
-        <section class="kpi-section" style="margin-bottom:calc(var(--grid-unit)*3);">
-          <div class="kpi-item">
-            <div class="kpi-label">全球航空貨運容量降幅</div>
-            <div class="kpi-value accent">−18%</div>
-            <div class="kpi-sub">周環比 · 其中13%直接來自<br>阿聯酋、卡塔爾、阿提哈德三大中東承運人</div>
-          </div>
-          <div class="kpi-item">
-            <div class="kpi-label">亞洲–中東–歐洲走廊</div>
-            <div class="kpi-value accent">−40%</div>
-            <div class="kpi-sub">貨機+客機腹艙容量驟降<br>低於中國新年停產期前低點21%</div>
-          </div>
-          <div class="kpi-item">
-            <div class="kpi-label">東南亞–歐洲運費</div>
-            <div class="kpi-value">+6%</div>
-            <div class="kpi-sub">$3.82/kg<br>自02-28起持續上漲</div>
-          </div>
-          <div class="kpi-item">
-            <div class="kpi-label">中東–歐洲運費</div>
-            <div class="kpi-value">+8%</div>
-            <div class="kpi-sub">航空燃油同步上漲<br>南亞至歐洲 +3%，至美國 +5%</div>
-          </div>
-        </section>
 
         <!-- 敘述段落 -->
         <div style="display:block;margin-bottom:calc(var(--grid-unit)*3);">
           <div style="margin-bottom:var(--grid-gap);">
-            <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:0.75rem;color:var(--color-text);">樞紐停擺與全球震盪</h3>
-            <p class="info-text">迪拜（DXB）、阿布扎比（AUH）及多哈（DOH）是亞歐非三大洲航空貨物的核心轉運節點，如今全部對商業航班關閉。FedEx 已暫停阿拉伯海灣地區所有貨運航班；全貨機運營商 Cargolux 取消所有中東航線（阿曼馬斯喀特除外）。</p>
-            <p class="info-text">卡塔爾航空貨運（Qatar Airways Cargo）——全球按流量計算最大的非快遞貨運航空公司——宣布運營暫停，因卡塔爾空域仍處於封鎖狀態。部分不經多哈的貨運航班仍在有限運行。阿聯酋航空已開始在少數航線上偶發性恢復貨運服務。</p>
-            <p class="info-text">國際航空貨運協會（IATA）總幹事 Glyn Hughes 警告：「印度至歐洲約80%的貨物經中東過境，這意味著大量疫苗和藥品無法抵達歐洲。如果這種狀況持續數週，我們可以預計出現藥品短缺。」</p>
+            <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:0.75rem;color:var(--color-text);">貨運樞紐停擺</h3>
+            <p class="info-text">迪拜（DXB）、阿布扎比（AUH）及多哈（DOH）是亞歐非三大洲航空貨物的核心轉運節點。戰爭爆發後，速遞運輸公司FedEx 已暫停阿拉伯海灣地區所有貨運航班；全貨機運營商 Cargolux 取消所有中東航線（阿曼馬斯喀特除外）。</p>
+            <p class="info-text">卡塔爾航空貨運（Qatar Airways Cargo）—全球最大的非快遞貨運航空公司—亦宣布運營暫停，因卡塔爾空域仍處於封鎖狀態。部分不經多哈的貨運航班仍在有限運行。阿聯酋航空已開始在少數航線上偶發性恢復貨運服務。</p>
+            <p class="info-text">國際航空貨運協會（IATA）總幹事 Glyn Hughes 在3月4日的新聞發佈會上表示：「印度至歐洲約80%的貨物經中東過境，這意味著大量疫苗和藥品無法抵達歐洲。如果這種狀況持續數週，我們可以預計出現藥品短缺。」</p>
           </div>
           <div>
             <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:0.75rem;color:var(--color-text);">運費攀升與燃油成本</h3>
-            <div style="display:grid;grid-template-columns:48% 52%;gap:var(--grid-gap);align-items:start;margin-bottom:0.75rem;">
-              <figure style="margin:0;border:1px solid rgba(224,117,99,0.18);">
-                <img src="attachment-1-2.webp" alt="航空貨運費率走勢圖" style="width:100%;height:auto;display:block;">
-                <figcaption style="font-size:var(--text-xs);color:var(--color-sub);padding:0.4rem 0.6rem;background:rgba(224,117,99,0.03);line-height:1.4;">航空貨運費率走勢（2026年3月）。東南亞–歐洲航線 +6%，中東–歐洲航線 +8%。（數據來源：Freightos / FreightWaves）</figcaption>
-              </figure>
+            <div style="display:grid;grid-template-columns:42% 58%;gap:1rem;align-items:start;margin-bottom:0.5rem;">
               <div>
                 <p class="info-text">由於航班繞飛導致載油量增加、可用載重下降，加之燃油成本飆升，航空運費正持續走高。上週全球航空燃油上漲3.6%至每桶99.40美元，美國噴氣燃油從每加侖2.50美元升至2.83美元。</p>
                 <p class="info-text">多家航空公司正引入或考慮對途經衝突區域的貨物徵收戰爭風險附加費；DHL 集團在業績會上透露，其貨運代理部門本週可能實施緊急附加費。</p>
-                <p class="info-text">貨運代理商正緊急包機以彌補失去的運力。全球最大貨代 Kuehne+Nagel 警告，亞洲積壓的歐美向貨物可能在下週初開始堆積，要求客戶提前安排替代空運方案。</p>
+                <p class="info-text">供應鏈公司Seko Logistics 指出，承運商往往優先考慮人道主義援助、軍事貨物、易腐農產品、藥品、優質貨運和合同客戶，而非臨時預訂的一般貨物。</p>
               </div>
+              <figure style="margin:0 0 0 0.5rem;border:0px solid rgba(224,117,99,0.18);">
+                <img src="attachment-1-2.webp" alt="航空貨運費率走勢圖" style="width:100%;height:auto;display:block;">
+                <figcaption style="font-size:var(--text-xs);color:var(--color-sub);padding:0.4rem 0.6rem;background:rgba(224,117,99,0.03);line-height:1.4;">航空貨運費率走勢（2026年3月）。東南亞–歐洲航線 +6%，中東–歐洲航線 +8%。（數據來源：Freightos / FreightWaves）</figcaption>
+              </figure>
             </div>
           </div>
         </div>
 
         <!-- 主要承運人狀態表 -->
-        <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:1rem;color:var(--color-text);">A · 主要航空貨運承運人應對狀況</h3>
+        <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:0.5rem;color:var(--color-text);">A · 主要航空貨運承運人應對狀況</h3>
+        <p style="font-size:var(--text-sm);color:var(--color-sub);margin-bottom:1rem;line-height:1.6;">下表匯總全球主要貨運航空公司及物流代理商在危機中的運營狀態與應對措施。中東三大樞紐（DXB、DOH、AUH）關閉導致Qatar Airways Cargo、Emirates SkyCargo等全球頂級貨運承運人被迫暫停或縮減運營。</p>
         <div class="table-container" style="margin-bottom:calc(var(--grid-unit)*2);">
           <table style="table-layout:auto;">
             <thead>
@@ -1084,7 +961,7 @@
               <tr>
                 <td><strong>Qatar Airways Cargo</strong></td>
                 <td>全球最大非快遞貨運航空</td>
-                <td style="color:var(--color-accent);font-weight:700;">全面暫停（DOH）</td>
+                <td style="color:var(--color-accent);font-weight:700;">全面暫停</td>
                 <td>部分不經多哈航線有限運行</td>
               </tr>
               <tr>
@@ -1103,7 +980,7 @@
                 <td><strong>Cargolux</strong></td>
                 <td>全貨機運營商</td>
                 <td style="color:var(--color-accent);font-weight:700;">中東航線全取消</td>
-                <td>僅保留阿曼馬斯喀特（MCT）</td>
+                <td>僅保留阿曼馬斯喀特（MCT）線路</td>
               </tr>
               <tr>
                 <td><strong>Kuehne+Nagel</strong>（代理）</td>
@@ -1122,7 +999,8 @@
         </div>
 
         <!-- 替代航線選項 -->
-        <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:1rem;color:var(--color-text);">B · 替代航線與繞飛方案</h3>
+        <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:0.5rem;color:var(--color-text);">B · 替代航線與繞飛方案</h3>
+        <p style="font-size:var(--text-sm);color:var(--color-sub);margin-bottom:1rem;line-height:1.6;">下表列出貨運代理商為繞開中東封鎖空域所採用的替代運輸方案。這些方案普遍面臨運輸時間延長、成本上升的挑戰，部分方案（如馬爾代夫海空聯運）尚處於試行階段。</p>
         <div class="table-container" style="margin-bottom:calc(var(--grid-unit)*2);">
           <table style="table-layout:auto;">
             <thead>
@@ -1162,26 +1040,6 @@
           </table>
         </div>
 
-        <!-- 高敏感貨物品類 -->
-        <h3 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;margin-bottom:1rem;color:var(--color-text);">C · 優先貨物品類與高風險積壓</h3>
-        <div class="stats-row" style="margin-bottom:calc(var(--grid-unit)*2);">
-          <div class="stat-box highlight">
-            <div class="stat-label">醫藥 / 疫苗冷鏈</div>
-            <div class="stat-value" style="font-size:var(--text-xl);">極高風險</div>
-            <div class="stat-date">印度→歐洲80%藥品過境中東；若持續數週將出現藥品短缺</div>
-          </div>
-          <div class="stat-box highlight">
-            <div class="stat-label">生鮮 / 易腐貨物</div>
-            <div class="stat-value" style="font-size:var(--text-xl);">不可挽回</div>
-            <div class="stat-date">積壓數週後高負載航線上的時效貨物可能已無法補救</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-label">電子零件 / 半導體</div>
-            <div class="stat-value" style="font-size:var(--text-xl);">嚴重積壓</div>
-            <div class="stat-date">優先客戶、人道主義及軍用貨物優先於一般散貨裝運</div>
-          </div>
-        </div>
-
         <div class="annotation">
           <strong>數據來源：</strong>FreightWaves（Eric Kulisch，2026-03-06）；Rotate 航空物流諮詢；Aevean 航空物流研究；Freightos 運費基準；國際航空貨運協會（IATA）。運費數據截至 2026-03-06，受市場波動影響持續變化，僅供參考。
         </div>
@@ -1203,33 +1061,25 @@
           </div>
 
           <div class="tl-item">
-            <div class="tl-date">1月13–15日</div>
-            <div class="tl-content">特朗普政府發出動武威脅，美軍航母打擊群（林肯號）進入中東靜默部署；歐洲多國發布撤僑警告。伊朗短暫關閉領空試探反應。</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-date">2月2日</div>
-            <div class="tl-content">最後一輪間接談判在阿曼破裂。美方要求伊朗停止濃縮鈾活動並撤出敘利亞，伊朗拒絕並警告「手指已扣在扳機上」。</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-date">2月20–27日</div>
-            <div class="tl-content">局勢升溫。美國B-52轟炸機在卡塔爾進行實彈演練，伊朗革命衛隊進入最高戰備。</div>
+            <div class="tl-date">1月-2月27日</div>
+            <div class="tl-content">美伊關於核武器的三輪外交談判失敗，雙方關係急劇惡化。</div>
           </div>
 
           <div class="tl-phase tl-phase-war">
             <div class="tl-phase-label">第二階段：戰爭爆發</div>
-            <div class="tl-phase-date">2026.02.28</div>
+            <div class="tl-phase-date">2026.02.28 (當地時間)</div>
           </div>
 
           <div class="tl-item tl-item-critical">
             <div class="tl-date">02-28 <span class="tl-time">04:00</span></div>
-            <div class="tl-content"><strong>【關鍵轉折點·戰爭爆發】</strong> 美以聯合發動代號「午夜錘擊」的先發制人空襲。目標鎖定伊朗指揮中樞、雷達站及核設施。<br><strong>→ 多國宣布禁飛中東空域，航班取消率從&lt;1%急升至35–52%。</strong></div>
+            <div class="tl-content"><strong>【戰爭爆發】</strong> 美以聯合發動代號「史詩怒火」（Epic）的空襲。目標鎖定伊朗指揮中樞、雷達站及核設施。</div>
           </div>
           <div class="tl-item tl-item-critical">
             <div class="tl-date">02-28 <span class="tl-time">09:30</span></div>
-            <div class="tl-content"><strong>【最高領導人遇刺】</strong> 伊朗最高領袖哈梅內伊在其住所附近遭導彈襲擊，當場身亡。</div>
+            <div class="tl-content"><strong>【最高領導人遇刺】</strong> 伊朗最高領袖哈梅內伊在其住所附近遭導彈襲擊身亡。</div>
           </div>
           <div class="tl-item tl-item-critical">
-            <div class="tl.date">02-28 <span class="tl-time">14:00</span></div>
+            <div class="tl-date">02-28 <span class="tl-time">14:00</span></div>
             <div class="tl-content">伊朗啟動大規模報復，向美軍在伊拉克、敘利亞基地及以色列特拉維夫發射數百枚彈道導彈。霍爾木茲海峽發生首起油輪襲擊事件。</div>
           </div>
 
@@ -1240,25 +1090,24 @@
 
           <div class="tl-item">
             <div class="tl-date">3月1日</div>
-            <div class="tl-content">伊朗代理最高領袖宣佈全國總動員，誓言「血債血償」。以色列啟動「鐵穹」與「箭式」系統攔截，但仍有部分導彈擊中海法港與迪莫納核設施周邊。</div>
+            <div class="tl-content">伊朗代理最高領袖宣佈全國總動員。以色列啟動「鐵穹」與「箭式」系統攔截，但仍有部分導彈擊中海法港與迪莫納核設施周邊。</div>
           </div>
           <div class="tl-item">
             <div class="tl-date">3月2–3日</div>
-            <div class="tl-content">美軍對伊朗境內導彈發射場進行第二波毀滅性打擊。伊朗支持的武裝組織（真主黨、胡塞武裝）全面參戰，紅海航運完全切斷。</div>
+            <div class="tl-content">美軍對伊朗境內導彈發射場進行第二波打擊。武裝組織真主黨、胡塞武裝參戰，紅海航運陷入實質性癱瘓。</div>
           </div>
           <div class="tl-item">
             <div class="tl-date">3月4日</div>
             <div class="tl-content"><strong>【最新傷亡統計】</strong> 伊朗：死亡突破 2,400人（含平民），多地醫院癱瘓；美以聯軍：48名美軍士兵陣亡，以色列約120人傷亡；超過50萬人被迫流離失所。</div>
           </div>
           <div class="tl-item">
-            <div class="tl.date">3月5日</div>
+            <div class="tl-date">3月5日</div>
             <div class="tl-content">聯合國安理會緊急會議因否決權僵局未能達成停火協議。全球油價單日暴漲18%，突破 $145/桶。</div>
           </div>
           <div class="tl-item tl-item-today">
             <div class="tl-date">3月6日 <span class="tl-time">今日</span></div>
-            <div class="tl-content"><strong>伊朗革命衛隊宣稱已癱瘓迪拜部分基礎設施</strong>（導致HK-DXB航線徹底停擺）。中國、俄羅斯呼籲立即停火，但美軍第三個航母打擊群正駛向波斯灣。中東空域已成「禁飛區」，僅有極少數撤僑包機在夜間冒險起降。</div>
+            <div class="tl-content"><strong>伊朗革命衛隊宣稱已癱瘓迪拜部分基礎設施</strong>（導致HK-DXB航線徹底停擺）。中國、俄羅斯呼籲停火。中東空域已成「禁飛區」，僅有極少數撤僑包機在夜間冒險起降。</div>
           </div>
-
         </div>
       </section>
 
@@ -1303,13 +1152,13 @@
 
       <!-- 頁腳 -->
       <footer class="site-footer">
-        <p><strong>資料來源：</strong>Aerodatabox FIDS API（D1）/ FlightRadar24 via RapidAPI（S1/R1）/ FutureTicket API（F1）</p>
+        <p><strong>數據來源：</strong>Aerodatabox FIDS API / FlightRadar24 / FutureTicket API via RapidAPI; FreightWaves / Rotate / Freightos</p>
         <p>採集時間：2026-03-05 ~ 03-06 北京時間 · 本文僅做資訊傳播用途，不構成商業建議</p>
       </footer>
 
     </main>
   </div>
-
+ 
   <script>
     const DATES = ['02-26','02-27','02-28','03-01','03-02','03-03','03-04'];
     const D1 = {
@@ -1361,6 +1210,140 @@
       if (v >= 50)  return { bg:'#d0d0d0', fg:'#000000' };
       return                { bg:'#f7f7f7', fg:'#a0a0a0' };
     }
+
+    // Canvas 折線圖
+    (function() {
+      const canvas = document.getElementById('lineChart');
+      if (!canvas) return;
+      const tooltip = document.getElementById('lineTooltip');
+
+      const SERIES = [
+        { code:'DXB', city:'迪拜',   color:'#E07563', data: D1.DXB.counts },
+        { code:'DOH', city:'多哈',   color:'#2C2C2C', data: D1.DOH.counts },
+        { code:'AUH', city:'阿布扎比', color:'#5C5C5C', data: D1.AUH.counts },
+        { code:'JED', city:'吉達',   color:'#a0a0a0', data: D1.JED.counts },
+        { code:'RUH', city:'利雅得', color:'#d0d0d0', data: D1.RUH.counts },
+      ];
+      const LABELS = DATES;
+      const PAD = { top: 24, right: 20, bottom: 40, left: 52 };
+      const W_PX = 800, H_PX = 320;
+
+      // 高解析度
+      canvas.width  = W_PX * 2;
+      canvas.height = H_PX * 2;
+      canvas.style.width  = '100%';
+      canvas.style.height = H_PX + 'px';
+
+      const ctx = canvas.getContext('2d');
+      ctx.scale(2, 2);
+
+      const maxVal = 750;
+      const plotW = W_PX - PAD.left - PAD.right;
+      const plotH = H_PX - PAD.top  - PAD.bottom;
+      const nDates = LABELS.length;       // 7
+      const nSeries = SERIES.length;      // 5
+      const groupW = plotW / nDates;
+      const barW = Math.floor(groupW * 0.72 / nSeries);
+      const groupGap = Math.floor(groupW * 0.28 / 2);
+
+      // 各柱子的 x 起始位置 (date index, series index)
+      function barX(di, si) {
+        return PAD.left + di * groupW + groupGap + si * barW;
+      }
+      function barY(v) { return PAD.top + plotH - (v / maxVal) * plotH; }
+      function barH(v) { return (v / maxVal) * plotH; }
+      // 每組中心 x（用於 x 軸標籤 & hover 判斷）
+      function groupCX(di) { return PAD.left + di * groupW + groupW / 2; }
+
+      function drawChart() {
+        ctx.clearRect(0, 0, W_PX, H_PX);
+
+        // 格線 & Y 軸
+        const yTicks = [0, 150, 300, 450, 600, 750];
+        ctx.textAlign = 'right';
+        ctx.font = '10px sans-serif';
+        ctx.fillStyle = '#5C5C5C';
+        yTicks.forEach(v => {
+          const y = barY(v);
+          ctx.beginPath();
+          ctx.moveTo(PAD.left, y); ctx.lineTo(W_PX - PAD.right, y);
+          ctx.strokeStyle = v === 0 ? '#2C2C2C' : 'rgba(44,44,44,0.12)';
+          ctx.lineWidth = v === 0 ? 1.5 : 1;
+          ctx.stroke();
+          if (v > 0) ctx.fillText(v, PAD.left - 6, y + 3.5);
+        });
+
+        // 02-28 組背景標記
+        const warLeft  = PAD.left + 2 * groupW;
+        ctx.fillStyle = 'rgba(224,117,99,0.07)';
+        ctx.fillRect(warLeft, PAD.top, groupW, plotH);
+        ctx.font = 'bold 10px sans-serif';
+        ctx.fillStyle = '#E07563';
+        ctx.textAlign = 'center';
+        ctx.fillText('💥 02-28', warLeft + groupW / 2, PAD.top - 6);
+
+        // X 軸標籤
+        ctx.textAlign = 'center';
+        ctx.font = '10px sans-serif';
+        LABELS.forEach((lbl, di) => {
+          ctx.fillStyle = di === 2 ? '#E07563' : '#5C5C5C';
+          ctx.fillText(lbl, groupCX(di), H_PX - PAD.bottom + 16);
+        });
+
+        // 柱狀
+        SERIES.forEach((s, si) => {
+          s.data.forEach((v, di) => {
+            if (v === 0) return;
+            const x = barX(di, si);
+            const y = barY(v);
+            const h = barH(v);
+            ctx.fillStyle = s.color;
+            ctx.fillRect(x, y, barW - 1, h);
+          });
+        });
+      }
+
+      drawChart();
+
+      // ── Hover：找最近組 → 顯示全組數據 ──
+      canvas.addEventListener('mousemove', function(e) {
+        const r = canvas.getBoundingClientRect();
+        const scaleX = W_PX / r.width;
+        const scaleY = H_PX / r.height;
+        const mx = (e.clientX - r.left) * scaleX;
+        const my = (e.clientY - r.top)  * scaleY;
+
+        if (mx < PAD.left || mx > W_PX - PAD.right ||
+            my < PAD.top  || my > H_PX - PAD.bottom) {
+          tooltip.style.display = 'none'; return;
+        }
+
+        // 找最近的組索引
+        let nearI = Math.floor((mx - PAD.left) / groupW);
+        nearI = Math.max(0, Math.min(nDates - 1, nearI));
+
+        // 顯示整組所有機場數值
+        const dayLabel = LABELS[nearI];
+        const isWar = nearI === 2;
+        const total = SERIES.reduce((s, ser) => s + ser.data[nearI], 0);
+        const rows = SERIES.map(s =>
+          `<div><span style="display:inline-block;width:9px;height:9px;background:${s.color};margin-right:5px;vertical-align:middle;border-radius:1px;"></span>` +
+          `<strong>${s.city} ${s.code}</strong>：${s.data[nearI]} 班</div>`
+        ).join('');
+
+        tooltip.innerHTML =
+          `<div style="font-weight:700;margin-bottom:4px;color:${isWar?'#E07563':'#fff'};">${dayLabel}${isWar?' 💥 戰爭爆發':''}</div>` +
+          rows +
+          `<div style="margin-top:4px;border-top:1px solid rgba(255,255,255,0.2);padding-top:3px;font-weight:700;">合計：${total} 班</div>`;
+        tooltip.style.display = 'block';
+        const tipW = 220;
+        const leftPos = e.clientX + 16 + tipW > window.innerWidth
+          ? e.clientX - tipW - 8 : e.clientX + 16;
+        tooltip.style.left = leftPos + 'px';
+        tooltip.style.top  = (e.clientY - 10) + 'px';
+      });
+      canvas.addEventListener('mouseleave', () => { tooltip.style.display = 'none'; });
+    })();
 
     // 第一部分：取消率表格
     (function() {
@@ -1418,34 +1401,14 @@
       tbody.innerHTML += sumRow;
     })();
 
-    // 第二部分：取消班次表格
+    // 測試：驗證數據點可點擊
     (function() {
-      const COUNTRY = {
-        DXB:'阿聯酋', DOH:'卡塔爾', AUH:'阿聯酋', JED:'沙特阿拉伯', RUH:'沙特阿拉伯'
-      };
-      const tbody = document.getElementById('countTable');
-      Object.entries(D1).forEach(([code, info]) => {
-        let html = `<tr>
-            <td class="airport-country">${COUNTRY[code]}</td>
-            <td class="airport-name">${info.city} <span class="airport-code">${code}</span></td>`;
-
-        info.counts.forEach((v, i) => {
-          const { bg, fg } = cc(v);
-          const isBreakpoint = i === 2;
-          const rate = info.totals[i] ? (v / info.totals[i] * 100).toFixed(1) : '-';
-          html += `<td style="background:${bg};color:${fg};${isBreakpoint?'font-weight:800;':''}">${v}<br><span style="font-size:0.625rem;color:inherit;opacity:0.75;">${rate}%</span></td>`;
+      var points = document.querySelectorAll('.data-point');
+      console.log('找到 ' + points.length + ' 個數據點');
+      points.forEach(function(p) {
+        p.addEventListener('click', function() {
+          alert('點擊到了: ' + this.getAttribute('title'));
         });
-
-        const totalCancelled = info.counts.reduce((a, b) => a + b, 0);
-        const totalFlights = info.totals.reduce((a, b) => a + b, 0);
-        const avgRate = totalFlights ? (totalCancelled / totalFlights * 100).toFixed(1) : '-';
-
-        html += `<td style="color:var(--color-accent);font-weight:700;">${totalCancelled}</td>
-            <td>${totalFlights}</td>
-            <td style="color:var(--color-accent);font-weight:700;">${avgRate}%</td>
-          </tr>`;
-
-        tbody.innerHTML += html;
       });
     })();
 
@@ -1493,7 +1456,7 @@
           const top = target.offsetTop - headerHeight - 8; // 額外緩衝
           window.scrollTo({ top: top < 0 ? 0 : top, behavior: 'smooth' });
 
-          // 更新 URL hash，但不觸發跳轉
+          // 更新 URL hash，但不觴發跳轉
           try { history.pushState(null, '', '#' + id); } catch (err) { location.hash = '#' + id; }
         });
       });
@@ -1514,6 +1477,7 @@
         const now = Date.now();
         const last = Number(iframe.dataset.lastReload) || 0;
         if (iframe.src && (now - last) < MIN_REFRESH_MS) return; // 刷新间隔未到
+        if (!iframe.dataset.src) return;
         if (!iframe.dataset.src) return;
         iframe.dataset.lastReload = now;
         // 首次加载或受控刷新：设置或重设 src
