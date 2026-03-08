@@ -524,109 +524,6 @@
       color: var(--color-sub);
     }
 
-    .timeline {
-      position: relative;
-    }
-
-    /* ── 階段標題 ── */
-    .tl-phase {
-      display: flex;
-      align-items: baseline;
-      gap: 0.75rem;
-      margin: 1.5rem 0 0.5rem 0;
-      padding: 0.5rem 0 0.5rem 1rem;
-      background: rgba(224,117,99,0.03);
-      border-left: 3px solid var(--color-sub);
-    }
-
-    .tl-phase:first-child {
-      margin-top: 0;
-    }
-
-    /* 戰爭爆發階段 */
-    .tl-phase-war {
-      background: rgba(224,117,99,0.05);
-      border-left-color: var(--color-accent);
-    }
-
-    .tl-phase-label {
-      font-family: var(--font-display);
-      font-size: var(--text-sm);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--color-text);
-    }
-
-    .tl-phase-war .tl-phase-label {
-      color: var(--color-accent);
-    }
-
-    .tl-phase-date {
-      font-size: var(--text-sm);
-      font-weight: 400;
-      color: var(--color-sub);
-    }
-
-    /* ── 條目：統一左對齊 ── */
-    .tl-item {
-      display: grid;
-      grid-template-columns: 7rem 1fr;
-      gap: 1rem;
-      padding: 0.6rem 0 0.6rem 1rem;
-      border-bottom: 1px solid rgba(224,117,99,0.08);
-      border-left: 3px solid transparent;
-      align-items: baseline;
-    }
-
-    .tl-item:last-child {
-      border-bottom: none;
-    }
-
-    /* 重點事件：紅色左條 + 淡紅背景 */
-    .tl-item-critical {
-      border-left-color: var(--color-accent);
-      background: rgba(224,117,99,0.05);
-    }
-
-    /* 今日事件：黑色左條 + 淡灰背景 */
-    .tl-item-today {
-      border-left-color: var(--color-text);
-      background: rgba(224,117,99,0.03);
-    }
-
-    /* ── 日期欄 ── */
-    .tl-date {
-      font-size: var(--text-sm);
-      font-weight: 600;
-      color: var(--color-sub);
-      white-space: nowrap;
-      line-height: 1.5;
-    }
-
-    .tl-item-critical .tl-date {
-      color: var(--color-accent);
-    }
-
-    .tl-time {
-      display: block;
-      font-weight: 400;
-      color: var(--gray-400);
-      font-size: var(--text-xs);
-    }
-
-    /* ── 內容欄：全部用同一字體規格 ── */
-    .tl-content {
-      font-size: var(--text-base);
-      line-height: 1.7;
-      color: var(--color-sub);
-    }
-
-    .tl-content strong {
-      color: var(--color-text);
-      font-weight: 500;
-    }
-
     .widget-header {
       display: flex;
       justify-content: space-between;
@@ -767,8 +664,7 @@
           <li><a href="#section0" class="active"><span class="nav-number">00</span>事件背景</a></li>
           <li><a href="#section1"><span class="nav-number">01</span>客運影響</a></li>
           <li><a href="#section2"><span class="nav-number">02</span>貨運影響</a></li>
-          <li><a href="#section3"><span class="nav-number">03</span>時間線</a></li>
-          <li><a href="#section4"><span class="nav-number">04</span>即時監測</a></li>
+          <li><a href="#section3"><span class="nav-number">03</span>即時監測</a></li>
         </ul>
       </nav>
 
@@ -1077,76 +973,10 @@
         </div>
       </section>
 
-      <!-- Section 03：時間線 -->
-      <section class="data-section" id="section3" style="margin-bottom:calc(var(--grid-unit)*4);padding-bottom:calc(var(--grid-unit)*3);border-bottom:2px solid var(--color-text);">
+      <!-- Section 03：即時監測 -->
+      <section class="data-section" id="section3">
         <header class="section-header">
           <span class="section-number">Section 03</span>
-          <h2 class="section-title">2026 美伊戰爭 · 事件時間線</h2>
-          <p class="section-subtitle">2026.01 — 2026.03.06</p>
-        </header>
-
-        <div class="timeline">
-
-          <div class="tl-phase">
-            <div class="tl-phase-label">第一階段：談判破裂</div>
-            <div class="tl-phase-date">2026.01 — 02.27</div>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-date">1月-2月27日</div>
-            <div class="tl-content">美伊三輪外交談判失敗。</div>
-          </div>
-
-          <div class="tl-phase tl-phase-war">
-            <div class="tl-phase-label">第二階段：戰爭爆發</div>
-            <div class="tl-phase-date">2026.02.28 (當地時間)</div>
-          </div>
-
-          <div class="tl-item tl-item-critical">
-            <div class="tl-date">02-28 <span class="tl-time">04:00</span></div>
-            <div class="tl-content"><strong>【戰爭爆發】</strong> 美以聯合發動代號「史詩怒火」（Epic）的空襲。目標鎖定伊朗指揮中樞、雷達站及核設施。</div>
-          </div>
-          <div class="tl-item tl-item-critical">
-            <div class="tl-date">02-28 <span class="tl-time">09:30</span></div>
-            <div class="tl-content"><strong>【最高領導人遇刺】</strong> 伊朗最高領袖哈梅內伊在其住所附近遭導彈襲擊身亡。</div>
-          </div>
-          <div class="tl-item tl-item-critical">
-            <div class="tl-date">02-28 <span class="tl-time">14:00</span></div>
-            <div class="tl-content">伊朗啟動大規模報復，向美軍在伊拉克、敘利亞基地及以色列特拉維夫發射數百枚彈道導彈。霍爾木茲海峽發生首起油輪襲擊事件。</div>
-          </div>
-
-          <div class="tl-phase">
-            <div class="tl-phase-label">第三階段：局勢升級</div>
-            <div class="tl-phase-date">2026.03.01 — 至今</div>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-date">3月1日</div>
-            <div class="tl-content">伊朗代理最高領袖宣佈全國總動員。以色列啟動「鐵穹」與「箭式」系統攔截，但仍有部分導彈擊中海法港與迪莫納核設施周邊。</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-date">3月2–3日</div>
-            <div class="tl-content">美軍對伊朗境內導彈發射場進行第二波打擊。武裝組織真主黨、胡塞武裝參戰，紅海航運陷入實質性癱瘓。</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-date">3月4日</div>
-            <div class="tl-content"><strong>【最新傷亡統計】</strong> 伊朗：死亡突破 2,400人（含平民），多地醫院癱瘓；美以聯軍：48名美軍士兵陣亡，以色列約120人傷亡；超過50萬人被迫流離失所。</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-date">3月5日</div>
-            <div class="tl-content">聯合國安理會緊急會議因否決權僵局未能達成停火協議。全球油價單日暴漲18%，突破 $145/桶。</div>
-          </div>
-          <div class="tl-item tl-item-today">
-            <div class="tl-date">3月6日 <span class="tl-time">今日</span></div>
-            <div class="tl-content"><strong>伊朗革命衛隊宣稱已癱瘓迪拜部分基礎設施</strong>（導致HK-DXB航線徹底停擺）。中國、俄羅斯呼籲停火。中東空域已成「禁飛區」，僅有極少數撤僑包機在夜間冒險起降。</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Section 04：即時監測 -->
-      <section class="data-section" id="section4">
-        <header class="section-header">
-          <span class="section-number">Section 04</span>
           <h2 class="section-title">中東空域 · 航班監測</h2>
           <p class="section-subtitle">截圖時間：2026-03-06 23:13 · 數據來源：Flightera.net</p>
         </header>
@@ -1166,7 +996,7 @@
 
         <div class="annotation" style="margin-top: 1.5rem;">
           <strong>數據說明：</strong>截圖顯示中東地區航班概況，攝於 2026-03-06 23:13 北京時間。中東核心空域關閉後，大量航班改道或取消，地圖顯示為當時空域狀態。<br>
-          <a href="https://www.flightera.net/en/widgets/map?lat=25.2&lon=45.8&zoom=5" target="_blank" style="color: var(--color-accent);">點擊前往 Flightera.net 查看最新狀態 ↗</a>
+          <a href="https://www.flightera.net/en/widgets/map?lat=25.2&lon=45.8&zoom=5" target="_blank" style="color: var(--color-accent);">點擊前往 Flightera.net 查看更多實時資訊 ↗</a>
         </div>
       </section>
 
