@@ -51,4 +51,4 @@
 
 ---
 
-*Contributor：@[Jise2939](https://github.com/Jise2939) @[TianRuowen](https://github.com/TianRuowen) @[NikkoNiJincheng](https://github.com/NikkoNiJincheng) | 2026 年 3 月*
+**Contributor：@[Jise2939](https://github.com/Jise2939) @[TianRuowen](https://github.com/TianRuowen) @[NikkoNiJincheng](https://github.com/njc532313-dev) | 2026 年 3 月**
