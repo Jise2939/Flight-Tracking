@@ -1,0 +1,37 @@
+# .gitignore - Flight-Tracking
+# 忽略本地敏感設定與臨時/輸出檔案
+
+# 環境變量
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 打包/輸出/暫存
+dist/
+build/
+.cache/
+output/
+
+!output
+!output**
+
+*.log
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+venv/
+
+# 保留項目源文件
+!README.md
+!index.html
+!中東地圖.png
+!airindex.webp

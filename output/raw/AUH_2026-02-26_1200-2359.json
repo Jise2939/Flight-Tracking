@@ -1,0 +1,7712 @@
+{
+  "departures": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:20Z",
+          "local": "2026-02-26 12:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:20Z",
+          "local": "2026-02-26 12:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 08:26Z",
+          "local": "2026-02-26 12:26+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "F11-F14",
+        "gate": "A5B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QR 1045",
+      "callSign": "QTR1045",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A7-AHS",
+        "modeS": "06A09A",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Qatar",
+        "iata": "QR",
+        "icao": "QTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOTV",
+          "iata": "TRV",
+          "name": "Trivandrum",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:10Z",
+          "local": "2026-02-26 13:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:10Z",
+          "local": "2026-02-26 13:10+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 09:19Z",
+          "local": "2026-02-26 13:19+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "J1-H9",
+        "gate": "B17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 248",
+      "callSign": "ADY248",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUL",
+        "modeS": "89670A",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOKN",
+          "iata": "CNN",
+          "name": "Kannur",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:20Z",
+          "local": "2026-02-26 13:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:20Z",
+          "local": "2026-02-26 13:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 09:16Z",
+          "local": "2026-02-26 13:16+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "M1-M4",
+        "gate": "D44A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1434",
+      "callSign": "IGO1434",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-IQA",
+        "modeS": "8015E4",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:40Z",
+          "local": "2026-02-26 13:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:40Z",
+          "local": "2026-02-26 13:40+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 09:59Z",
+          "local": "2026-02-26 13:59+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "G1-G4",
+        "gate": "A4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "IX 182",
+      "callSign": "AXB182",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-EXD",
+        "modeS": "800B62",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:45Z",
+          "local": "2026-02-26 13:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:45Z",
+          "local": "2026-02-26 13:45+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 09:44Z",
+          "local": "2026-02-26 13:44+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "K1-K4",
+        "gate": "B14",
+        "runway": "31L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "PK 262",
+      "callSign": "PIA262",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "AP-BON",
+        "modeS": "7609EE",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Pakistan International",
+        "iata": "PK",
+        "icao": "PIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VGHS",
+          "iata": "DAC",
+          "name": "Dhaka",
+          "countryCode": "bd",
+          "timeZone": "Asia/Dhaka"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:55Z",
+          "local": "2026-02-26 13:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:55Z",
+          "local": "2026-02-26 13:55+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:01Z",
+          "local": "2026-02-26 14:01+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "J1-H9",
+        "gate": "B23A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 63",
+      "callSign": "ADY063",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUC",
+        "modeS": "8965AC",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGCC",
+          "iata": "MAN",
+          "name": "Manchester",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:00Z",
+          "local": "2026-02-26 14:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:00Z",
+          "local": "2026-02-26 14:00+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 75",
+      "callSign": "ETD2KQ",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLR",
+        "modeS": "8964C2",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRF",
+          "iata": "FCO",
+          "name": "Rome",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:00Z",
+          "local": "2026-02-26 14:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:00Z",
+          "local": "2026-02-26 14:00+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:21Z",
+          "local": "2026-02-26 14:21+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 83",
+      "callSign": "ETD83W",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EC-NBN",
+        "modeS": "346195",
+        "model": "Airbus A330-200"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:00Z",
+          "local": "2026-02-26 14:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:00Z",
+          "local": "2026-02-26 14:00+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:05Z",
+          "local": "2026-02-26 14:05+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "M5-M8",
+        "gate": "B19",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1404",
+      "callSign": "IGO39J",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "modeS": "801678",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:05Z",
+          "local": "2026-02-26 14:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:05Z",
+          "local": "2026-02-26 14:05+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:27Z",
+          "local": "2026-02-26 14:27+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "D49",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 300",
+      "callSign": "ETD8LM",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIU",
+        "modeS": "896388",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEBL",
+          "iata": "BCN",
+          "name": "Barcelona",
+          "countryCode": "es",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:05Z",
+          "local": "2026-02-26 14:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:05Z",
+          "local": "2026-02-26 14:05+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:37Z",
+          "local": "2026-02-26 14:37+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "D45",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 113",
+      "callSign": "ETD19N",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BNA",
+        "modeS": "896538",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEMD",
+          "iata": "MAD",
+          "name": "Madrid",
+          "countryCode": "es",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:05Z",
+          "local": "2026-02-26 14:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:05Z",
+          "local": "2026-02-26 14:05+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 103",
+      "callSign": "ETD103",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EC-NGS",
+        "modeS": "34635A",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAAH",
+          "iata": "AMD",
+          "name": "Ahmedabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:05Z",
+          "local": "2026-02-26 14:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:05Z",
+          "local": "2026-02-26 14:05+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C41A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 240",
+      "callSign": "ETD3WA",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEE",
+        "modeS": "89642A",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:18Z",
+          "local": "2026-02-26 14:18+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A8B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 555",
+      "callSign": "ETD555",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEQ",
+        "modeS": "896697",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSZH",
+          "iata": "ZRH",
+          "name": "Zurich",
+          "countryCode": "ch",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:28Z",
+          "local": "2026-02-26 14:28+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A5A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 141",
+      "callSign": "ETD7MA",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-LRI",
+        "modeS": "8966BE",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:49Z",
+          "local": "2026-02-26 14:49+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C29",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 67",
+      "callSign": "ETD1VW",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-APD",
+        "modeS": "896407",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPLA",
+          "iata": "LHE",
+          "name": "Lahore",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:37Z",
+          "local": "2026-02-26 14:37+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B20",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 288",
+      "callSign": "ETD92M",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LY-GYM",
+        "modeS": "503E82",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EHAM",
+          "iata": "AMS",
+          "name": "Amsterdam",
+          "countryCode": "nl",
+          "timeZone": "Europe/Amsterdam"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:10Z",
+          "local": "2026-02-26 14:10+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:53Z",
+          "local": "2026-02-26 14:53+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 41",
+      "callSign": "ETD58B",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BME",
+        "modeS": "89653C",
+        "model": "Boeing 787"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "D44B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 611",
+      "callSign": "ETD611",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEP",
+        "modeS": "896698",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:33Z",
+          "local": "2026-02-26 14:33+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 396",
+      "callSign": "ETD396",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AER",
+        "modeS": "896677",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 571",
+      "callSign": "ETD571",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIB",
+        "modeS": "8966EB",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTSP",
+          "iata": "HKT",
+          "name": "Phuket",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:23Z",
+          "local": "2026-02-26 14:23+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C35",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 414",
+      "callSign": "ETD414",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLT",
+        "modeS": "8964F9",
+        "model": "Boeing 787"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:50Z",
+          "local": "2026-02-26 14:50+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C34",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 346",
+      "callSign": "ETD8KU",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "modeS": "8966BB",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTBS",
+          "iata": "BKK",
+          "name": "Bangkok",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 11:01Z",
+          "local": "2026-02-26 15:01+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "E2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 400",
+      "callSign": "ETD400",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BMF",
+        "modeS": "89653D",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 11:04Z",
+          "local": "2026-02-26 15:04+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C40",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 204",
+      "callSign": "ETD204",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-XWF",
+        "modeS": "89659C",
+        "model": "Airbus A350-1000"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OKBK",
+          "iata": "KWI",
+          "name": "Kuwait City",
+          "countryCode": "kw",
+          "timeZone": "Asia/Kuwait"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:39Z",
+          "local": "2026-02-26 14:39+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B24A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 655",
+      "callSign": "ETD1SX",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIH",
+        "modeS": "8961EA",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIMC",
+          "iata": "MXP",
+          "name": "Milan",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:33Z",
+          "local": "2026-02-26 14:33+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 79",
+      "callSign": "ETD79",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-XWA",
+        "modeS": "896596",
+        "model": "Airbus A350-1000"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDM",
+          "iata": "MUC",
+          "name": "Munich",
+          "countryCode": "de",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:20Z",
+          "local": "2026-02-26 14:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 11:14Z",
+          "local": "2026-02-26 15:14+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "D48",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 127",
+      "callSign": "ETD8WZ",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BNF",
+        "modeS": "8965F4",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:40Z",
+          "local": "2026-02-26 14:40+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C36B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 334",
+      "callSign": "ETD6EG",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEF",
+        "modeS": "89642B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCL",
+          "iata": "CCJ",
+          "name": "Calicut",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "J2-J14",
+        "gate": "A9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 203",
+      "callSign": "ADY203",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUI",
+        "modeS": "8965FB",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LLBG",
+          "iata": "TLV",
+          "name": "Tel Aviv Yafo",
+          "countryCode": "il",
+          "timeZone": "Asia/Jerusalem"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 597",
+      "callSign": "ETD597",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEI",
+        "modeS": "89643F",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPKC",
+          "iata": "KHI",
+          "name": "Karachi",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:44Z",
+          "local": "2026-02-26 14:44+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 294",
+      "callSign": "ETD5LZ",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LY-WIL",
+        "modeS": "503E9B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOTV",
+          "iata": "TRV",
+          "name": "Trivandrum",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:25Z",
+          "local": "2026-02-26 14:25+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:43Z",
+          "local": "2026-02-26 14:43+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B25A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 262",
+      "callSign": "ETD262",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEG",
+        "modeS": "89643D",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSGG",
+          "iata": "GVA",
+          "name": "Geneva",
+          "countryCode": "ch",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:44Z",
+          "local": "2026-02-26 14:44+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B21",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 147",
+      "callSign": "ETD147",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-LRJ",
+        "modeS": "8966BD",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 11:10Z",
+          "local": "2026-02-26 15:10+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "D47",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 216",
+      "callSign": "ETD216",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETP",
+        "modeS": "896353",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUEE",
+          "iata": "SVO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:47Z",
+          "local": "2026-02-26 14:47+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C37",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 843",
+      "callSign": "ETD843",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLG",
+        "modeS": "896465",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:53Z",
+          "local": "2026-02-26 14:53+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C31",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 238",
+      "callSign": "ETD238",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLC",
+        "modeS": "896408",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:30Z",
+          "local": "2026-02-26 14:30+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:55Z",
+          "local": "2026-02-26 14:55+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C32",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 358",
+      "callSign": "ETD358",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETH",
+        "modeS": "8962E6",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OOMS",
+          "iata": "MCT",
+          "name": "Muscat",
+          "countryCode": "om",
+          "timeZone": "Asia/Muscat"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:35Z",
+          "local": "2026-02-26 14:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:35Z",
+          "local": "2026-02-26 14:35+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:38Z",
+          "local": "2026-02-26 14:38+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B26B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 694",
+      "callSign": "ETD694",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EJA",
+        "modeS": "896429",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDF",
+          "iata": "FRA",
+          "name": "Frankfurt-am-Main",
+          "countryCode": "de",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:35Z",
+          "local": "2026-02-26 14:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:35Z",
+          "local": "2026-02-26 14:35+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:51Z",
+          "local": "2026-02-26 14:51+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 123",
+      "callSign": "ETD123",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLV",
+        "modeS": "8964FB",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFPG",
+          "iata": "CDG",
+          "name": "Paris",
+          "countryCode": "fr",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:35Z",
+          "local": "2026-02-26 14:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:35Z",
+          "local": "2026-02-26 14:35+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 33",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OBBI",
+          "iata": "BAH",
+          "name": "Manama",
+          "countryCode": "bh",
+          "timeZone": "Asia/Bahrain"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:35Z",
+          "local": "2026-02-26 14:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:35Z",
+          "local": "2026-02-26 14:35+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 10:46Z",
+          "local": "2026-02-26 14:46+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B22",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 643",
+      "callSign": "ETD46N",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EII",
+        "modeS": "8961EB",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "URSS",
+          "iata": "AER",
+          "name": "Sochi",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:50Z",
+          "local": "2026-02-26 14:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:50Z",
+          "local": "2026-02-26 14:50+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 11:10Z",
+          "local": "2026-02-26 15:10+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "D46A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 857",
+      "callSign": "ETD857",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIX",
+        "modeS": "8963A9",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 11:00Z",
+          "local": "2026-02-26 15:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 11:00Z",
+          "local": "2026-02-26 15:00+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 11:06Z",
+          "local": "2026-02-26 15:06+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "F5-F8",
+        "gate": "A5B",
+        "runway": "31R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SV 573",
+      "callSign": "SVA573",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AS58",
+        "modeS": "710126",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 11:15Z",
+          "local": "2026-02-26 15:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 11:15Z",
+          "local": "2026-02-26 15:15+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 11:24Z",
+          "local": "2026-02-26 15:24+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "J2-J14",
+        "gate": "B24B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 708",
+      "callSign": "ADY708",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUD",
+        "modeS": "8965E1",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 11:25Z",
+          "local": "2026-02-26 15:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 11:25Z",
+          "local": "2026-02-26 15:25+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 11:26Z",
+          "local": "2026-02-26 15:26+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "J1-H9",
+        "gate": "B23B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 125",
+      "callSign": "ADY125",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUG",
+        "modeS": "8965FA",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:10Z",
+          "local": "2026-02-26 16:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:10Z",
+          "local": "2026-02-26 16:10+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "G11-G14",
+        "gate": "B19",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "MS 915",
+      "callSign": "MSR915",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SU-GED",
+        "modeS": "010162",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:25Z",
+          "local": "2026-02-26 16:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:25Z",
+          "local": "2026-02-26 16:25+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "F1-F4",
+        "gate": "B13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SV 571",
+      "callSign": "SVA571",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASAN",
+        "modeS": "71147C",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:35Z",
+          "local": "2026-02-26 16:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:35Z",
+          "local": "2026-02-26 16:35+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 667",
+      "callSign": "ETD667",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIM",
+        "modeS": "89625B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:20Z",
+          "local": "2026-02-26 17:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:20Z",
+          "local": "2026-02-26 17:20+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "G1-G4",
+        "gate": "D44A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XY 518",
+      "callSign": "KNE518",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS77",
+        "modeS": "71158F",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OKBK",
+          "iata": "KWI",
+          "name": "Kuwait City",
+          "countryCode": "kw",
+          "timeZone": "Asia/Kuwait"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:25Z",
+          "local": "2026-02-26 17:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:25Z",
+          "local": "2026-02-26 17:25+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 13:27Z",
+          "local": "2026-02-26 17:27+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "J1-H9",
+        "gate": "A6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 22",
+      "callSign": "ADY022",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUF",
+        "modeS": "8965F9",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUEE",
+          "iata": "SVO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:35Z",
+          "local": "2026-02-26 17:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:35Z",
+          "local": "2026-02-26 17:35+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "K11-K14",
+        "gate": "C30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SU 531",
+      "callSign": "AFL531",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73732",
+        "modeS": "152004",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Aeroflot",
+        "iata": "SU",
+        "icao": "AFL"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:45Z",
+          "local": "2026-02-26 17:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:45Z",
+          "local": "2026-02-26 17:45+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "J1-H9",
+        "gate": "B17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 166",
+      "callSign": "ADY166",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUB",
+        "modeS": "896586",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:55Z",
+          "local": "2026-02-26 17:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:55Z",
+          "local": "2026-02-26 17:55+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "J2-J14",
+        "gate": "A4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 431",
+      "callSign": "ADY431",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUE",
+        "modeS": "8965EE",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:55Z",
+          "local": "2026-02-26 17:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:55Z",
+          "local": "2026-02-26 17:55+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "F11-F14",
+        "gate": "A1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QR 1051",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Qatar",
+        "iata": "QR",
+        "icao": "QTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OBBI",
+          "iata": "BAH",
+          "name": "Manama",
+          "countryCode": "bh",
+          "timeZone": "Asia/Bahrain"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 14:15Z",
+          "local": "2026-02-26 18:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:15Z",
+          "local": "2026-02-26 18:15+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "J1-H9",
+        "gate": "B14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 17",
+      "callSign": "ADY017",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUK",
+        "modeS": "896633",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 14:15Z",
+          "local": "2026-02-26 18:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:15Z",
+          "local": "2026-02-26 18:15+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "G5-G8",
+        "gate": "D44B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XY 236",
+      "callSign": "KNE236",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OK-TVY",
+        "modeS": "49D283",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 14:30Z",
+          "local": "2026-02-26 18:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:30Z",
+          "local": "2026-02-26 18:30+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "F4-F7",
+        "gate": "B11",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SV 577",
+      "callSign": "SVA577",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASAH",
+        "modeS": "711537",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 14:35Z",
+          "local": "2026-02-26 18:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:35Z",
+          "local": "2026-02-26 18:35+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "M1-M4",
+        "gate": "C36B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1449",
+      "callSign": "IGO1449",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-IOF",
+        "modeS": "80182D",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:30Z",
+          "local": "2026-02-26 20:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:30Z",
+          "local": "2026-02-26 20:30+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A5A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 559",
+      "callSign": "ETD559",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIH",
+        "modeS": "8961EA",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HKJK",
+          "iata": "NBO",
+          "name": "Nairobi",
+          "countryCode": "ke",
+          "timeZone": "Africa/Nairobi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:30Z",
+          "local": "2026-02-26 20:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:30Z",
+          "local": "2026-02-26 20:30+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C40B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 765",
+      "callSign": "ETD765",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIN",
+        "modeS": "89625C",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "YMML",
+          "iata": "MEL",
+          "name": "Melbourne",
+          "countryCode": "au",
+          "timeZone": "Australia/Melbourne"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:40Z",
+          "local": "2026-02-26 20:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:40Z",
+          "local": "2026-02-26 20:40+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 460",
+      "callSign": "ETD91N",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BNH",
+        "modeS": "8966C3",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OKBK",
+          "iata": "KWI",
+          "name": "Kuwait City",
+          "countryCode": "kw",
+          "timeZone": "Asia/Kuwait"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:40Z",
+          "local": "2026-02-26 20:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:40Z",
+          "local": "2026-02-26 20:40+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 657",
+      "callSign": "ETD657",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIA",
+        "modeS": "89658B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:40Z",
+          "local": "2026-02-26 20:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:40Z",
+          "local": "2026-02-26 20:40+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "D46A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 220",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OBBI",
+          "iata": "BAH",
+          "name": "Manama",
+          "countryCode": "bh",
+          "timeZone": "Asia/Bahrain"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:45Z",
+          "local": "2026-02-26 20:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:45Z",
+          "local": "2026-02-26 20:45+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "D44B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 645",
+      "callSign": "ETD645",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-LRB",
+        "modeS": "8966A7",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:45Z",
+          "local": "2026-02-26 20:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:45Z",
+          "local": "2026-02-26 20:45+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "0F",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 573",
+      "callSign": "ETD573",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEB",
+        "modeS": "8963AA",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:45Z",
+          "local": "2026-02-26 20:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:45Z",
+          "local": "2026-02-26 20:45+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B24A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 669",
+      "callSign": "ETD669",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIS",
+        "modeS": "89637C",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VDTI",
+          "iata": "KTI",
+          "name": "Phnom Penh",
+          "countryCode": "kh",
+          "timeZone": "Asia/Phnom_Penh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:45Z",
+          "local": "2026-02-26 20:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:45Z",
+          "local": "2026-02-26 20:45+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 434",
+      "callSign": "ETD434",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-LRD",
+        "modeS": "8966A9",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OOMS",
+          "iata": "MCT",
+          "name": "Muscat",
+          "countryCode": "om",
+          "timeZone": "Asia/Muscat"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:50Z",
+          "local": "2026-02-26 20:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:50Z",
+          "local": "2026-02-26 20:50+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C36A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 696",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTBS",
+          "iata": "BKK",
+          "name": "Bangkok",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:50Z",
+          "local": "2026-02-26 20:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:50Z",
+          "local": "2026-02-26 20:50+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:46Z",
+          "local": "2026-02-26 21:46+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "A7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 408",
+      "callSign": "ETD408",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLS",
+        "modeS": "8964C3",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:50Z",
+          "local": "2026-02-26 20:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:50Z",
+          "local": "2026-02-26 20:50+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "D49",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 394",
+      "callSign": "ETD394",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEJ",
+        "modeS": "896440",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "RCTP",
+          "iata": "TPE",
+          "name": "Taipei",
+          "countryCode": "tw",
+          "timeZone": "Asia/Taipei"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:55Z",
+          "local": "2026-02-26 20:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 16:55Z",
+          "local": "2026-02-26 20:55+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:23Z",
+          "local": "2026-02-26 21:23+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "B13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 898",
+      "callSign": "ETD898",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BMC",
+        "modeS": "8964FE",
+        "model": "Boeing 787"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTSP",
+          "iata": "HKT",
+          "name": "Phuket",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:00Z",
+          "local": "2026-02-26 21:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:00Z",
+          "local": "2026-02-26 21:00+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:34Z",
+          "local": "2026-02-26 21:34+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 410",
+      "callSign": "ETD410",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETG",
+        "modeS": "8962E5",
+        "model": "Boeing 777"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:00Z",
+          "local": "2026-02-26 21:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:00Z",
+          "local": "2026-02-26 21:00+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:53Z",
+          "local": "2026-02-26 21:53+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 340",
+      "callSign": "ETD6SN",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIP",
+        "modeS": "89633A",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LCLK",
+          "iata": "LCA",
+          "name": "Larnarca",
+          "countryCode": "cy",
+          "timeZone": "Asia/Nicosia"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:05Z",
+          "local": "2026-02-26 21:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:05Z",
+          "local": "2026-02-26 21:05+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:25Z",
+          "local": "2026-02-26 21:25+04:00"
+        },
+        "terminal": "A",
+        "runway": "31L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "W6 4618",
+      "callSign": "WZZ7YM",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HA-LGU",
+        "modeS": "471DBC",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "Wizz Air",
+        "iata": "W6",
+        "icao": "WZZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "RJAA",
+          "iata": "NRT",
+          "name": "Tokyo",
+          "countryCode": "jp",
+          "timeZone": "Asia/Tokyo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:05Z",
+          "local": "2026-02-26 21:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:05Z",
+          "local": "2026-02-26 21:05+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:36Z",
+          "local": "2026-02-26 21:36+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 800",
+      "callSign": "ETD800",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BNE",
+        "modeS": "8965F3",
+        "model": "Boeing 787-9"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "YSSY",
+          "iata": "SYD",
+          "name": "Sydney",
+          "countryCode": "au",
+          "timeZone": "Australia/Sydney"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:05Z",
+          "local": "2026-02-26 21:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:05Z",
+          "local": "2026-02-26 21:05+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:43Z",
+          "local": "2026-02-26 21:43+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 454",
+      "callSign": "ETD7KP",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-XWC",
+        "modeS": "896598",
+        "model": "Airbus A350-1000"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:10Z",
+          "local": "2026-02-26 21:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:10Z",
+          "local": "2026-02-26 21:10+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:38Z",
+          "local": "2026-02-26 21:38+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 206",
+      "callSign": "ETD206",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-XWE",
+        "modeS": "89659B",
+        "model": "Airbus A350-1000"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOTV",
+          "iata": "TRV",
+          "name": "Trivandrum",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:15Z",
+          "local": "2026-02-26 21:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:15Z",
+          "local": "2026-02-26 21:15+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:33Z",
+          "local": "2026-02-26 21:33+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 264",
+      "callSign": "ETD2LP",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIM",
+        "modeS": "89625B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VHHH",
+          "iata": "HKG",
+          "name": "Hong Kong",
+          "countryCode": "hk",
+          "timeZone": "Asia/Hong_Kong"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:15Z",
+          "local": "2026-02-26 21:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:15Z",
+          "local": "2026-02-26 21:15+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:31Z",
+          "local": "2026-02-26 21:31+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 870",
+      "callSign": "ETD870",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLX",
+        "modeS": "896535",
+        "model": "Boeing 787-9"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "RKSI",
+          "iata": "ICN",
+          "name": "Seoul",
+          "countryCode": "kr",
+          "timeZone": "Asia/Seoul"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:20Z",
+          "local": "2026-02-26 21:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:20Z",
+          "local": "2026-02-26 21:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:41Z",
+          "local": "2026-02-26 21:41+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 822",
+      "callSign": "ETD822",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLJ",
+        "modeS": "89648A",
+        "model": "Boeing 787-9"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ZBAD",
+          "iata": "PKX",
+          "name": "Beijing",
+          "countryCode": "cn",
+          "timeZone": "Asia/Shanghai"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:20Z",
+          "local": "2026-02-26 21:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:20Z",
+          "local": "2026-02-26 21:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:40Z",
+          "local": "2026-02-26 21:40+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 888",
+      "callSign": "ETD888",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BMA",
+        "modeS": "8964FC",
+        "model": "Boeing 787-10"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "RPLL",
+          "iata": "MNL",
+          "name": "Manila",
+          "countryCode": "ph",
+          "timeZone": "Asia/Manila"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:20Z",
+          "local": "2026-02-26 21:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:20Z",
+          "local": "2026-02-26 21:20+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:44Z",
+          "local": "2026-02-26 21:44+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 440",
+      "callSign": "ETD440",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETE",
+        "modeS": "89664C",
+        "model": "Boeing 777-300"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:25Z",
+          "local": "2026-02-26 21:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:25Z",
+          "local": "2026-02-26 21:25+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:49Z",
+          "local": "2026-02-26 21:49+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 352",
+      "callSign": "ETD50E",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "modeS": "89669A",
+        "model": "Boeing 787-9"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:26Z",
+          "local": "2026-02-26 21:26+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:26Z",
+          "local": "2026-02-26 21:26+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:26Z",
+          "local": "2026-02-26 21:26+04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AKJ 589",
+      "callSign": "AKJ589",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-YAO",
+        "modeS": "801549",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "AKJ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OLBA",
+          "iata": "BEY",
+          "name": "Beirut",
+          "countryCode": "lb",
+          "timeZone": "Asia/Beirut"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:30Z",
+          "local": "2026-02-26 21:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:30Z",
+          "local": "2026-02-26 21:30+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:35Z",
+          "local": "2026-02-26 21:35+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "ME 419",
+      "callSign": "MEA419",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "T7-ME1",
+        "modeS": "5001D3",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "Middle East",
+        "iata": "ME",
+        "icao": "MEA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIJP",
+          "iata": "JAI",
+          "name": "Jaipur",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 17:30Z",
+          "local": "2026-02-26 21:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 17:30Z",
+          "local": "2026-02-26 21:30+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 17:48Z",
+          "local": "2026-02-26 21:48+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 328",
+      "callSign": "ETD328",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIB",
+        "modeS": "8966EB",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LHBP",
+          "iata": "BUD",
+          "name": "Budapest",
+          "countryCode": "hu",
+          "timeZone": "Europe/Budapest"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 18:30Z",
+          "local": "2026-02-26 22:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 18:30Z",
+          "local": "2026-02-26 22:30+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 19:17Z",
+          "local": "2026-02-26 23:17+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "W6 2358",
+      "callSign": "WZZ2358",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HA-LGT",
+        "modeS": "471DBB",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "Wizz Air",
+        "iata": "W6",
+        "icao": "WZZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 18:55Z",
+          "local": "2026-02-26 22:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 18:55Z",
+          "local": "2026-02-26 22:55+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 19:09Z",
+          "local": "2026-02-26 23:09+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 127",
+      "callSign": "ADY127",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUF",
+        "modeS": "8965F9",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 19:10Z",
+          "local": "2026-02-26 23:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 19:10Z",
+          "local": "2026-02-26 23:10+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 19:21Z",
+          "local": "2026-02-26 23:21+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 302",
+      "callSign": "ETD9SY",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIU",
+        "modeS": "896388",
+        "model": "Airbus A320 (Sharklets)"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPLA",
+          "iata": "LHE",
+          "name": "Lahore",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 19:10Z",
+          "local": "2026-02-26 23:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 19:10Z",
+          "local": "2026-02-26 23:10+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 19:31Z",
+          "local": "2026-02-26 23:31+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 284",
+      "callSign": "ETD284",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LY-GYM",
+        "modeS": "503E82",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCL",
+          "iata": "CCJ",
+          "name": "Calicut",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 19:25Z",
+          "local": "2026-02-26 23:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 19:25Z",
+          "local": "2026-02-26 23:25+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-02-26 19:38Z",
+          "local": "2026-02-26 23:38+04:00"
+        },
+        "terminal": "A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 200",
+      "callSign": "ADY200",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUL",
+        "modeS": "89670A",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPKK",
+          "iata": "KRK",
+          "name": "Kraków",
+          "countryCode": "pl",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 16:50Z",
+          "local": "2026-02-26 20:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 19:30Z",
+          "local": "2026-02-26 23:30+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "L5-L10",
+        "gate": "A9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "W6 2094",
+      "callSign": "WZZ2094",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HA-LGA",
+        "modeS": "471DA8",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Wizz Air",
+        "iata": "W6",
+        "icao": "WZZ"
+      }
+    }
+  ],
+  "arrivals": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "OBBI",
+          "iata": "BAH",
+          "name": "Manama",
+          "countryCode": "bh",
+          "timeZone": "Asia/Bahrain"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:10Z",
+          "local": "2026-02-26 12:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:01Z",
+          "local": "2026-02-26 12:01+04:00"
+        },
+        "terminal": "A",
+        "gate": "B23A",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 16",
+      "callSign": "ADY016",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUC",
+        "modeS": "8965AC",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KORD",
+          "iata": "ORD",
+          "name": "Chicago",
+          "countryCode": "us",
+          "timeZone": "America/Chicago"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:30Z",
+          "local": "2026-02-26 12:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:08Z",
+          "local": "2026-02-26 12:08+04:00"
+        },
+        "terminal": "A",
+        "gate": "C33",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 10",
+      "callSign": "ETD76T",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-XWE",
+        "modeS": "89659B",
+        "model": "Airbus A350-1000"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "CYYZ",
+          "iata": "YYZ",
+          "name": "Toronto",
+          "countryCode": "ca",
+          "timeZone": "America/Toronto"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:15Z",
+          "local": "2026-02-26 12:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:09Z",
+          "local": "2026-02-26 12:09+04:00"
+        },
+        "terminal": "A",
+        "gate": "B11",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 22",
+      "callSign": "ETD8MY",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-APJ",
+        "modeS": "89649E",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTCC",
+          "iata": "CNX",
+          "name": "Chiangmai",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:05Z",
+          "local": "2026-02-26 13:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:12Z",
+          "local": "2026-02-26 12:12+04:00"
+        },
+        "terminal": "A",
+        "gate": "B21",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 427",
+      "callSign": "ETD427",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-LRJ",
+        "modeS": "8966BD",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:45Z",
+          "local": "2026-02-26 12:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:14Z",
+          "local": "2026-02-26 12:14+04:00"
+        },
+        "terminal": "A",
+        "gate": "D44B",
+        "baggageBelt": "03",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 712",
+      "callSign": "ETD712",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEP",
+        "modeS": "896698",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPPS",
+          "iata": "PEW",
+          "name": "Peshawar",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:30Z",
+          "local": "2026-02-26 12:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:15Z",
+          "local": "2026-02-26 12:15+04:00"
+        },
+        "terminal": "A",
+        "gate": "B14",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "PK 217",
+      "callSign": "PIA217",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "AP-BON",
+        "modeS": "7609EE",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Pakistan International",
+        "iata": "PK",
+        "icao": "PIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VRMM",
+          "iata": "MLE",
+          "name": "Malé",
+          "countryCode": "mv",
+          "timeZone": "Indian/Maldives"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:35Z",
+          "local": "2026-02-26 12:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:18Z",
+          "local": "2026-02-26 12:18+04:00"
+        },
+        "terminal": "A",
+        "gate": "D49",
+        "baggageBelt": "02",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 373",
+      "callSign": "ETD373",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIU",
+        "modeS": "896388",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VRMM",
+          "iata": "MLE",
+          "name": "Malé",
+          "countryCode": "mv",
+          "timeZone": "Indian/Maldives"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:45Z",
+          "local": "2026-02-26 12:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:21Z",
+          "local": "2026-02-26 12:21+04:00"
+        },
+        "terminal": "A",
+        "gate": "C39",
+        "baggageBelt": "01",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 379",
+      "callSign": "ETD379",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLM",
+        "modeS": "8964BD",
+        "model": "Boeing 787"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTBS",
+          "iata": "BKK",
+          "name": "Bangkok",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:45Z",
+          "local": "2026-02-26 12:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:25Z",
+          "local": "2026-02-26 12:25+04:00"
+        },
+        "terminal": "A",
+        "gate": "C32",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 403",
+      "callSign": "ETD403",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETH",
+        "modeS": "8962E6",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTSP",
+          "iata": "HKT",
+          "name": "Phuket",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:35Z",
+          "local": "2026-02-26 12:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:26Z",
+          "local": "2026-02-26 12:26+04:00"
+        },
+        "terminal": "A",
+        "gate": "D47",
+        "baggageBelt": "03",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 411",
+      "callSign": "ETD411",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETP",
+        "modeS": "896353",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:25Z",
+          "local": "2026-02-26 12:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:30Z",
+          "local": "2026-02-26 12:30+04:00"
+        },
+        "terminal": "A",
+        "gate": "A4",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "IX 181",
+      "callSign": "AXB181",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-EXD",
+        "modeS": "800B62",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:55Z",
+          "local": "2026-02-26 12:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:30Z",
+          "local": "2026-02-26 12:30+04:00"
+        },
+        "terminal": "A",
+        "gate": "A1",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 331",
+      "callSign": "ETD331",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEI",
+        "modeS": "89643F",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:00Z",
+          "local": "2026-02-26 13:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:40Z",
+          "local": "2026-02-26 12:40+04:00"
+        },
+        "terminal": "A",
+        "gate": "C30",
+        "baggageBelt": "04",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 201",
+      "callSign": "ETD201",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIB",
+        "modeS": "8966EB",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OKBK",
+          "iata": "KWI",
+          "name": "Kuwait City",
+          "countryCode": "kw",
+          "timeZone": "Asia/Kuwait"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:05Z",
+          "local": "2026-02-26 13:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:40Z",
+          "local": "2026-02-26 12:40+04:00"
+        },
+        "terminal": "A",
+        "gate": "B22",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 654",
+      "callSign": "ETD8AD",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EII",
+        "modeS": "8961EB",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:15Z",
+          "local": "2026-02-26 13:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:44Z",
+          "local": "2026-02-26 12:44+04:00"
+        },
+        "terminal": "A",
+        "gate": "B10",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 554",
+      "callSign": "ETD554",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLA",
+        "modeS": "8963CE",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "WMKK",
+          "iata": "KUL",
+          "name": "Kuala Lumpur",
+          "countryCode": "my",
+          "timeZone": "Asia/Kuala_Lumpur"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:50Z",
+          "local": "2026-02-26 12:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:45Z",
+          "local": "2026-02-26 12:45+04:00"
+        },
+        "terminal": "A",
+        "gate": "B15",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 489",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTSG",
+          "iata": "KBV",
+          "name": "Krabi",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:50Z",
+          "local": "2026-02-26 12:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:46Z",
+          "local": "2026-02-26 12:46+04:00"
+        },
+        "terminal": "A",
+        "gate": "A5A",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 423",
+      "callSign": "ETD423",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-LRI",
+        "modeS": "8966BE",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KJFK",
+          "iata": "JFK",
+          "name": "New York",
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:30Z",
+          "local": "2026-02-26 12:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:48Z",
+          "local": "2026-02-26 12:48+04:00"
+        },
+        "terminal": "A",
+        "gate": "C28",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 2",
+      "callSign": "ETD2",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-XWC",
+        "modeS": "896598",
+        "model": "Airbus A350-1000"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KBOS",
+          "iata": "BOS",
+          "name": "Boston",
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:55Z",
+          "local": "2026-02-26 12:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:50Z",
+          "local": "2026-02-26 12:50+04:00"
+        },
+        "terminal": "A",
+        "gate": "D48",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 8",
+      "callSign": "ETD6PX",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BNF",
+        "modeS": "8965F4",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:00Z",
+          "local": "2026-02-26 13:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:52Z",
+          "local": "2026-02-26 12:52+04:00"
+        },
+        "terminal": "A",
+        "gate": "B24A",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 578",
+      "callSign": "ETD578",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIH",
+        "modeS": "8961EA",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPKC",
+          "iata": "KHI",
+          "name": "Karachi",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:15Z",
+          "local": "2026-02-26 13:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:52Z",
+          "local": "2026-02-26 12:52+04:00"
+        },
+        "terminal": "A",
+        "gate": "B26B",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 293",
+      "callSign": "ETD9YP",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EJA",
+        "modeS": "896429",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LGAV",
+          "iata": "ATH",
+          "name": "Athens",
+          "countryCode": "gr",
+          "timeZone": "Europe/Athens"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:05Z",
+          "local": "2026-02-26 13:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:53Z",
+          "local": "2026-02-26 12:53+04:00"
+        },
+        "terminal": "A",
+        "gate": "D46A",
+        "baggageBelt": "01",
+        "runway": "31L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 188",
+      "callSign": "ETD188",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIX",
+        "modeS": "8963A9",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 08:55Z",
+          "local": "2026-02-26 12:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:55Z",
+          "local": "2026-02-26 12:55+04:00"
+        },
+        "terminal": "A",
+        "gate": "C34",
+        "baggageBelt": "04",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 343",
+      "callSign": "ETD8KP",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "modeS": "8966BB",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OKBK",
+          "iata": "KWI",
+          "name": "Kuwait City",
+          "countryCode": "kw",
+          "timeZone": "Asia/Kuwait"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:15Z",
+          "local": "2026-02-26 13:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 08:57Z",
+          "local": "2026-02-26 12:57+04:00"
+        },
+        "terminal": "A",
+        "gate": "A9",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 21",
+      "callSign": "ADY021",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUI",
+        "modeS": "8965FB",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:00Z",
+          "local": "2026-02-26 13:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:01Z",
+          "local": "2026-02-26 13:01+04:00"
+        },
+        "terminal": "A",
+        "gate": "A7",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 393",
+      "callSign": "ETD393",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AER",
+        "modeS": "896677",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OOMS",
+          "iata": "MCT",
+          "name": "Muscat",
+          "countryCode": "om",
+          "timeZone": "Asia/Muscat"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:00Z",
+          "local": "2026-02-26 13:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:02Z",
+          "local": "2026-02-26 13:02+04:00"
+        },
+        "terminal": "A",
+        "gate": "B20",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 693",
+      "callSign": "ETD4XZ",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LY-GYM",
+        "modeS": "503E82",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VICG",
+          "iata": "IXC",
+          "name": "Chandigarh",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:00Z",
+          "local": "2026-02-26 13:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:04Z",
+          "local": "2026-02-26 13:04+04:00"
+        },
+        "terminal": "A",
+        "gate": "B19",
+        "baggageBelt": "02",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1439",
+      "callSign": "IGO1439",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-IWX",
+        "modeS": "801678",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VNKT",
+          "iata": "KTM",
+          "name": "Kathmandu",
+          "countryCode": "np",
+          "timeZone": "Asia/Kathmandu"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:25Z",
+          "local": "2026-02-26 13:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:28Z",
+          "local": "2026-02-26 13:28+04:00"
+        },
+        "terminal": "A",
+        "gate": "B24B",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 44",
+      "callSign": "ADY044",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUD",
+        "modeS": "8965E1",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 09:55Z",
+          "local": "2026-02-26 13:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 09:52Z",
+          "local": "2026-02-26 13:52+04:00"
+        },
+        "terminal": "A",
+        "gate": "A5B",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SV 572",
+      "callSign": "SVA572",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AS58",
+        "modeS": "710126",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUDD",
+          "iata": "DME",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 10:15Z",
+          "local": "2026-02-26 14:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 10:08Z",
+          "local": "2026-02-26 14:08+04:00"
+        },
+        "terminal": "A",
+        "gate": "B23B",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 753",
+      "callSign": "ADY753",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUG",
+        "modeS": "8965FA",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 11:25Z",
+          "local": "2026-02-26 15:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 11:12Z",
+          "local": "2026-02-26 15:12+04:00"
+        },
+        "terminal": "A",
+        "gate": "B13",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SV 570",
+      "callSign": "SVA570",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASAN",
+        "modeS": "71147C",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 11:10Z",
+          "local": "2026-02-26 15:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 11:12Z",
+          "local": "2026-02-26 15:12+04:00"
+        },
+        "terminal": "A",
+        "gate": "B19",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "MS 914",
+      "callSign": "MSR914",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SU-GED",
+        "modeS": "010162",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 11:40Z",
+          "local": "2026-02-26 15:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 11:32Z",
+          "local": "2026-02-26 15:32+04:00"
+        },
+        "terminal": "A",
+        "gate": "A3",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 203",
+      "callSign": "ETD203",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIM",
+        "modeS": "89625B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:25Z",
+          "local": "2026-02-26 16:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:16Z",
+          "local": "2026-02-26 16:16+04:00"
+        },
+        "terminal": "A",
+        "gate": "D44A",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XY 517",
+      "callSign": "KNE517",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS77",
+        "modeS": "71158F",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:25Z",
+          "local": "2026-02-26 16:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:17Z",
+          "local": "2026-02-26 16:17+04:00"
+        },
+        "terminal": "A",
+        "gate": "A1",
+        "baggageBelt": "01",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QR 1050",
+      "callSign": "QTR1050",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A7-AHH",
+        "modeS": "06A092",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Qatar",
+        "iata": "QR",
+        "icao": "QTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UGTB",
+          "iata": "TBS",
+          "name": "Tbilisi",
+          "countryCode": "ge",
+          "timeZone": "Asia/Tbilisi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:45Z",
+          "local": "2026-02-26 16:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:20Z",
+          "local": "2026-02-26 16:20+04:00"
+        },
+        "terminal": "A",
+        "gate": "B17",
+        "baggageBelt": "03",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 715",
+      "callSign": "ADY715",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUB",
+        "modeS": "896586",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UBBB",
+          "iata": "GYD",
+          "name": "Baku",
+          "countryCode": "az",
+          "timeZone": "Asia/Baku"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:30Z",
+          "local": "2026-02-26 16:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:23Z",
+          "local": "2026-02-26 16:23+04:00"
+        },
+        "terminal": "A",
+        "gate": "A6",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 731",
+      "callSign": "ADY731",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUF",
+        "modeS": "8965F9",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OSDI",
+          "iata": "DAM",
+          "name": "Damascus",
+          "countryCode": "sy",
+          "timeZone": "Asia/Damascus"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:45Z",
+          "local": "2026-02-26 16:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:28Z",
+          "local": "2026-02-26 16:28+04:00"
+        },
+        "terminal": "A",
+        "gate": "A4",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 505",
+      "callSign": "ADY505",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUE",
+        "modeS": "8965EE",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUEE",
+          "iata": "SVO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:35Z",
+          "local": "2026-02-26 16:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:35Z",
+          "local": "2026-02-26 16:35+04:00"
+        },
+        "terminal": "A",
+        "gate": "C30",
+        "baggageBelt": "02",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SU 530",
+      "callSign": "AFL530",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73732",
+        "modeS": "152004",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Aeroflot",
+        "iata": "SU",
+        "icao": "AFL"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UDYZ",
+          "iata": "EVN",
+          "name": "Yerevan",
+          "countryCode": "am",
+          "timeZone": "Asia/Yerevan"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 12:55Z",
+          "local": "2026-02-26 16:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:36Z",
+          "local": "2026-02-26 16:36+04:00"
+        },
+        "terminal": "A",
+        "gate": "B14",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 442",
+      "callSign": "ADY442",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUK",
+        "modeS": "896633",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OLBA",
+          "iata": "BEY",
+          "name": "Beirut",
+          "countryCode": "lb",
+          "timeZone": "Asia/Beirut"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:15Z",
+          "local": "2026-02-26 17:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 12:48Z",
+          "local": "2026-02-26 16:48+04:00"
+        },
+        "terminal": "A",
+        "gate": "E10",
+        "baggageBelt": "04",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 451",
+      "callSign": "ADY451",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUM",
+        "modeS": "89670B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:30Z",
+          "local": "2026-02-26 17:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:06Z",
+          "local": "2026-02-26 17:06+04:00"
+        },
+        "terminal": "A",
+        "gate": "B11",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SV 576",
+      "callSign": "SVA576",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASAH",
+        "modeS": "711537",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:25Z",
+          "local": "2026-02-26 17:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:09Z",
+          "local": "2026-02-26 17:09+04:00"
+        },
+        "terminal": "A",
+        "gate": "D44B",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XY 235",
+      "callSign": "KNE235",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OK-TVY",
+        "modeS": "49D283",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCB",
+          "iata": "CJB",
+          "name": "Coimbatore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:35Z",
+          "local": "2026-02-26 17:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:16Z",
+          "local": "2026-02-26 17:16+04:00"
+        },
+        "terminal": "A",
+        "gate": "C36B",
+        "baggageBelt": "02",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1497",
+      "callSign": "IGO1497",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-IOF",
+        "modeS": "80182D",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UTTT",
+          "iata": "TAS",
+          "name": "Tashkent",
+          "countryCode": "uz",
+          "timeZone": "Asia/Tashkent"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 13:45Z",
+          "local": "2026-02-26 17:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 13:22Z",
+          "local": "2026-02-26 17:22+04:00"
+        },
+        "terminal": "A",
+        "gate": "E8",
+        "baggageBelt": "03",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "3L 764",
+      "callSign": "ADY764",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AUA",
+        "modeS": "896585",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Abu Dhabi",
+        "iata": "3L",
+        "icao": "ADY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 14:50Z",
+          "local": "2026-02-26 18:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:25Z",
+          "local": "2026-02-26 18:25+04:00"
+        },
+        "terminal": "A",
+        "gate": "B19",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QP 588",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Starlight Airline",
+        "iata": "QP",
+        "icao": "SLT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDL",
+          "iata": "DUS",
+          "name": "Düsseldorf",
+          "countryCode": "de",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:20Z",
+          "local": "2026-02-26 19:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:30Z",
+          "local": "2026-02-26 18:30+04:00"
+        },
+        "terminal": "A",
+        "gate": "B15",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 134",
+      "callSign": "ETD134",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-LRD",
+        "modeS": "8966A9",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTBS",
+          "iata": "BKK",
+          "name": "Bangkok",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:05Z",
+          "local": "2026-02-26 19:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:32Z",
+          "local": "2026-02-26 18:32+04:00"
+        },
+        "terminal": "A",
+        "gate": "B18",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 405",
+      "callSign": "ETD405",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLK",
+        "modeS": "8964BB",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPWA",
+          "iata": "WAW",
+          "name": "Warsaw",
+          "countryCode": "pl",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 14:55Z",
+          "local": "2026-02-26 18:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:33Z",
+          "local": "2026-02-26 18:33+04:00"
+        },
+        "terminal": "A",
+        "gate": "C30",
+        "baggageBelt": "02",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 160",
+      "callSign": "ETD160",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLP",
+        "modeS": "8964C0",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSGG",
+          "iata": "GVA",
+          "name": "Geneva",
+          "countryCode": "ch",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:05Z",
+          "local": "2026-02-26 19:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:39Z",
+          "local": "2026-02-26 18:39+04:00"
+        },
+        "terminal": "A",
+        "gate": "C42",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 146",
+      "callSign": "ETD5HJ",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLE",
+        "modeS": "89640A",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 14:55Z",
+          "local": "2026-02-26 18:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:39Z",
+          "local": "2026-02-26 18:39+04:00"
+        },
+        "terminal": "A",
+        "gate": "B24A",
+        "baggageBelt": "01",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 215",
+      "callSign": "ETD215",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIS",
+        "modeS": "89637C",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDF",
+          "iata": "FRA",
+          "name": "Frankfurt-am-Main",
+          "countryCode": "de",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:05Z",
+          "local": "2026-02-26 19:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:40Z",
+          "local": "2026-02-26 18:40+04:00"
+        },
+        "terminal": "A",
+        "gate": "C34",
+        "baggageBelt": "03",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 122",
+      "callSign": "ETD7BR",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLQ",
+        "modeS": "8964C1",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OBBI",
+          "iata": "BAH",
+          "name": "Manama",
+          "countryCode": "bh",
+          "timeZone": "Asia/Bahrain"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:00Z",
+          "local": "2026-02-26 19:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:43Z",
+          "local": "2026-02-26 18:43+04:00"
+        },
+        "terminal": "A",
+        "gate": "C36A",
+        "baggageBelt": "01",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 644",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OKBK",
+          "iata": "KWI",
+          "name": "Kuwait City",
+          "countryCode": "kw",
+          "timeZone": "Asia/Kuwait"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:05Z",
+          "local": "2026-02-26 19:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:44Z",
+          "local": "2026-02-26 18:44+04:00"
+        },
+        "terminal": "A",
+        "gate": "A5A",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 656",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:00Z",
+          "local": "2026-02-26 19:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:45Z",
+          "local": "2026-02-26 18:45+04:00"
+        },
+        "terminal": "A",
+        "gate": "B16",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 616",
+      "callSign": "ETD616",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIA",
+        "modeS": "89658B",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 14:55Z",
+          "local": "2026-02-26 18:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:46Z",
+          "local": "2026-02-26 18:46+04:00"
+        },
+        "terminal": "A",
+        "gate": "B25B",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 632",
+      "callSign": "ETD632",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEC",
+        "modeS": "8963AB",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRF",
+          "iata": "FCO",
+          "name": "Rome",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:20Z",
+          "local": "2026-02-26 19:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:46Z",
+          "local": "2026-02-26 18:46+04:00"
+        },
+        "terminal": "A",
+        "gate": "B22",
+        "baggageBelt": "01",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 86",
+      "callSign": "ETD78G",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLX",
+        "modeS": "896535",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:10Z",
+          "local": "2026-02-26 19:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:48Z",
+          "local": "2026-02-26 18:48+04:00"
+        },
+        "terminal": "A",
+        "gate": "C40A",
+        "baggageBelt": "04",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 237",
+      "callSign": "ETD237",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEN",
+        "modeS": "89669A",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OOMS",
+          "iata": "MCT",
+          "name": "Muscat",
+          "countryCode": "om",
+          "timeZone": "Asia/Muscat"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:00Z",
+          "local": "2026-02-26 19:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:52Z",
+          "local": "2026-02-26 18:52+04:00"
+        },
+        "terminal": "A",
+        "gate": "B26B",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 695",
+      "callSign": "ETD695",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EJA",
+        "modeS": "896429",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:15Z",
+          "local": "2026-02-26 19:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:58Z",
+          "local": "2026-02-26 18:58+04:00"
+        },
+        "terminal": "A",
+        "gate": "D49",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 714",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:10Z",
+          "local": "2026-02-26 19:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 14:59Z",
+          "local": "2026-02-26 18:59+04:00"
+        },
+        "terminal": "A",
+        "gate": "A5B",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 572",
+      "callSign": "ETD572",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIB",
+        "modeS": "8966EB",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KATL",
+          "iata": "ATL",
+          "name": "Atlanta",
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:30Z",
+          "local": "2026-02-26 19:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:02Z",
+          "local": "2026-02-26 19:02+04:00"
+        },
+        "terminal": "A",
+        "gate": "C41",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 14",
+      "callSign": "ETD9SM",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-XWJ",
+        "modeS": "8966D3",
+        "model": "Airbus A350-1000"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGCC",
+          "iata": "MAN",
+          "name": "Manchester",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:25Z",
+          "local": "2026-02-26 19:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:03Z",
+          "local": "2026-02-26 19:03+04:00"
+        },
+        "terminal": "A",
+        "gate": "C38",
+        "baggageBelt": "04",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 78",
+      "callSign": "ETD3RH",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETA",
+        "modeS": "89662B",
+        "model": "Boeing 787"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LOWW",
+          "iata": "VIE",
+          "name": "Vienna",
+          "countryCode": "at",
+          "timeZone": "Europe/Vienna"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:20Z",
+          "local": "2026-02-26 19:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:04Z",
+          "local": "2026-02-26 19:04+04:00"
+        },
+        "terminal": "A",
+        "gate": "C32",
+        "baggageBelt": "03",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 154",
+      "callSign": "ETD1QN",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETE",
+        "modeS": "89664C",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:10Z",
+          "local": "2026-02-26 19:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:04Z",
+          "local": "2026-02-26 19:04+04:00"
+        },
+        "terminal": "A",
+        "gate": "B23A",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 333",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "DTTA",
+          "iata": "TUN",
+          "name": "Tunis",
+          "countryCode": "tn",
+          "timeZone": "Africa/Tunis"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:25Z",
+          "local": "2026-02-26 19:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:05Z",
+          "local": "2026-02-26 19:05+04:00"
+        },
+        "terminal": "A",
+        "gate": "D46A",
+        "baggageBelt": "02",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 740",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OJAI",
+          "iata": "AMM",
+          "name": "Amman",
+          "countryCode": "jo",
+          "timeZone": "Asia/Amman"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:00Z",
+          "local": "2026-02-26 19:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:08Z",
+          "local": "2026-02-26 19:08+04:00"
+        },
+        "terminal": "A",
+        "gate": "D44A",
+        "baggageBelt": "04",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 592",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTSP",
+          "iata": "HKT",
+          "name": "Phuket",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:35Z",
+          "local": "2026-02-26 19:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:11Z",
+          "local": "2026-02-26 19:11+04:00"
+        },
+        "terminal": "A",
+        "gate": "B24B",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 417",
+      "callSign": "ETD417",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-LRH",
+        "modeS": "8966BC",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUEE",
+          "iata": "SVO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:20Z",
+          "local": "2026-02-26 19:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:11Z",
+          "local": "2026-02-26 19:11+04:00"
+        },
+        "terminal": "A",
+        "gate": "D48",
+        "baggageBelt": "04",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 842",
+      "callSign": "ETD842",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BMD",
+        "modeS": "8964FF",
+        "model": "Boeing 787"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LLBG",
+          "iata": "TLV",
+          "name": "Tel Aviv Yafo",
+          "countryCode": "il",
+          "timeZone": "Asia/Jerusalem"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:10Z",
+          "local": "2026-02-26 19:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:13Z",
+          "local": "2026-02-26 19:13+04:00"
+        },
+        "terminal": "A",
+        "gate": "B12",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 594",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:35Z",
+          "local": "2026-02-26 19:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:14Z",
+          "local": "2026-02-26 19:14+04:00"
+        },
+        "terminal": "A",
+        "gate": "E9",
+        "baggageBelt": "02",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 391",
+      "callSign": "ETD391",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEB",
+        "modeS": "8963AA",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EBBR",
+          "iata": "BRU",
+          "name": "Brussels",
+          "countryCode": "be",
+          "timeZone": "Europe/Brussels"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:25Z",
+          "local": "2026-02-26 19:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:16Z",
+          "local": "2026-02-26 19:16+04:00"
+        },
+        "terminal": "A",
+        "gate": "B13",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 58",
+      "callSign": "ETD98V",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BMC",
+        "modeS": "8964FE",
+        "model": "Boeing 787"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEBL",
+          "iata": "BCN",
+          "name": "Barcelona",
+          "countryCode": "es",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:15Z",
+          "local": "2026-02-26 19:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:17Z",
+          "local": "2026-02-26 19:17+04:00"
+        },
+        "terminal": "A",
+        "gate": "A3",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 112",
+      "callSign": "ETD35Q",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLJ",
+        "modeS": "89648A",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEMD",
+          "iata": "MAD",
+          "name": "Madrid",
+          "countryCode": "es",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:20Z",
+          "local": "2026-02-26 19:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:18Z",
+          "local": "2026-02-26 19:18+04:00"
+        },
+        "terminal": "A",
+        "gate": "A7",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 102",
+      "callSign": "ETD26W",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLS",
+        "modeS": "8964C3",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:15Z",
+          "local": "2026-02-26 19:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:18Z",
+          "local": "2026-02-26 19:18+04:00"
+        },
+        "terminal": "A",
+        "gate": "C31",
+        "baggageBelt": "03",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 854",
+      "callSign": "ETD854",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BNC",
+        "modeS": "89653A",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDM",
+          "iata": "MUC",
+          "name": "Munich",
+          "countryCode": "de",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:15Z",
+          "local": "2026-02-26 19:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:22Z",
+          "local": "2026-02-26 19:22+04:00"
+        },
+        "terminal": "A",
+        "gate": "A1",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 126",
+      "callSign": "ETD99P",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BNH",
+        "modeS": "8966C3",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HAAB",
+          "iata": "ADD",
+          "name": "Addis Ababa",
+          "countryCode": "et",
+          "timeZone": "Africa/Addis_Ababa"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:25Z",
+          "local": "2026-02-26 19:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:23Z",
+          "local": "2026-02-26 19:23+04:00"
+        },
+        "terminal": "A",
+        "gate": "C40B",
+        "baggageBelt": "02",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 728",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:25Z",
+          "local": "2026-02-26 19:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:24Z",
+          "local": "2026-02-26 19:24+04:00"
+        },
+        "terminal": "A",
+        "gate": "B11",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 542",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EKCH",
+          "iata": "CPH",
+          "name": "Copenhagen",
+          "countryCode": "dk",
+          "timeZone": "Europe/Copenhagen"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:30Z",
+          "local": "2026-02-26 19:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:30Z",
+          "local": "2026-02-26 19:30+04:00"
+        },
+        "terminal": "A",
+        "gate": "D44B",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 178",
+      "callSign": "ETD4EA",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "modeS": "8966A7",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HKJK",
+          "iata": "NBO",
+          "name": "Nairobi",
+          "countryCode": "ke",
+          "timeZone": "Africa/Nairobi"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:45Z",
+          "local": "2026-02-26 19:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:31Z",
+          "local": "2026-02-26 19:31+04:00"
+        },
+        "terminal": "A",
+        "gate": "B23B",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 768",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "GMMN",
+          "iata": "CMN",
+          "name": "Casablanca",
+          "countryCode": "ma",
+          "timeZone": "Africa/Casablanca"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:40Z",
+          "local": "2026-02-26 19:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:34Z",
+          "local": "2026-02-26 19:34+04:00"
+        },
+        "terminal": "A",
+        "gate": "B20",
+        "baggageBelt": "07",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 758",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIMC",
+          "iata": "MXP",
+          "name": "Milan",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:30Z",
+          "local": "2026-02-26 19:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:34Z",
+          "local": "2026-02-26 19:34+04:00"
+        },
+        "terminal": "A",
+        "gate": "A4",
+        "baggageBelt": "01",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 82",
+      "callSign": "ETD36V",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETQ",
+        "modeS": "896354",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFPG",
+          "iata": "CDG",
+          "name": "Paris",
+          "countryCode": "fr",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:35Z",
+          "local": "2026-02-26 19:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:37Z",
+          "local": "2026-02-26 19:37+04:00"
+        },
+        "terminal": "A",
+        "gate": "C29",
+        "baggageBelt": "06",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 32",
+      "callSign": "ETD11K",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-APG",
+        "modeS": "896462",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KJFK",
+          "iata": "JFK",
+          "name": "New York",
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:40Z",
+          "local": "2026-02-26 19:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:38Z",
+          "local": "2026-02-26 19:38+04:00"
+        },
+        "terminal": "A",
+        "gate": "C35",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 4",
+      "callSign": "ETD8NY",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BLB",
+        "modeS": "8963CF",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EHAM",
+          "iata": "AMS",
+          "name": "Amsterdam",
+          "countryCode": "nl",
+          "timeZone": "Europe/Amsterdam"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:35Z",
+          "local": "2026-02-26 19:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:41Z",
+          "local": "2026-02-26 19:41+04:00"
+        },
+        "terminal": "A",
+        "gate": "B26A",
+        "baggageBelt": "08",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 44",
+      "callSign": "ETD044",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-LRC",
+        "modeS": "8966A8",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSZH",
+          "iata": "ZRH",
+          "name": "Zurich",
+          "countryCode": "ch",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:40Z",
+          "local": "2026-02-26 19:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:41Z",
+          "local": "2026-02-26 19:41+04:00"
+        },
+        "terminal": "A",
+        "gate": "A6",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 144",
+      "callSign": "ETD9GL",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BMA",
+        "modeS": "8964FC",
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:45Z",
+          "local": "2026-02-26 19:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:44Z",
+          "local": "2026-02-26 19:44+04:00"
+        },
+        "terminal": "A",
+        "gate": "D46B",
+        "baggageBelt": "05",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 556",
+      "callSign": "ETD556",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AEQ",
+        "modeS": "896697",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EIDW",
+          "iata": "DUB",
+          "name": "Dublin",
+          "countryCode": "ie",
+          "timeZone": "Europe/Dublin"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:30Z",
+          "local": "2026-02-26 19:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:47Z",
+          "local": "2026-02-26 19:47+04:00"
+        },
+        "terminal": "A",
+        "gate": "D47",
+        "baggageBelt": "03",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 46",
+      "callSign": "ETD3XA",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ETG",
+        "modeS": "8962E5",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:45Z",
+          "local": "2026-02-26 19:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:49Z",
+          "local": "2026-02-26 19:49+04:00"
+        },
+        "terminal": "A",
+        "gate": "D43",
+        "baggageBelt": "09",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 62",
+      "callSign": "ETD81C",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-APH",
+        "modeS": "896463",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:45Z",
+          "local": "2026-02-26 19:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:50Z",
+          "local": "2026-02-26 19:50+04:00"
+        },
+        "terminal": "A",
+        "gate": "B25A",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 668",
+      "callSign": "ETD19D",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EIM",
+        "modeS": "89625B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LPPT",
+          "iata": "LIS",
+          "name": "Lisbon",
+          "countryCode": "pt",
+          "timeZone": "Europe/Lisbon"
+        },
+        "scheduledTime": {
+          "utc": "2026-02-26 15:45Z",
+          "local": "2026-02-26 19:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-02-26 15:58Z",
+          "local": "2026-02-26 19:58+04:00"
+        },
+        "terminal": "A",
+        "gate": "C37",
+        "baggageBelt": "04",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 100",
+      "callSign": "ETD87A",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "9H-HFK",
+        "modeS": "4D250A",
+        "model": "Airbus A330-200"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    }
+  ]
+}

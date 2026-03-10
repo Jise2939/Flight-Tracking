@@ -1,0 +1,8215 @@
+{
+  "departures": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 07:30Z",
+          "local": "2026-03-06 11:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:15Z",
+          "local": "2026-03-06 12:15+04:00"
+        },
+        "gate": "F4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 8091",
+      "callSign": "FDB8091",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKE",
+        "modeS": "8965D0",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ZBAA",
+          "iata": "PEK",
+          "name": "Beijing",
+          "countryCode": "cn",
+          "timeZone": "Asia/Shanghai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:00Z",
+          "local": "2026-03-06 12:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:28Z",
+          "local": "2026-03-06 12:28+04:00"
+        },
+        "gate": "D17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "CA 942",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A350-900"
+      },
+      "airline": {
+        "name": "Air China",
+        "iata": "CA",
+        "icao": "CCA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPST",
+          "iata": "SKT",
+          "name": "Sialkot",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:30Z",
+          "local": "2026-03-06 12:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:53Z",
+          "local": "2026-03-06 12:53+04:00"
+        },
+        "terminal": "2",
+        "gate": "F10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 337",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPFA",
+          "iata": "LYP",
+          "name": "Faisalabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:30Z",
+          "local": "2026-03-06 12:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:00Z",
+          "local": "2026-03-06 13:00+04:00"
+        },
+        "terminal": "2",
+        "gate": "F5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 355",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:10Z",
+          "local": "2026-03-06 13:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:10Z",
+          "local": "2026-03-06 13:10+04:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "BA 108",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787"
+      },
+      "airline": {
+        "name": "British",
+        "iata": "BA",
+        "icao": "BAW"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:10Z",
+          "local": "2026-03-06 13:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:10Z",
+          "local": "2026-03-06 13:10+04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 918",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ZJHK",
+          "iata": "HAK",
+          "name": "Haikou",
+          "countryCode": "cn",
+          "timeZone": "Asia/Shanghai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:00Z",
+          "local": "2026-03-06 13:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:28Z",
+          "local": "2026-03-06 13:28+04:00"
+        },
+        "terminal": "1",
+        "gate": "D15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "HU 736",
+      "callSign": "CHH736",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "B-1048",
+        "modeS": "781318",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Hainan",
+        "iata": "HU",
+        "icao": "CHH"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:15Z",
+          "local": "2026-03-06 13:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:33Z",
+          "local": "2026-03-06 13:33+04:00"
+        },
+        "gate": "F9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 8283",
+      "callSign": "FDB8283",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKM",
+        "modeS": "896603",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:10Z",
+          "local": "2026-03-06 13:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:35Z",
+          "local": "2026-03-06 13:35+04:00"
+        },
+        "gate": "D5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 4206",
+      "callSign": "AIC4206",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-EXI",
+        "modeS": "800C08",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UTTT",
+          "iata": "TAS",
+          "name": "Tashkent",
+          "countryCode": "uz",
+          "timeZone": "Asia/Tashkent"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:30Z",
+          "local": "2026-03-06 12:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:39Z",
+          "local": "2026-03-06 13:39+04:00"
+        },
+        "terminal": "1",
+        "gate": "D16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "HY 334",
+      "callSign": "UZB334",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "UK78704",
+        "modeS": "507C54",
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Uzbekistan",
+        "iata": "HY",
+        "icao": "UZB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UAAA",
+          "iata": "ALA",
+          "name": "Almaty",
+          "countryCode": "kz",
+          "timeZone": "Asia/Almaty"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:50Z",
+          "local": "2026-03-06 12:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:45Z",
+          "local": "2026-03-06 13:45+04:00"
+        },
+        "gate": "F12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1611",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:30Z",
+          "local": "2026-03-06 13:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:58Z",
+          "local": "2026-03-06 13:58+04:00"
+        },
+        "gate": "F7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 8753",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OLBA",
+          "iata": "BEY",
+          "name": "Beirut",
+          "countryCode": "lb",
+          "timeZone": "Asia/Beirut"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:30Z",
+          "local": "2026-03-06 13:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:59Z",
+          "local": "2026-03-06 13:59+04:00"
+        },
+        "gate": "D13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "ME 1429",
+      "callSign": "MEA1429",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OD-MEC",
+        "modeS": "748021",
+        "model": "Airbus A330-200"
+      },
+      "airline": {
+        "name": "Middle East",
+        "iata": "ME",
+        "icao": "MEA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:35Z",
+          "local": "2026-03-06 13:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:02Z",
+          "local": "2026-03-06 14:02+04:00"
+        },
+        "terminal": "3",
+        "gate": "A15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 566",
+      "callSign": "UAE566",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ECR",
+        "modeS": "896119",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UGTB",
+          "iata": "TBS",
+          "name": "Tbilisi",
+          "countryCode": "ge",
+          "timeZone": "Asia/Tbilisi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:25Z",
+          "local": "2026-03-06 12:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:07Z",
+          "local": "2026-03-06 14:07+04:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 711",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EIDW",
+          "iata": "DUB",
+          "name": "Dublin",
+          "countryCode": "ie",
+          "timeZone": "Europe/Dublin"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:45Z",
+          "local": "2026-03-06 13:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:13Z",
+          "local": "2026-03-06 14:13+04:00"
+        },
+        "gate": "C10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 163",
+      "callSign": "UAE163",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ENX",
+        "modeS": "89631A",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:15Z",
+          "local": "2026-03-06 13:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:16Z",
+          "local": "2026-03-06 14:16+04:00"
+        },
+        "terminal": "3",
+        "gate": "A13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 502",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A350-900"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UMMS",
+          "iata": "MSQ",
+          "name": "Minsk",
+          "countryCode": "by",
+          "timeZone": "Europe/Minsk"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:50Z",
+          "local": "2026-03-06 13:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:19Z",
+          "local": "2026-03-06 14:19+04:00"
+        },
+        "gate": "D1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "B2 718",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Belavia",
+        "iata": "B2",
+        "icao": "BRU"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUDD",
+          "iata": "DME",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:50Z",
+          "local": "2026-03-06 13:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:22Z",
+          "local": "2026-03-06 14:22+04:00"
+        },
+        "gate": "A17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 131",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VGHS",
+          "iata": "DAC",
+          "name": "Dhaka",
+          "countryCode": "bd",
+          "timeZone": "Asia/Dhaka"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:55Z",
+          "local": "2026-03-06 13:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:25Z",
+          "local": "2026-03-06 14:25+04:00"
+        },
+        "terminal": "2",
+        "gate": "F5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 523",
+      "callSign": "FDB523",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKP",
+        "modeS": "896606",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:30Z",
+          "local": "2026-03-06 13:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:27Z",
+          "local": "2026-03-06 14:27+04:00"
+        },
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 8197",
+      "callSign": "FDB8197",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKG",
+        "modeS": "8965D2",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LPPT",
+          "iata": "LIS",
+          "name": "Lisbon",
+          "countryCode": "pt",
+          "timeZone": "Europe/Lisbon"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:00Z",
+          "local": "2026-03-06 14:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:29Z",
+          "local": "2026-03-06 14:29+04:00"
+        },
+        "terminal": "3",
+        "gate": "C18",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 193",
+      "callSign": "UAE5M",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EPB",
+        "modeS": "8963D1",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:00Z",
+          "local": "2026-03-06 14:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:32Z",
+          "local": "2026-03-06 14:32+04:00"
+        },
+        "gate": "A4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 3",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGCC",
+          "iata": "MAN",
+          "name": "Manchester",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:35Z",
+          "local": "2026-03-06 13:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:36Z",
+          "local": "2026-03-06 14:36+04:00"
+        },
+        "gate": "A1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 19",
+      "callSign": "UAE19",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EOX",
+        "modeS": "8963F5",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:30Z",
+          "local": "2026-03-06 13:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:40Z",
+          "local": "2026-03-06 14:40+04:00"
+        },
+        "terminal": "2",
+        "gate": "F11",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 727",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:15Z",
+          "local": "2026-03-06 14:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:43Z",
+          "local": "2026-03-06 14:43+04:00"
+        },
+        "gate": "D12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "PK 234",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Pakistan International",
+        "iata": "PK",
+        "icao": "PIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VYYY",
+          "iata": "RGN",
+          "name": "Yangon",
+          "countryCode": "mm",
+          "timeZone": "Asia/Yangon"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:00Z",
+          "local": "2026-03-06 14:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:48Z",
+          "local": "2026-03-06 14:48+04:00"
+        },
+        "gate": "F2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "8M 101",
+      "callSign": "MMA101",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "XY-AGR",
+        "modeS": "704946",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "Myanmar  International",
+        "iata": "8M",
+        "icao": "MMA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFPG",
+          "iata": "CDG",
+          "name": "Paris",
+          "countryCode": "fr",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:05Z",
+          "local": "2026-03-06 14:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:58Z",
+          "local": "2026-03-06 14:58+04:00"
+        },
+        "terminal": "3",
+        "gate": "A8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 75",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:20Z",
+          "local": "2026-03-06 14:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:01Z",
+          "local": "2026-03-06 15:01+04:00"
+        },
+        "terminal": "3",
+        "gate": "A3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 809",
+      "callSign": "UAE809",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ECS",
+        "modeS": "89611A",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUEE",
+          "iata": "SVO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:10Z",
+          "local": "2026-03-06 13:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:04Z",
+          "local": "2026-03-06 15:04+04:00"
+        },
+        "gate": "D19",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SU 525D",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Aeroflot",
+        "iata": "SU",
+        "icao": "AFL"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGPH",
+          "iata": "EDI",
+          "name": "Edinburgh",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:20Z",
+          "local": "2026-03-06 14:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:11Z",
+          "local": "2026-03-06 15:11+04:00"
+        },
+        "terminal": "3",
+        "gate": "A12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 23",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A350-900"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:10Z",
+          "local": "2026-03-06 14:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:17Z",
+          "local": "2026-03-06 15:17+04:00"
+        },
+        "gate": "C20",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 175",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ECV",
+        "modeS": "89611D",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRF",
+          "iata": "FCO",
+          "name": "Rome",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:00Z",
+          "local": "2026-03-06 14:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:22Z",
+          "local": "2026-03-06 15:22+04:00"
+        },
+        "gate": "C14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 95",
+      "callSign": "UAE95",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EGY",
+        "modeS": "89621A",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "FAOR",
+          "iata": "JNB",
+          "name": "Jo'anna",
+          "countryCode": "za",
+          "timeZone": "Africa/Johannesburg"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:25Z",
+          "local": "2026-03-06 14:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:27Z",
+          "local": "2026-03-06 15:27+04:00"
+        },
+        "terminal": "3",
+        "gate": "C3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 765",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDF",
+          "iata": "FRA",
+          "name": "Frankfurt-am-Main",
+          "countryCode": "de",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:30Z",
+          "local": "2026-03-06 14:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:32Z",
+          "local": "2026-03-06 15:32+04:00"
+        },
+        "gate": "A9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 47",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EDV",
+        "modeS": "8960F7",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDM",
+          "iata": "MUC",
+          "name": "Munich",
+          "countryCode": "de",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:45Z",
+          "local": "2026-03-06 14:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:38Z",
+          "local": "2026-03-06 15:38+04:00"
+        },
+        "gate": "C13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 51",
+      "callSign": "UAE1DM",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EUQ",
+        "modeS": "89647B",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:45Z",
+          "local": "2026-03-06 14:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:43Z",
+          "local": "2026-03-06 15:43+04:00"
+        },
+        "terminal": "3",
+        "gate": "C9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 528",
+      "callSign": "UAE528",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EGW",
+        "modeS": "896218",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LCLK",
+          "iata": "LCA",
+          "name": "Larnarca",
+          "countryCode": "cy",
+          "timeZone": "Asia/Nicosia"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:00Z",
+          "local": "2026-03-06 15:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:48Z",
+          "local": "2026-03-06 15:48+04:00"
+        },
+        "gate": "D8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "CY 1109",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Cyprus",
+        "iata": "CY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:50Z",
+          "local": "2026-03-06 14:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:53Z",
+          "local": "2026-03-06 15:53+04:00"
+        },
+        "terminal": "2",
+        "gate": "F9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 829",
+      "callSign": "FDB829",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FEC",
+        "modeS": "896334",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSZH",
+          "iata": "ZRH",
+          "name": "Zurich",
+          "countryCode": "ch",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:05Z",
+          "local": "2026-03-06 15:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:56Z",
+          "local": "2026-03-06 15:56+04:00"
+        },
+        "terminal": "3",
+        "gate": "C19",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 85",
+      "callSign": "UAE2MJ",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EUG",
+        "modeS": "896471",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:10Z",
+          "local": "2026-03-06 15:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:01Z",
+          "local": "2026-03-06 16:01+04:00"
+        },
+        "terminal": "3",
+        "gate": "A5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 514",
+      "callSign": "UAE514",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ECO",
+        "modeS": "896116",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:35Z",
+          "local": "2026-03-06 15:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:05Z",
+          "local": "2026-03-06 16:05+04:00"
+        },
+        "gate": "A2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 5",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:00Z",
+          "local": "2026-03-06 15:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:08Z",
+          "local": "2026-03-06 16:08+04:00"
+        },
+        "terminal": "3",
+        "gate": "C17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 923",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUEE",
+          "iata": "SVO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:00Z",
+          "local": "2026-03-06 15:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:11Z",
+          "local": "2026-03-06 16:11+04:00"
+        },
+        "gate": "D2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SU 527D",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Aeroflot",
+        "iata": "SU",
+        "icao": "AFL"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EYVI",
+          "iata": "VNO",
+          "name": "Vilnius",
+          "countryCode": "lt",
+          "timeZone": "Europe/Vilnius"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:00Z",
+          "local": "2026-03-06 15:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:17Z",
+          "local": "2026-03-06 16:17+04:00"
+        },
+        "gate": "F6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1055",
+      "callSign": "FDB1055",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKQ",
+        "modeS": "896607",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:45Z",
+          "local": "2026-03-06 15:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:20Z",
+          "local": "2026-03-06 16:20+04:00"
+        },
+        "terminal": "3",
+        "gate": "A10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 803",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EDZ",
+        "modeS": "8960FB",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPWA",
+          "iata": "WAW",
+          "name": "Warsaw",
+          "countryCode": "pl",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:35Z",
+          "local": "2026-03-06 15:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:27Z",
+          "local": "2026-03-06 16:27+04:00"
+        },
+        "terminal": "3",
+        "gate": "C15a",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1839",
+      "callSign": "FDB1839",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FMQ",
+        "modeS": "89656B",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGKK",
+          "iata": "LGW",
+          "name": "London",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 12:15Z",
+          "local": "2026-03-06 16:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:32Z",
+          "local": "2026-03-06 16:32+04:00"
+        },
+        "gate": "A15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 69",
+      "callSign": "UAE69",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EXO",
+        "modeS": "89667D",
+        "model": "Airbus A350-900"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 12:15Z",
+          "local": "2026-03-06 16:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:39Z",
+          "local": "2026-03-06 16:39+04:00"
+        },
+        "terminal": "1",
+        "gate": "D5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XY 206",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 12:30Z",
+          "local": "2026-03-06 16:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:43Z",
+          "local": "2026-03-06 16:43+04:00"
+        },
+        "gate": "D1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "8D 822",
+      "callSign": "EXV822",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "4R-EXQ",
+        "modeS": "77170E",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "FitsAir",
+        "iata": "8D",
+        "icao": "EXV"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HAAB",
+          "iata": "ADD",
+          "name": "Addis Ababa",
+          "countryCode": "et",
+          "timeZone": "Africa/Addis_Ababa"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 12:00Z",
+          "local": "2026-03-06 16:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 12:48Z",
+          "local": "2026-03-06 16:48+04:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 647",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 12:30Z",
+          "local": "2026-03-06 16:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:14Z",
+          "local": "2026-03-06 17:14+04:00"
+        },
+        "gate": "D13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "MS 1913",
+      "callSign": "MSR1913",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SU-GDT",
+        "modeS": "01015C",
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EVRA",
+          "iata": "RIX",
+          "name": "Riga",
+          "countryCode": "lv",
+          "timeZone": "Europe/Riga"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 12:55Z",
+          "local": "2026-03-06 16:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:28Z",
+          "local": "2026-03-06 17:28+04:00"
+        },
+        "terminal": "3",
+        "gate": "C15a",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1441",
+      "callSign": "FDB1441",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FML",
+        "modeS": "896533",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LKPR",
+          "iata": "PRG",
+          "name": "Prague",
+          "countryCode": "cz",
+          "timeZone": "Europe/Prague"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:10Z",
+          "local": "2026-03-06 17:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:32Z",
+          "local": "2026-03-06 17:32+04:00"
+        },
+        "terminal": "3",
+        "gate": "C12a",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1781",
+      "callSign": "FDB1781",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FMV",
+        "modeS": "8965B2",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VNKT",
+          "iata": "KTM",
+          "name": "Kathmandu",
+          "countryCode": "np",
+          "timeZone": "Asia/Kathmandu"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:45Z",
+          "local": "2026-03-06 17:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:57Z",
+          "local": "2026-03-06 17:57+04:00"
+        },
+        "terminal": "2",
+        "gate": "F6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 573",
+      "callSign": "FDB573",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FQL",
+        "modeS": "89666D",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIME",
+          "iata": "BGY",
+          "name": "Bergamo",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:00Z",
+          "local": "2026-03-06 18:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:00Z",
+          "local": "2026-03-06 18:00+04:00"
+        },
+        "terminal": "3",
+        "gate": "C15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1571",
+      "status": "Boarding",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "RPLL",
+          "iata": "MNL",
+          "name": "Manila",
+          "countryCode": "ph",
+          "timeZone": "Asia/Manila"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:55Z",
+          "local": "2026-03-06 17:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:23Z",
+          "local": "2026-03-06 18:23+04:00"
+        },
+        "terminal": "3",
+        "gate": "A1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 336",
+      "callSign": "UAE336",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ECY",
+        "modeS": "896120",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPKC",
+          "iata": "KHI",
+          "name": "Karachi",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:10Z",
+          "local": "2026-03-06 18:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:48Z",
+          "local": "2026-03-06 18:48+04:00"
+        },
+        "terminal": "3",
+        "gate": "A4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 602",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIME",
+          "iata": "BGY",
+          "name": "Bergamo",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:45Z",
+          "local": "2026-03-06 18:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:53Z",
+          "local": "2026-03-06 18:53+04:00"
+        },
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1135",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LYBE",
+          "iata": "BEG",
+          "name": "Belgrade",
+          "countryCode": "rs",
+          "timeZone": "Europe/Belgrade"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:15Z",
+          "local": "2026-03-06 18:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:58Z",
+          "local": "2026-03-06 18:58+04:00"
+        },
+        "terminal": "3",
+        "gate": "C15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1749",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:35Z",
+          "local": "2026-03-06 18:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:04Z",
+          "local": "2026-03-06 19:04+04:00"
+        },
+        "terminal": "2",
+        "gate": "F10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 951",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:10Z",
+          "local": "2026-03-06 19:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:10Z",
+          "local": "2026-03-06 19:10+04:00"
+        },
+        "gate": "D2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "UL 232",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "SriLankan",
+        "iata": "UL",
+        "icao": "ALK"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:45Z",
+          "local": "2026-03-06 18:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:13Z",
+          "local": "2026-03-06 19:13+04:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 569",
+      "callSign": "FDB569",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FQJ",
+        "modeS": "896663",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LUKK",
+          "iata": "RMO",
+          "name": "Chişinău",
+          "countryCode": "md",
+          "timeZone": "Europe/Chisinau"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:20Z",
+          "local": "2026-03-06 18:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:15Z",
+          "local": "2026-03-06 19:15+04:00"
+        },
+        "gate": "D8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "5F 5154",
+      "callSign": "FIA5154",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "ER-00009",
+        "modeS": "504E77",
+        "model": "Airbus A321 (Sharklets)"
+      },
+      "airline": {
+        "name": "FlyOne",
+        "iata": "5F",
+        "icao": "FIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:45Z",
+          "local": "2026-03-06 18:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:19Z",
+          "local": "2026-03-06 19:19+04:00"
+        },
+        "terminal": "2",
+        "gate": "F11",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 461",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LKPR",
+          "iata": "PRG",
+          "name": "Prague",
+          "countryCode": "cz",
+          "timeZone": "Europe/Prague"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:55Z",
+          "local": "2026-03-06 18:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:23Z",
+          "local": "2026-03-06 19:23+04:00"
+        },
+        "gate": "D1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QS 1201",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "SmartWings",
+        "iata": "QS",
+        "icao": "TVS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UBBB",
+          "iata": "GYD",
+          "name": "Baku",
+          "countryCode": "az",
+          "timeZone": "Asia/Baku"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:15Z",
+          "local": "2026-03-06 18:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:29Z",
+          "local": "2026-03-06 19:29+04:00"
+        },
+        "terminal": "2",
+        "gate": "F4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 733",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LYBE",
+          "iata": "BEG",
+          "name": "Belgrade",
+          "countryCode": "rs",
+          "timeZone": "Europe/Belgrade"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:00Z",
+          "local": "2026-03-06 18:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:31Z",
+          "local": "2026-03-06 19:31+04:00"
+        },
+        "gate": "D15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "JU 9071",
+      "callSign": "ASL9071",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "YU-ARC",
+        "modeS": "4C0222",
+        "model": "Airbus A330-200"
+      },
+      "airline": {
+        "name": "Air Serbia",
+        "iata": "JU",
+        "icao": "ASL"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:10Z",
+          "local": "2026-03-06 19:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:37Z",
+          "local": "2026-03-06 19:37+04:00"
+        },
+        "gate": "D13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1454",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:10Z",
+          "local": "2026-03-06 19:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:40Z",
+          "local": "2026-03-06 19:40+04:00"
+        },
+        "terminal": "1",
+        "gate": "D7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1464",
+      "callSign": "IGO1464",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-NCR",
+        "modeS": "8017A0",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HEBA",
+          "iata": "HBE",
+          "name": "Alexandria",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:15Z",
+          "local": "2026-03-06 19:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:43Z",
+          "local": "2026-03-06 19:43+04:00"
+        },
+        "terminal": "2",
+        "gate": "F9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 175",
+      "callSign": "FDB175",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FEE",
+        "modeS": "896376",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:15Z",
+          "local": "2026-03-06 19:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:44Z",
+          "local": "2026-03-06 19:44+04:00"
+        },
+        "gate": "D12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 4202",
+      "callSign": "AIC4202",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-TQI",
+        "modeS": "8014DA",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:10Z",
+          "local": "2026-03-06 19:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:47Z",
+          "local": "2026-03-06 19:47+04:00"
+        },
+        "terminal": "2",
+        "gate": "F5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 987",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HHAS",
+          "iata": "ASM",
+          "name": "Asmara",
+          "countryCode": "er",
+          "timeZone": "Africa/Asmara"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:30Z",
+          "local": "2026-03-06 19:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:48Z",
+          "local": "2026-03-06 19:48+04:00"
+        },
+        "terminal": "2",
+        "gate": "F7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 645",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "USSS",
+          "iata": "SVX",
+          "name": "Ekaterinburg",
+          "countryCode": "ru",
+          "timeZone": "Asia/Yekaterinburg"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:25Z",
+          "local": "2026-03-06 19:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:53Z",
+          "local": "2026-03-06 19:53+04:00"
+        },
+        "terminal": "2",
+        "gate": "F6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 979",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OJAI",
+          "iata": "AMM",
+          "name": "Amman",
+          "countryCode": "jo",
+          "timeZone": "Asia/Amman"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:30Z",
+          "local": "2026-03-06 19:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:58Z",
+          "local": "2026-03-06 19:58+04:00"
+        },
+        "terminal": "2",
+        "gate": "F10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 143",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:55Z",
+          "local": "2026-03-06 19:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:17Z",
+          "local": "2026-03-06 20:17+04:00"
+        },
+        "terminal": "2",
+        "gate": "F3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 453",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPKC",
+          "iata": "KHI",
+          "name": "Karachi",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:45Z",
+          "local": "2026-03-06 19:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:23Z",
+          "local": "2026-03-06 20:23+04:00"
+        },
+        "terminal": "2",
+        "gate": "F12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 329",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:05Z",
+          "local": "2026-03-06 20:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:33Z",
+          "local": "2026-03-06 20:33+04:00"
+        },
+        "gate": "D5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XY 508",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS93",
+        "modeS": "7114D5",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LHBP",
+          "iata": "BUD",
+          "name": "Budapest",
+          "countryCode": "hu",
+          "timeZone": "Europe/Budapest"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:45Z",
+          "local": "2026-03-06 17:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:37Z",
+          "local": "2026-03-06 20:37+04:00"
+        },
+        "terminal": "3",
+        "gate": "C15a",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1405",
+      "callSign": "FDB1405",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKB",
+        "modeS": "8965CD",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UNNT",
+          "iata": "OVB",
+          "name": "Novosibirsk",
+          "countryCode": "ru",
+          "timeZone": "Asia/Novosibirsk"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:10Z",
+          "local": "2026-03-06 20:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:39Z",
+          "local": "2026-03-06 20:39+04:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 963",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LKPR",
+          "iata": "PRG",
+          "name": "Prague",
+          "countryCode": "cz",
+          "timeZone": "Europe/Prague"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 12:55Z",
+          "local": "2026-03-06 16:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:41Z",
+          "local": "2026-03-06 20:41+04:00"
+        },
+        "gate": "D2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QS 1203",
+      "callSign": "TVS1203",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OK-TSU",
+        "modeS": "49D328",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "SmartWings",
+        "iata": "QS",
+        "icao": "TVS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:30Z",
+          "local": "2026-03-06 20:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:58Z",
+          "local": "2026-03-06 20:58+04:00"
+        },
+        "terminal": "2",
+        "gate": "F7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 965",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LJLJ",
+          "iata": "LJU",
+          "name": "Ljubljana",
+          "countryCode": "si",
+          "timeZone": "Europe/Ljubljana"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:20Z",
+          "local": "2026-03-06 20:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:08Z",
+          "local": "2026-03-06 21:08+04:00"
+        },
+        "gate": "F12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1423",
+      "callSign": "FDB1423",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FPC",
+        "modeS": "8965C2",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:40Z",
+          "local": "2026-03-06 20:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:09Z",
+          "local": "2026-03-06 21:09+04:00"
+        },
+        "terminal": "2",
+        "gate": "F11",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 435",
+      "callSign": "FDB435",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKE",
+        "modeS": "8965D0",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:45Z",
+          "local": "2026-03-06 20:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:15Z",
+          "local": "2026-03-06 21:15+04:00"
+        },
+        "terminal": "2",
+        "gate": "F9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 755",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UWKD",
+          "iata": "KZN",
+          "name": "Kazan",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:50Z",
+          "local": "2026-03-06 20:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:18Z",
+          "local": "2026-03-06 21:18+04:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 973",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FMY",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:00Z",
+          "local": "2026-03-06 21:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:28Z",
+          "local": "2026-03-06 21:28+04:00"
+        },
+        "terminal": "3",
+        "gate": "A12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 542",
+      "callSign": "UAE542",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-END",
+        "modeS": "896306",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "WSSS",
+          "iata": "SIN",
+          "name": "Singapore",
+          "countryCode": "sg",
+          "timeZone": "Asia/Singapore"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:00Z",
+          "local": "2026-03-06 21:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:30Z",
+          "local": "2026-03-06 21:30+04:00"
+        },
+        "terminal": "3",
+        "gate": "A10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 314",
+      "callSign": "UAE314",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EEJ",
+        "modeS": "896189",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LDZA",
+          "iata": "ZAG",
+          "name": "Zagreb",
+          "countryCode": "hr",
+          "timeZone": "Europe/Zagreb"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:00Z",
+          "local": "2026-03-06 21:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:41Z",
+          "local": "2026-03-06 21:41+04:00"
+        },
+        "gate": "F5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1601",
+      "callSign": "FDB1601",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-MAX",
+        "modeS": "8964CF",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LHBP",
+          "iata": "BUD",
+          "name": "Budapest",
+          "countryCode": "hu",
+          "timeZone": "Europe/Budapest"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:20Z",
+          "local": "2026-03-06 21:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:47Z",
+          "local": "2026-03-06 21:47+04:00"
+        },
+        "gate": "F12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1439",
+      "callSign": "FDB1439",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FMZ",
+        "modeS": "8965B6",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPLA",
+          "iata": "LHE",
+          "name": "Lahore",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:50Z",
+          "local": "2026-03-06 21:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:50Z",
+          "local": "2026-03-06 21:50+04:00"
+        },
+        "gate": "A1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 622",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EVRA",
+          "iata": "RIX",
+          "name": "Riga",
+          "countryCode": "lv",
+          "timeZone": "Europe/Riga"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:10Z",
+          "local": "2026-03-06 21:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:52Z",
+          "local": "2026-03-06 21:52+04:00"
+        },
+        "gate": "F7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1029",
+      "callSign": "FDB1029",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FMB",
+        "modeS": "8964D1",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:25Z",
+          "local": "2026-03-06 21:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:54Z",
+          "local": "2026-03-06 21:54+04:00"
+        },
+        "terminal": "1",
+        "gate": "D12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1456",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:30Z",
+          "local": "2026-03-06 21:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:59Z",
+          "local": "2026-03-06 21:59+04:00"
+        },
+        "terminal": "3",
+        "gate": "A8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 512",
+      "callSign": "UAE512",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ENL",
+        "modeS": "89630E",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOTV",
+          "iata": "TRV",
+          "name": "Trivandrum",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:30Z",
+          "local": "2026-03-06 21:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:02Z",
+          "local": "2026-03-06 22:02+04:00"
+        },
+        "terminal": "3",
+        "gate": "A3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 522",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:30Z",
+          "local": "2026-03-06 21:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:05Z",
+          "local": "2026-03-06 22:05+04:00"
+        },
+        "terminal": "3",
+        "gate": "A14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 524",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UACC",
+          "iata": "NQZ",
+          "name": "Astana",
+          "countryCode": "kz",
+          "timeZone": "Asia/Almaty"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:25Z",
+          "local": "2026-03-06 21:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:08Z",
+          "local": "2026-03-06 22:08+04:00"
+        },
+        "terminal": "3",
+        "gate": "C17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1303",
+      "callSign": "FDB1303",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKC",
+        "modeS": "8965CE",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:35Z",
+          "local": "2026-03-06 21:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:11Z",
+          "local": "2026-03-06 22:11+04:00"
+        },
+        "terminal": "3",
+        "gate": "A2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 568",
+      "callSign": "UAE568",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EUK",
+        "modeS": "896475",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:40Z",
+          "local": "2026-03-06 21:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:14Z",
+          "local": "2026-03-06 22:14+04:00"
+        },
+        "terminal": "3",
+        "gate": "A5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 532",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:40Z",
+          "local": "2026-03-06 21:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:18Z",
+          "local": "2026-03-06 22:18+04:00"
+        },
+        "terminal": "3",
+        "gate": "A11",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 500",
+      "callSign": "UAE500",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EEU",
+        "modeS": "896194",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:05Z",
+          "local": "2026-03-06 22:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:28Z",
+          "local": "2026-03-06 22:28+04:00"
+        },
+        "terminal": "2",
+        "gate": "F6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 975",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UAAA",
+          "iata": "ALA",
+          "name": "Almaty",
+          "countryCode": "kz",
+          "timeZone": "Asia/Almaty"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:40Z",
+          "local": "2026-03-06 21:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:34Z",
+          "local": "2026-03-06 22:34+04:00"
+        },
+        "terminal": "3",
+        "gate": "C15a",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1721",
+      "callSign": "FDB1721",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FMF",
+        "modeS": "896513",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UTTT",
+          "iata": "TAS",
+          "name": "Tashkent",
+          "countryCode": "uz",
+          "timeZone": "Asia/Tashkent"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:10Z",
+          "local": "2026-03-06 22:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:53Z",
+          "local": "2026-03-06 22:53+04:00"
+        },
+        "terminal": "3",
+        "gate": "C12a",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1941",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UTDD",
+          "iata": "DYU",
+          "name": "Dushanbe",
+          "countryCode": "tj",
+          "timeZone": "Asia/Dushanbe"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 19:00Z",
+          "local": "2026-03-06 23:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:55Z",
+          "local": "2026-03-06 22:55+04:00"
+        },
+        "gate": "F5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 777",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 19:10Z",
+          "local": "2026-03-06 23:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:15Z",
+          "local": "2026-03-06 23:15+04:00"
+        },
+        "terminal": "2",
+        "gate": "F9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 967",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAAH",
+          "iata": "AMD",
+          "name": "Ahmedabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:50Z",
+          "local": "2026-03-06 22:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:27Z",
+          "local": "2026-03-06 23:27+04:00"
+        },
+        "terminal": "3",
+        "gate": "A15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 538",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A350-900"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "URSS",
+          "iata": "AER",
+          "name": "Sochi",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:55Z",
+          "local": "2026-03-06 22:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:30Z",
+          "local": "2026-03-06 23:30+04:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 971",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UWWW",
+          "iata": "KUF",
+          "name": "Samara",
+          "countryCode": "ru",
+          "timeZone": "Europe/Samara"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 19:00Z",
+          "local": "2026-03-06 23:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:34Z",
+          "local": "2026-03-06 23:34+04:00"
+        },
+        "terminal": "2",
+        "gate": "F12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 995",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UAAA",
+          "iata": "ALA",
+          "name": "Almaty",
+          "countryCode": "kz",
+          "timeZone": "Asia/Almaty"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:55Z",
+          "local": "2026-03-06 22:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:38Z",
+          "local": "2026-03-06 23:38+04:00"
+        },
+        "terminal": "3",
+        "gate": "C12a",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1853",
+      "callSign": "FDB1853",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FMK",
+        "modeS": "896531",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UCFM",
+          "iata": "BSZ",
+          "name": "Bishkek",
+          "countryCode": "kg",
+          "timeZone": "Asia/Bishkek"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:45Z",
+          "local": "2026-03-06 22:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:40Z",
+          "local": "2026-03-06 23:40+04:00"
+        },
+        "terminal": "3",
+        "gate": "C15a",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1689",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "URMM",
+          "iata": "MRV",
+          "name": "Mineralnyye Vody",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 19:10Z",
+          "local": "2026-03-06 23:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:43Z",
+          "local": "2026-03-06 23:43+04:00"
+        },
+        "terminal": "2",
+        "gate": "F5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 977",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OJAI",
+          "iata": "AMM",
+          "name": "Amman",
+          "countryCode": "jo",
+          "timeZone": "Asia/Amman"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:45Z",
+          "local": "2026-03-06 22:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:45Z",
+          "local": "2026-03-06 23:45+04:00"
+        },
+        "terminal": "1",
+        "gate": "D13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "RJ 615",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Royal Jordanian",
+        "iata": "RJ",
+        "icao": "RJA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HESX",
+          "iata": "SPX",
+          "name": "Giza",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:25Z",
+          "local": "2026-03-06 21:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:52Z",
+          "local": "2026-03-06 23:52+04:00"
+        },
+        "terminal": "2",
+        "gate": "F10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 191",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "USSS",
+          "iata": "SVX",
+          "name": "Ekaterinburg",
+          "countryCode": "ru",
+          "timeZone": "Asia/Yekaterinburg"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 19:20Z",
+          "local": "2026-03-06 23:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:53Z",
+          "local": "2026-03-06 23:53+04:00"
+        },
+        "terminal": "2",
+        "gate": "F6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 997",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    }
+  ],
+  "arrivals": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "UNNT",
+          "iata": "OVB",
+          "name": "Novosibirsk",
+          "countryCode": "ru",
+          "timeZone": "Asia/Novosibirsk"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 05:10Z",
+          "local": "2026-03-06 09:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:01Z",
+          "local": "2026-03-06 12:01+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 964",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LDZA",
+          "iata": "ZAG",
+          "name": "Zagreb",
+          "countryCode": "hr",
+          "timeZone": "Europe/Zagreb"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:00Z",
+          "local": "2026-03-06 12:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:07Z",
+          "local": "2026-03-06 12:07+04:00"
+        },
+        "baggageBelt": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1602",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UAAA",
+          "iata": "ALA",
+          "name": "Almaty",
+          "countryCode": "kz",
+          "timeZone": "Asia/Almaty"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 05:10Z",
+          "local": "2026-03-06 09:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:12Z",
+          "local": "2026-03-06 12:12+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1854",
+      "callSign": "FDB1854",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FMQ",
+        "modeS": "89656B",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OAKB",
+          "iata": "KBL",
+          "name": "Kabul",
+          "countryCode": "af",
+          "timeZone": "Asia/Kabul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:25Z",
+          "local": "2026-03-06 12:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:15Z",
+          "local": "2026-03-06 12:15+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 302",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:40Z",
+          "local": "2026-03-06 12:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:17Z",
+          "local": "2026-03-06 12:17+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 545",
+      "callSign": "UAE545",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EGW",
+        "modeS": "896218",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VYYY",
+          "iata": "RGN",
+          "name": "Yangon",
+          "countryCode": "mm",
+          "timeZone": "Asia/Yangon"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:00Z",
+          "local": "2026-03-06 13:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:20Z",
+          "local": "2026-03-06 12:20+04:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "8M 100",
+      "callSign": "MMA100",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "XY-AGR",
+        "modeS": "704946",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "Myanmar  International",
+        "iata": "8M",
+        "icao": "MMA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "CYYZ",
+          "iata": "YYZ",
+          "name": "Toronto",
+          "countryCode": "ca",
+          "timeZone": "America/Toronto"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 07:40Z",
+          "local": "2026-03-06 11:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:22Z",
+          "local": "2026-03-06 12:22+04:00"
+        },
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 242",
+      "callSign": "UAE242",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EDZ",
+        "modeS": "8960FB",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EVRA",
+          "iata": "RIX",
+          "name": "Riga",
+          "countryCode": "lv",
+          "timeZone": "Europe/Riga"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 04:20Z",
+          "local": "2026-03-06 08:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:25Z",
+          "local": "2026-03-06 12:25+04:00"
+        },
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1442",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OLBA",
+          "iata": "BEY",
+          "name": "Beirut",
+          "countryCode": "lb",
+          "timeZone": "Asia/Beirut"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:30Z",
+          "local": "2026-03-06 12:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:27Z",
+          "local": "2026-03-06 12:27+04:00"
+        },
+        "baggageBelt": "7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "ME 1428",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Middle East",
+        "iata": "ME",
+        "icao": "MEA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPQT",
+          "iata": "UET",
+          "name": "Quetta",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:55Z",
+          "local": "2026-03-06 12:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:29Z",
+          "local": "2026-03-06 12:29+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 346",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UMMS",
+          "iata": "MSQ",
+          "name": "Minsk",
+          "countryCode": "by",
+          "timeZone": "Europe/Minsk"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:30Z",
+          "local": "2026-03-06 12:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:32Z",
+          "local": "2026-03-06 12:32+04:00"
+        },
+        "baggageBelt": "8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "B2 717",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Belavia",
+        "iata": "B2",
+        "icao": "BRU"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EYVI",
+          "iata": "VNO",
+          "name": "Vilnius",
+          "countryCode": "lt",
+          "timeZone": "Europe/Vilnius"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:40Z",
+          "local": "2026-03-06 12:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:34Z",
+          "local": "2026-03-06 12:34+04:00"
+        },
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1264",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UBBB",
+          "iata": "GYD",
+          "name": "Baku",
+          "countryCode": "az",
+          "timeZone": "Asia/Baku"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:20Z",
+          "local": "2026-03-06 15:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:35Z",
+          "local": "2026-03-06 12:35+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 710",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HKJK",
+          "iata": "NBO",
+          "name": "Nairobi",
+          "countryCode": "ke",
+          "timeZone": "Africa/Nairobi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:50Z",
+          "local": "2026-03-06 12:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:36Z",
+          "local": "2026-03-06 12:36+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 718",
+      "callSign": "UAE718",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ECS",
+        "modeS": "89611A",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:55Z",
+          "local": "2026-03-06 12:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:38Z",
+          "local": "2026-03-06 12:38+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 651",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UACC",
+          "iata": "NQZ",
+          "name": "Astana",
+          "countryCode": "kz",
+          "timeZone": "Asia/Almaty"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 04:25Z",
+          "local": "2026-03-06 08:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:41Z",
+          "local": "2026-03-06 12:41+04:00"
+        },
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1304A",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "RPLL",
+          "iata": "MNL",
+          "name": "Manila",
+          "countryCode": "ph",
+          "timeZone": "Asia/Manila"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:20Z",
+          "local": "2026-03-06 13:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:45Z",
+          "local": "2026-03-06 12:45+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 337",
+      "callSign": "UAE337",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ENB",
+        "modeS": "896304",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:00Z",
+          "local": "2026-03-06 13:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 08:54Z",
+          "local": "2026-03-06 12:54+04:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "PK 233",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Pakistan International",
+        "iata": "PK",
+        "icao": "PIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 03:15Z",
+          "local": "2026-03-06 07:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:05Z",
+          "local": "2026-03-06 13:05+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 952",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:00Z",
+          "local": "2026-03-06 13:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:07Z",
+          "local": "2026-03-06 13:07+04:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SV 596",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:35Z",
+          "local": "2026-03-06 13:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:20Z",
+          "local": "2026-03-06 13:20+04:00"
+        },
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 442",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 03:55Z",
+          "local": "2026-03-06 07:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:20Z",
+          "local": "2026-03-06 13:20+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 988",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UWKD",
+          "iata": "KZN",
+          "name": "Kazan",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 04:10Z",
+          "local": "2026-03-06 08:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:33Z",
+          "local": "2026-03-06 13:33+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 974",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FPG",
+        "modeS": "896688",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "GMMN",
+          "iata": "CMN",
+          "name": "Casablanca",
+          "countryCode": "ma",
+          "timeZone": "Africa/Casablanca"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:30Z",
+          "local": "2026-03-06 13:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:37Z",
+          "local": "2026-03-06 13:37+04:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AT 246",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Royal Air Maroc",
+        "iata": "AT",
+        "icao": "RAM"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VGHS",
+          "iata": "DAC",
+          "name": "Dhaka",
+          "countryCode": "bd",
+          "timeZone": "Asia/Dhaka"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:20Z",
+          "local": "2026-03-06 13:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:37Z",
+          "local": "2026-03-06 13:37+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 583",
+      "callSign": "UAE583",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ECO",
+        "modeS": "896116",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "USSS",
+          "iata": "SVX",
+          "name": "Ekaterinburg",
+          "countryCode": "ru",
+          "timeZone": "Asia/Yekaterinburg"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 07:00Z",
+          "local": "2026-03-06 11:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 09:55Z",
+          "local": "2026-03-06 13:55+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 998",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LCLK",
+          "iata": "LCA",
+          "name": "Larnarca",
+          "countryCode": "cy",
+          "timeZone": "Asia/Nicosia"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:00Z",
+          "local": "2026-03-06 14:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:00Z",
+          "local": "2026-03-06 14:00+04:00"
+        },
+        "baggageBelt": "7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "CY 1108",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Cyprus",
+        "iata": "CY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UWWW",
+          "iata": "KUF",
+          "name": "Samara",
+          "countryCode": "ru",
+          "timeZone": "Europe/Samara"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 05:55Z",
+          "local": "2026-03-06 09:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:03Z",
+          "local": "2026-03-06 14:03+04:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 996",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VRMM",
+          "iata": "MLE",
+          "name": "Malé",
+          "countryCode": "mv",
+          "timeZone": "Indian/Maldives"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:05Z",
+          "local": "2026-03-06 14:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:08Z",
+          "local": "2026-03-06 14:08+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 659",
+      "callSign": "UAE659",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EPU",
+        "modeS": "89644A",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "YSSY",
+          "iata": "SYD",
+          "name": "Sydney",
+          "countryCode": "au",
+          "timeZone": "Australia/Sydney"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:20Z",
+          "local": "2026-03-06 13:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:25Z",
+          "local": "2026-03-06 14:25+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 415",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPLA",
+          "iata": "LHE",
+          "name": "Lahore",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:40Z",
+          "local": "2026-03-06 14:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:29Z",
+          "local": "2026-03-06 14:29+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 360",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPMT",
+          "iata": "MUX",
+          "name": "Multan",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:55Z",
+          "local": "2026-03-06 14:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:35Z",
+          "local": "2026-03-06 14:35+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 326",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "WSSS",
+          "iata": "SIN",
+          "name": "Singapore",
+          "countryCode": "sg",
+          "timeZone": "Asia/Singapore"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:00Z",
+          "local": "2026-03-06 14:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:39Z",
+          "local": "2026-03-06 14:39+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-03-06 10:40Z",
+          "local": "2026-03-06 14:40+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "4",
+        "runway": "30L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 315",
+      "callSign": "UAE315",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EUA",
+        "modeS": "896456",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HTDA",
+          "iata": "DAR",
+          "name": "Dar es Salaam",
+          "countryCode": "tz",
+          "timeZone": "Africa/Dar_es_Salaam"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 04:50Z",
+          "local": "2026-03-06 08:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:45Z",
+          "local": "2026-03-06 14:45+04:00"
+        },
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 726",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 05:00Z",
+          "local": "2026-03-06 09:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:49Z",
+          "local": "2026-03-06 14:49+04:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 966",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:00Z",
+          "local": "2026-03-06 15:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:52Z",
+          "local": "2026-03-06 14:52+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 806",
+      "callSign": "UAE806",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EDY",
+        "modeS": "8960FA",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:40Z",
+          "local": "2026-03-06 14:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:55Z",
+          "local": "2026-03-06 14:55+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 354",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:30Z",
+          "local": "2026-03-06 15:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 10:59Z",
+          "local": "2026-03-06 14:59+04:00"
+        },
+        "baggageBelt": "5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "8D 821",
+      "callSign": "EXV821",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "4R-EXQ",
+        "modeS": "77170E",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "FitsAir",
+        "iata": "8D",
+        "icao": "EXV"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VILK",
+          "iata": "LKO",
+          "name": "Lucknow",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:55Z",
+          "local": "2026-03-06 14:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:06Z",
+          "local": "2026-03-06 15:06+04:00"
+        },
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 444",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERK",
+          "iata": "RUH",
+          "name": "Riyadh",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:25Z",
+          "local": "2026-03-06 15:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:15Z",
+          "local": "2026-03-06 15:15+04:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XY 205",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPPS",
+          "iata": "PEW",
+          "name": "Peshawar",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:40Z",
+          "local": "2026-03-06 15:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:26Z",
+          "local": "2026-03-06 15:26+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 376",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 11:00Z",
+          "local": "2026-03-06 15:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:30Z",
+          "local": "2026-03-06 15:30+04:00"
+        },
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "MS 1912",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UGTB",
+          "iata": "TBS",
+          "name": "Tbilisi",
+          "countryCode": "ge",
+          "timeZone": "Asia/Tbilisi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-05 16:10Z",
+          "local": "2026-03-05 20:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:34Z",
+          "local": "2026-03-06 15:34+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 712",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UWKD",
+          "iata": "KZN",
+          "name": "Kazan",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 07:40Z",
+          "local": "2026-03-06 11:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:54Z",
+          "local": "2026-03-06 15:54+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 984",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FPF",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KDFW",
+          "iata": "DFW",
+          "name": "Dallas-Fort Worth",
+          "countryCode": "us",
+          "timeZone": "America/Chicago"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 08:50Z",
+          "local": "2026-03-06 12:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 11:54Z",
+          "local": "2026-03-06 15:54+04:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 222",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LKPR",
+          "iata": "PRG",
+          "name": "Prague",
+          "countryCode": "cz",
+          "timeZone": "Europe/Prague"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:30Z",
+          "local": "2026-03-06 17:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:06Z",
+          "local": "2026-03-06 17:06+04:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QS 1200",
+      "callSign": "TVS7K3",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OK-SWE",
+        "modeS": "49D2EE",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "SmartWings",
+        "iata": "QS",
+        "icao": "TVS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:20Z",
+          "local": "2026-03-06 17:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:18Z",
+          "local": "2026-03-06 17:18+04:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1453",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LROP",
+          "iata": "OTP",
+          "name": "Bucharest",
+          "countryCode": "ro",
+          "timeZone": "Europe/Bucharest"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:55Z",
+          "local": "2026-03-06 14:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:21Z",
+          "local": "2026-03-06 17:21+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1710",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 07:55Z",
+          "local": "2026-03-06 11:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:24Z",
+          "local": "2026-03-06 17:24+04:00"
+        },
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 968",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:30Z",
+          "local": "2026-03-06 17:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:26Z",
+          "local": "2026-03-06 17:26+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 507",
+      "callSign": "UAE507",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ECI",
+        "modeS": "896110",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LUKK",
+          "iata": "RMO",
+          "name": "Chişinău",
+          "countryCode": "md",
+          "timeZone": "Europe/Chisinau"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:20Z",
+          "local": "2026-03-06 17:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:35Z",
+          "local": "2026-03-06 17:35+04:00"
+        },
+        "baggageBelt": "7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "5F 5153",
+      "callSign": "FIA5153",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "ER-00009",
+        "modeS": "504E77",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "FlyOne",
+        "iata": "5F",
+        "icao": "FIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LBSF",
+          "iata": "SOF",
+          "name": "Sofia",
+          "countryCode": "bg",
+          "timeZone": "Europe/Sofia"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 05:00Z",
+          "local": "2026-03-06 09:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:46Z",
+          "local": "2026-03-06 17:46+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1770",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:05Z",
+          "local": "2026-03-06 18:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:53Z",
+          "local": "2026-03-06 17:53+04:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1463",
+      "callSign": "IGO1463",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-NCJ",
+        "modeS": "801772",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 06:50Z",
+          "local": "2026-03-06 10:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:56Z",
+          "local": "2026-03-06 17:56+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 976",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HUEN",
+          "iata": "EBB",
+          "name": "Kampala",
+          "countryCode": "ug",
+          "timeZone": "Africa/Kampala"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:45Z",
+          "local": "2026-03-06 17:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 13:58Z",
+          "local": "2026-03-06 17:58+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 620",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VCBI",
+          "iata": "CMB",
+          "name": "Colombo",
+          "countryCode": "lk",
+          "timeZone": "Asia/Colombo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:00Z",
+          "local": "2026-03-06 18:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:00Z",
+          "local": "2026-03-06 18:00+04:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "UL 231",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "SriLankan",
+        "iata": "UL",
+        "icao": "ALK"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:15Z",
+          "local": "2026-03-06 18:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:08Z",
+          "local": "2026-03-06 18:08+04:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 4201",
+      "callSign": "AIC4201",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LYBE",
+          "iata": "BEG",
+          "name": "Belgrade",
+          "countryCode": "rs",
+          "timeZone": "Europe/Belgrade"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 12:55Z",
+          "local": "2026-03-06 16:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:41Z",
+          "local": "2026-03-06 18:41+04:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1518",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:05Z",
+          "local": "2026-03-06 19:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:48Z",
+          "local": "2026-03-06 18:48+04:00"
+        },
+        "baggageBelt": "7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XY 507",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS93",
+        "modeS": "7114D5",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 13:45Z",
+          "local": "2026-03-06 17:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 14:52Z",
+          "local": "2026-03-06 18:52+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 928",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIME",
+          "iata": "BGY",
+          "name": "Bergamo",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 00:20Z",
+          "local": "2026-03-06 04:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:12Z",
+          "local": "2026-03-06 19:12+04:00"
+        },
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1594",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LKPR",
+          "iata": "PRG",
+          "name": "Prague",
+          "countryCode": "cz",
+          "timeZone": "Europe/Prague"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 12:15Z",
+          "local": "2026-03-06 16:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:17Z",
+          "local": "2026-03-06 19:17+04:00"
+        },
+        "baggageBelt": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1774",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 14:35Z",
+          "local": "2026-03-06 18:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:24Z",
+          "local": "2026-03-06 19:24+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 517",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "FLLS",
+          "iata": "LUN",
+          "name": "Lusaka",
+          "countryCode": "zm",
+          "timeZone": "Africa/Lusaka"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 02:25Z",
+          "local": "2026-03-06 06:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:25Z",
+          "local": "2026-03-06 19:25+04:00"
+        },
+        "baggageBelt": "12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 714",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDF",
+          "iata": "FRA",
+          "name": "Frankfurt-am-Main",
+          "countryCode": "de",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:40Z",
+          "local": "2026-03-06 19:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:25Z",
+          "local": "2026-03-06 19:25+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 44",
+      "callSign": "UAE44",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EPP",
+        "modeS": "8963DF",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KORD",
+          "iata": "ORD",
+          "name": "Chicago",
+          "countryCode": "us",
+          "timeZone": "America/Chicago"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:10Z",
+          "local": "2026-03-06 19:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:27Z",
+          "local": "2026-03-06 19:27+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 236",
+      "callSign": "UAE5WR",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EPZ",
+        "modeS": "89644F",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPFA",
+          "iata": "LYP",
+          "name": "Faisalabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:35Z",
+          "local": "2026-03-06 19:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:32Z",
+          "local": "2026-03-06 19:32+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 356",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:05Z",
+          "local": "2026-03-06 19:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:35Z",
+          "local": "2026-03-06 19:35+04:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 8092",
+      "callSign": "FDB8092",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKE",
+        "modeS": "8965D0",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:25Z",
+          "local": "2026-03-06 20:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:38Z",
+          "local": "2026-03-06 19:38+04:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 1455",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OAKB",
+          "iata": "KBL",
+          "name": "Kabul",
+          "countryCode": "af",
+          "timeZone": "Asia/Kabul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:55Z",
+          "local": "2026-03-06 19:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:44Z",
+          "local": "2026-03-06 19:44+04:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "RQ 901",
+      "callSign": "KMF901",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "YA-KMH",
+        "modeS": "700015",
+        "model": "Airbus A340"
+      },
+      "airline": {
+        "name": "Kam Air",
+        "iata": "RQ",
+        "icao": "KMF"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UGTB",
+          "iata": "TBS",
+          "name": "Tbilisi",
+          "countryCode": "ge",
+          "timeZone": "Asia/Tbilisi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:10Z",
+          "local": "2026-03-06 20:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:47Z",
+          "local": "2026-03-06 19:47+04:00"
+        },
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 712",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPST",
+          "iata": "SKT",
+          "name": "Sialkot",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:30Z",
+          "local": "2026-03-06 20:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:47Z",
+          "local": "2026-03-06 19:47+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 338",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIMC",
+          "iata": "MXP",
+          "name": "Milan",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:00Z",
+          "local": "2026-03-06 20:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:49Z",
+          "local": "2026-03-06 19:49+04:00"
+        },
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 102",
+      "callSign": "UAE102",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ENJ",
+        "modeS": "89630C",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OAKB",
+          "iata": "KBL",
+          "name": "Kabul",
+          "countryCode": "af",
+          "timeZone": "Asia/Kabul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:00Z",
+          "local": "2026-03-06 20:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 15:58Z",
+          "local": "2026-03-06 19:58+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FG 401",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "Ariana Afghan",
+        "iata": "FG",
+        "icao": "AFG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VGHS",
+          "iata": "DAC",
+          "name": "Dhaka",
+          "countryCode": "bd",
+          "timeZone": "Asia/Dhaka"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:00Z",
+          "local": "2026-03-06 20:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:07Z",
+          "local": "2026-03-06 20:07+04:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "BS 341",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "US-Bangla",
+        "iata": "BS",
+        "icao": "UBG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UDYZ",
+          "iata": "EVN",
+          "name": "Yerevan",
+          "countryCode": "am",
+          "timeZone": "Asia/Yerevan"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 10:40Z",
+          "local": "2026-03-06 14:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:18Z",
+          "local": "2026-03-06 20:18+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 718",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EHAM",
+          "iata": "AMS",
+          "name": "Amsterdam",
+          "countryCode": "nl",
+          "timeZone": "Europe/Amsterdam"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:55Z",
+          "local": "2026-03-06 20:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:35Z",
+          "local": "2026-03-06 20:35+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 146",
+      "callSign": "UAE2W",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ENE",
+        "modeS": "896307",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIME",
+          "iata": "BGY",
+          "name": "Bergamo",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 00:15Z",
+          "local": "2026-03-06 04:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:42Z",
+          "local": "2026-03-06 20:42+04:00"
+        },
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1572",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGCC",
+          "iata": "MAN",
+          "name": "Manchester",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:40Z",
+          "local": "2026-03-06 20:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 16:55Z",
+          "local": "2026-03-06 20:55+04:00"
+        },
+        "baggageBelt": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 22",
+      "callSign": "UAE6AQ",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EDF",
+        "modeS": "8960E7",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:45Z",
+          "local": "2026-03-06 20:45+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:00Z",
+          "local": "2026-03-06 21:00+04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-03-06 17:00Z",
+          "local": "2026-03-06 21:00+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "2",
+        "runway": "30L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 8",
+      "callSign": "UAE7CN",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EUI",
+        "modeS": "896473",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KSFO",
+          "iata": "SFO",
+          "name": "San Francisco",
+          "countryCode": "us",
+          "timeZone": "America/Los_Angeles"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 15:25Z",
+          "local": "2026-03-06 19:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:04Z",
+          "local": "2026-03-06 21:04+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "4",
+        "runway": "30L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 226",
+      "callSign": "UAE41P",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EUU",
+        "modeS": "89647F",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LQSA",
+          "iata": "SJJ",
+          "name": "Sarajevo",
+          "countryCode": "ba",
+          "timeZone": "Europe/Sarajevo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 02:30Z",
+          "local": "2026-03-06 06:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:21Z",
+          "local": "2026-03-06 21:21+04:00"
+        },
+        "baggageBelt": "5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 8732",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:10Z",
+          "local": "2026-03-06 22:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:38Z",
+          "local": "2026-03-06 21:38+04:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 8754",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:05Z",
+          "local": "2026-03-06 21:05+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:52Z",
+          "local": "2026-03-06 21:52+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 503",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A350-900"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:25Z",
+          "local": "2026-03-06 21:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 17:54Z",
+          "local": "2026-03-06 21:54+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 810",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OJAI",
+          "iata": "AMM",
+          "name": "Amman",
+          "countryCode": "jo",
+          "timeZone": "Asia/Amman"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:35Z",
+          "local": "2026-03-06 21:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:00Z",
+          "local": "2026-03-06 22:00+04:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "RJ 614",
+      "callSign": "RJA614",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "JY-BAC",
+        "modeS": "740823",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Royal Jordanian",
+        "iata": "RJ",
+        "icao": "RJA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 19:00Z",
+          "local": "2026-03-06 23:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:13Z",
+          "local": "2026-03-06 22:13+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 567",
+      "callSign": "UAE31T",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ECR",
+        "modeS": "896119",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VTSP",
+          "iata": "HKT",
+          "name": "Phuket",
+          "countryCode": "th",
+          "timeZone": "Asia/Bangkok"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:40Z",
+          "local": "2026-03-06 22:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:21Z",
+          "local": "2026-03-06 22:21+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 379",
+      "callSign": "UAE379",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EGZ",
+        "modeS": "89621B",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRN",
+          "iata": "NAP",
+          "name": "Nápoli",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 16:40Z",
+          "local": "2026-03-06 20:40+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:25Z",
+          "local": "2026-03-06 22:25+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1682",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:20Z",
+          "local": "2026-03-06 22:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:27Z",
+          "local": "2026-03-06 22:27+04:00"
+        },
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 124",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAPO",
+          "iata": "PNQ",
+          "name": "Pune",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:50Z",
+          "local": "2026-03-06 22:50+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:31Z",
+          "local": "2026-03-06 22:31+04:00"
+        },
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SG 5651",
+      "callSign": "SEJ5651",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-MXI",
+        "modeS": "800D1B",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "SpiceJet",
+        "iata": "SG",
+        "icao": "SEJ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "SBGR",
+          "iata": "GRU",
+          "name": "São Paulo",
+          "countryCode": "br",
+          "timeZone": "America/Sao_Paulo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:35Z",
+          "local": "2026-03-06 22:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:33Z",
+          "local": "2026-03-06 22:33+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 262",
+      "callSign": "UAE262",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EVP",
+        "modeS": "89655C",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:15Z",
+          "local": "2026-03-06 22:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:36Z",
+          "local": "2026-03-06 22:36+04:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 8198",
+      "callSign": "FDB8198",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKG",
+        "modeS": "8965D2",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPWA",
+          "iata": "WAW",
+          "name": "Warsaw",
+          "countryCode": "pl",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:55Z",
+          "local": "2026-03-06 22:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:46Z",
+          "local": "2026-03-06 22:46+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 180",
+      "callSign": "UAE180",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ENZ",
+        "modeS": "89631C",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UTAA",
+          "iata": "ASB",
+          "name": "Ashgabat",
+          "countryCode": "tm",
+          "timeZone": "Asia/Ashgabat"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 02:55Z",
+          "local": "2026-03-06 06:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 18:54Z",
+          "local": "2026-03-06 22:54+04:00"
+        },
+        "baggageBelt": "5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 732",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 18:00Z",
+          "local": "2026-03-06 22:00+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:01Z",
+          "local": "2026-03-06 23:01+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 830",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FEC",
+        "modeS": "896334",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 19:25Z",
+          "local": "2026-03-06 23:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:06Z",
+          "local": "2026-03-06 23:06+04:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 8284",
+      "callSign": "FDB8284",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FKM",
+        "modeS": "896603",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UBBB",
+          "iata": "GYD",
+          "name": "Baku",
+          "countryCode": "az",
+          "timeZone": "Asia/Baku"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 21:30Z",
+          "local": "2026-03-07 01:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:12Z",
+          "local": "2026-03-06 23:12+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 734",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LATI",
+          "iata": "TIA",
+          "name": "Tirana",
+          "countryCode": "al",
+          "timeZone": "Europe/Tirane"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:15Z",
+          "local": "2026-03-06 21:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:18Z",
+          "local": "2026-03-06 23:18+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 746",
+      "callSign": "FDB746",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FPD",
+        "modeS": "8965C3",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LBSF",
+          "iata": "SOF",
+          "name": "Sofia",
+          "countryCode": "bg",
+          "timeZone": "Europe/Sofia"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 17:25Z",
+          "local": "2026-03-06 21:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:20Z",
+          "local": "2026-03-06 23:20+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1758",
+      "callSign": "FDB1758",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-FPB",
+        "modeS": "8965C1",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 09:55Z",
+          "local": "2026-03-06 13:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:39Z",
+          "local": "2026-03-06 23:39+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 970",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "UUWW",
+          "iata": "VKO",
+          "name": "Moscow",
+          "countryCode": "ru",
+          "timeZone": "Europe/Moscow"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 00:25Z",
+          "local": "2026-03-06 04:25+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:42Z",
+          "local": "2026-03-06 23:42+04:00"
+        },
+        "baggageBelt": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 1726",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-06 19:55Z",
+          "local": "2026-03-06 23:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-03-06 19:55Z",
+          "local": "2026-03-06 23:55+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 529",
+      "callSign": "UAE529",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EGW",
+        "modeS": "896218",
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    }
+  ]
+}

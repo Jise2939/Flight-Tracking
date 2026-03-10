@@ -1,0 +1,84 @@
+{
+  "merge_time": "2026-03-10T14:19:07",
+  "sources": [
+    "output/cancel_rates_20260310_141556.json",
+    "output/cancel_rates_20260310_141809.json"
+  ],
+  "airports": [
+    "AUH",
+    "DOH",
+    "DXB",
+    "JED",
+    "RUH"
+  ],
+  "dates": [
+    "2026-03-08",
+    "2026-03-09"
+  ],
+  "results": {
+    "2026-03-08": {
+      "DXB": {
+        "total": 333,
+        "cancelled": 24,
+        "rate_pct": 7.21,
+        "ok": false
+      },
+      "DOH": {
+        "total": 672,
+        "cancelled": 659,
+        "rate_pct": 98.07,
+        "ok": true
+      },
+      "AUH": {
+        "total": 415,
+        "cancelled": 326,
+        "rate_pct": 78.55,
+        "ok": true
+      },
+      "JED": {
+        "total": 958,
+        "cancelled": 116,
+        "rate_pct": 12.11,
+        "ok": true
+      },
+      "RUH": {
+        "total": 658,
+        "cancelled": 102,
+        "rate_pct": 15.5,
+        "ok": true
+      }
+    },
+    "2026-03-09": {
+      "DXB": {
+        "total": 528,
+        "cancelled": 13,
+        "rate_pct": 2.46,
+        "ok": true
+      },
+      "DOH": {
+        "total": 645,
+        "cancelled": 629,
+        "rate_pct": 97.52,
+        "ok": true
+      },
+      "AUH": {
+        "total": 394,
+        "cancelled": 312,
+        "rate_pct": 79.19,
+        "ok": true
+      },
+      "JED": {
+        "total": 961,
+        "cancelled": 47,
+        "rate_pct": 4.89,
+        "ok": true
+      },
+      "RUH": {
+        "total": 643,
+        "cancelled": 28,
+        "rate_pct": 4.35,
+        "ok": true
+      }
+    }
+  }
+}

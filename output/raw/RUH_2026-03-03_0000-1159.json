@@ -1,0 +1,8301 @@
+{
+  "departures": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "ZGGG",
+          "iata": "CAN",
+          "name": "Guangzhou",
+          "countryCode": "cn",
+          "timeZone": "Asia/Shanghai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:05Z",
+          "local": "2026-03-03 00:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "CZ 376",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "China Southern",
+        "iata": "CZ",
+        "icao": "CSN"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:10Z",
+          "local": "2026-03-03 00:10+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 161",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAA",
+        "modeS": "710123",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HAAB",
+          "iata": "ADD",
+          "name": "Addis Ababa",
+          "countryCode": "et",
+          "timeZone": "Africa/Addis_Ababa"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:25Z",
+          "local": "2026-03-03 00:25+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 347",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OENG",
+          "iata": "EAM",
+          "name": "Neyran",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:30Z",
+          "local": "2026-03-03 00:30+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1845",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:40Z",
+          "local": "2026-03-03 00:40+03:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "9P 781",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "M/S Fly Jinnah Services Pvt Ltd"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ZGGG",
+          "iata": "CAN",
+          "name": "Guangzhou",
+          "countryCode": "cn",
+          "timeZone": "Asia/Shanghai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:40Z",
+          "local": "2026-03-03 00:40+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 884",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:55Z",
+          "local": "2026-03-03 00:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 61",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS32",
+        "modeS": "710DC0",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:55Z",
+          "local": "2026-03-03 00:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 94",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:00Z",
+          "local": "2026-03-03 01:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1095",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ20",
+        "modeS": "7100BE",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:00Z",
+          "local": "2026-03-03 01:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "BA 262",
+      "callSign": "BAW262",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "G-YMMN",
+        "modeS": "4007F9",
+        "model": "Boeing 777-200"
+      },
+      "airline": {
+        "name": "British",
+        "iata": "BA",
+        "icao": "BAW"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:00Z",
+          "local": "2026-03-03 01:00+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 325",
+      "callSign": "KNE325",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS33",
+        "modeS": "710DBF",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:00Z",
+          "local": "2026-03-03 01:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1166",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:15Z",
+          "local": "2026-03-03 01:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 159",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FBK",
+        "modeS": "711504",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCL",
+          "iata": "CCJ",
+          "name": "Calicut",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:20Z",
+          "local": "2026-03-03 01:20+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 712",
+      "callSign": "SVA712",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASAM",
+        "modeS": "7114C6",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:30Z",
+          "local": "2026-03-03 01:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "PA 275",
+      "callSign": "ABQ275",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "AP-BNV",
+        "modeS": "7609D6",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Airblue",
+        "iata": "PA",
+        "icao": "ABQ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:00Z",
+          "local": "2026-03-03 02:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1913",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDF",
+          "iata": "FRA",
+          "name": "Frankfurt-am-Main",
+          "countryCode": "de",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:00Z",
+          "local": "2026-03-03 02:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "LH 623",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:00Z",
+          "local": "2026-03-03 02:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1469",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VILK",
+          "iata": "LKO",
+          "name": "Lucknow",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:05Z",
+          "local": "2026-03-03 02:05+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 333",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFPG",
+          "iata": "CDG",
+          "name": "Paris",
+          "countryCode": "fr",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:05Z",
+          "local": "2026-03-03 02:05+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 143",
+      "callSign": "SVA143",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AK37",
+        "modeS": "71010F",
+        "model": "Boeing 777"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:15Z",
+          "local": "2026-03-03 02:15+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 724",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCL",
+          "iata": "CCJ",
+          "name": "Calicut",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:20Z",
+          "local": "2026-03-03 02:20+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "IX 324",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:20Z",
+          "local": "2026-03-03 02:20+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "TK 141",
+      "callSign": "THY141",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-LSN",
+        "modeS": "4BB26E",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VGHS",
+          "iata": "DAC",
+          "name": "Dhaka",
+          "countryCode": "bd",
+          "timeZone": "Asia/Dhaka"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:25Z",
+          "local": "2026-03-03 02:25+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 806",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:30Z",
+          "local": "2026-03-03 02:30+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1057",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AK38",
+        "modeS": "710110",
+        "model": "Boeing 777-300"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:30Z",
+          "local": "2026-03-03 02:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "FZ 844",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFJ",
+          "iata": "SAW",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:40Z",
+          "local": "2026-03-03 02:40+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "PC 691",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Pegasus",
+        "iata": "PC",
+        "icao": "PGT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:45Z",
+          "local": "2026-03-03 02:45+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1773",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KJFK",
+          "iata": "JFK",
+          "name": "New York",
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:50Z",
+          "local": "2026-03-03 02:50+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 23",
+      "status": "CanceledUncertain",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRF",
+          "iata": "FCO",
+          "name": "Rome",
+          "countryCode": "it",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:55Z",
+          "local": "2026-03-03 02:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AZ 839",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "ITA",
+        "iata": "AZ",
+        "icao": "ITY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:55Z",
+          "local": "2026-03-03 02:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 1215",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:05Z",
+          "local": "2026-03-03 03:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 165",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAC",
+        "modeS": "710128",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "countryCode": "gb",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:25Z",
+          "local": "2026-03-03 03:25+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 111",
+      "callSign": "SVA111",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AK41",
+        "modeS": "710119",
+        "model": "Boeing 777"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEHL",
+          "iata": "HAS",
+          "name": "Khail",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:25Z",
+          "local": "2026-03-03 03:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1331",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HAAB",
+          "iata": "ADD",
+          "name": "Addis Ababa",
+          "countryCode": "et",
+          "timeZone": "Africa/Addis_Ababa"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:40Z",
+          "local": "2026-03-03 03:40+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "ET 413",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Ethiopian",
+        "iata": "ET",
+        "icao": "ETH"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:40Z",
+          "local": "2026-03-03 03:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 133",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FBQ",
+        "modeS": "71145F",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:00Z",
+          "local": "2026-03-03 04:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "MS 650",
+      "callSign": "MSR650",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SU-GFX",
+        "modeS": "010262",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:00Z",
+          "local": "2026-03-03 04:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "EK 816",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:00Z",
+          "local": "2026-03-03 04:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1015",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AS60",
+        "modeS": "7103DC",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEAB",
+          "iata": "AHB",
+          "name": "Abha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:10Z",
+          "local": "2026-03-03 04:10+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1661",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPST",
+          "iata": "SKT",
+          "name": "Sialkot",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:20Z",
+          "local": "2026-03-03 04:20+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 653",
+      "callSign": "FAD653",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "modeS": "711539",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:25Z",
+          "local": "2026-03-03 04:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 233",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:30Z",
+          "local": "2026-03-03 04:30+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1765",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMAA",
+          "iata": "AUH",
+          "name": "Abu Dhabi",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:30Z",
+          "local": "2026-03-03 04:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "EY 552",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETB",
+          "iata": "TUU",
+          "name": "Tabuk",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:40Z",
+          "local": "2026-03-03 04:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1523",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:55Z",
+          "local": "2026-03-03 04:55+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1017",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ14",
+        "modeS": "7100B8",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:00Z",
+          "local": "2026-03-03 05:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 31",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:00Z",
+          "local": "2026-03-03 05:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 7",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS94",
+        "modeS": "711473",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:00Z",
+          "local": "2026-03-03 05:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 101",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FBC",
+        "modeS": "717C99",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:05Z",
+          "local": "2026-03-03 05:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "QR 1167",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Qatar",
+        "iata": "QR",
+        "icao": "QTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:05Z",
+          "local": "2026-03-03 05:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "FZ 850",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPPS",
+          "iata": "PEW",
+          "name": "Peshawar",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:10Z",
+          "local": "2026-03-03 05:10+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 792",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:15Z",
+          "local": "2026-03-03 05:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1903",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:20Z",
+          "local": "2026-03-03 05:20+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 103",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAG",
+        "modeS": "71013B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:25Z",
+          "local": "2026-03-03 05:25+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 3",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OK-TSS",
+        "modeS": "49D3FA",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:40Z",
+          "local": "2026-03-03 05:40+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "E5 416",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Egypt",
+        "iata": "E5",
+        "icao": "RBG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HEAT",
+          "iata": "ATZ",
+          "name": "Assiut",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:45Z",
+          "local": "2026-03-03 05:45+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 283",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERR",
+          "iata": "RAE",
+          "name": "Arar",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:55Z",
+          "local": "2026-03-03 05:55+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1231",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "name": "Manila"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:55Z",
+          "local": "2026-03-03 05:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "5J 741",
+      "callSign": "CEB741",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RP-C3910",
+        "modeS": "7587FA",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Cebu Pacific Air",
+        "iata": "5J",
+        "icao": "CEB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:00Z",
+          "local": "2026-03-03 06:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1019",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASE",
+        "modeS": "71007F",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OENG",
+          "iata": "EAM",
+          "name": "Neyran",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:10Z",
+          "local": "2026-03-03 06:10+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1843",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OESH",
+          "iata": "SHW",
+          "name": "Sharura",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:15Z",
+          "local": "2026-03-03 06:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1882",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:15Z",
+          "local": "2026-03-03 06:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 167",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAO",
+        "modeS": "717CE0",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEAB",
+          "iata": "AHB",
+          "name": "Abha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:25Z",
+          "local": "2026-03-03 06:25+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 81",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:25Z",
+          "local": "2026-03-03 06:25+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 5",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VP-CXS",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:30Z",
+          "local": "2026-03-03 06:30+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 562",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OJAI",
+          "iata": "AMM",
+          "name": "Amman",
+          "countryCode": "jo",
+          "timeZone": "Asia/Amman"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:30Z",
+          "local": "2026-03-03 06:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "RJ 735",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Royal Jordanian",
+        "iata": "RJ",
+        "icao": "RJA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:30Z",
+          "local": "2026-03-03 06:30+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "TK 145",
+      "callSign": "THY145",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-LSR",
+        "modeS": "4BB272",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OSDI",
+          "iata": "DAM",
+          "name": "Damascus",
+          "countryCode": "sy",
+          "timeZone": "Asia/Damascus"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:35Z",
+          "local": "2026-03-03 06:35+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 561",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "name": "Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:40Z",
+          "local": "2026-03-03 06:40+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "NE 161",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Nesma",
+        "iata": "NE",
+        "icao": "NMA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:45Z",
+          "local": "2026-03-03 06:45+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2214",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPKC",
+          "iata": "KHI",
+          "name": "Karachi",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:55Z",
+          "local": "2026-03-03 06:55+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 708",
+      "callSign": "SVA708",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ22",
+        "modeS": "71018B",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:55Z",
+          "local": "2026-03-03 06:55+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 223",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OBBI",
+          "iata": "BAH",
+          "name": "Manama",
+          "countryCode": "bh",
+          "timeZone": "Asia/Bahrain"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:00Z",
+          "local": "2026-03-03 07:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "GF 162",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Gulf Air",
+        "iata": "GF",
+        "icao": "GFA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:00Z",
+          "local": "2026-03-03 07:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1021",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASG",
+        "modeS": "7100AD",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VGHS",
+          "iata": "DAC",
+          "name": "Dhaka",
+          "countryCode": "bd",
+          "timeZone": "Asia/Dhaka"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:00Z",
+          "local": "2026-03-03 07:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "BG 340",
+      "callSign": "BBC340",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "S2-AFO",
+        "modeS": "70203E",
+        "model": "Boeing 777-300"
+      },
+      "airline": {
+        "name": "Biman Bangladesh",
+        "iata": "BG",
+        "icao": "BBC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:05Z",
+          "local": "2026-03-03 07:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 125",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEBA",
+          "iata": "ABT",
+          "name": "Al-Bakha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:05Z",
+          "local": "2026-03-03 07:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1707",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:10Z",
+          "local": "2026-03-03 07:10+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 311",
+      "callSign": "SVA311",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ11",
+        "modeS": "7100B5",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:15Z",
+          "local": "2026-03-03 07:15+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 49",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS23",
+        "modeS": "710435",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:15Z",
+          "local": "2026-03-03 07:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 109",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAI",
+        "modeS": "710431",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:20Z",
+          "local": "2026-03-03 07:20+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 263",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:25Z",
+          "local": "2026-03-03 07:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1459",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:45Z",
+          "local": "2026-03-03 07:45+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 74",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:00Z",
+          "local": "2026-03-03 08:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1023",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ27",
+        "modeS": "7103DA",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:00Z",
+          "local": "2026-03-03 08:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 55",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:00Z",
+          "local": "2026-03-03 08:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 13",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS74",
+        "modeS": "717C76",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETB",
+          "iata": "TUU",
+          "name": "Tabuk",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:05Z",
+          "local": "2026-03-03 08:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 121",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:10Z",
+          "local": "2026-03-03 08:10+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 93",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OESK",
+          "iata": "AJF",
+          "name": "Al-Jawf",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:20Z",
+          "local": "2026-03-03 08:20+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1393",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:20Z",
+          "local": "2026-03-03 08:20+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 127",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAF",
+        "modeS": "71013A",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:30Z",
+          "local": "2026-03-03 08:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "NP 152",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Nile Air",
+        "iata": "NP",
+        "icao": "NIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:35Z",
+          "local": "2026-03-03 08:35+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 111",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAR",
+        "modeS": "711100",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEBH",
+          "iata": "BHH",
+          "name": "Bisha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:50Z",
+          "local": "2026-03-03 08:50+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1737",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:00Z",
+          "local": "2026-03-03 09:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1138",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:00Z",
+          "local": "2026-03-03 09:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1025",
+      "callSign": "SVA1025",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AS77",
+        "modeS": "710419",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:00Z",
+          "local": "2026-03-03 09:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1805",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:05Z",
+          "local": "2026-03-03 09:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 790",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:15Z",
+          "local": "2026-03-03 09:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 113",
+      "callSign": "FAD113",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FBK",
+        "modeS": "711504",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEAO",
+          "iata": "ULH",
+          "name": "Al Ula",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:15Z",
+          "local": "2026-03-03 09:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1574",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFJ",
+          "iata": "SAW",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:25Z",
+          "local": "2026-03-03 09:25+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 257",
+      "callSign": "KNE257",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS44",
+        "modeS": "717CE6",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMSJ",
+          "iata": "SHJ",
+          "name": "Sharjah",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:25Z",
+          "local": "2026-03-03 09:25+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "G9 152",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia",
+        "iata": "G9",
+        "icao": "ABY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:35Z",
+          "local": "2026-03-03 09:35+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 17",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS58",
+        "modeS": "717C9C",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:50Z",
+          "local": "2026-03-03 09:50+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "EK 820",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETR",
+          "iata": "TUI",
+          "name": "Turayf",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:50Z",
+          "local": "2026-03-03 09:50+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1511",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:50Z",
+          "local": "2026-03-03 09:50+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 70",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:55Z",
+          "local": "2026-03-03 09:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "FZ 848",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:00Z",
+          "local": "2026-03-03 10:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1901",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:00Z",
+          "local": "2026-03-03 10:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 115",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAW",
+        "modeS": "717CD3",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEAB",
+          "iata": "AHB",
+          "name": "Abha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:05Z",
+          "local": "2026-03-03 10:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1669",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:10Z",
+          "local": "2026-03-03 10:10+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 9",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS94",
+        "modeS": "711473",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:15Z",
+          "local": "2026-03-03 10:15+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 269",
+      "callSign": "KNE269",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS77",
+        "modeS": "71158F",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:15Z",
+          "local": "2026-03-03 10:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 225",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:20Z",
+          "local": "2026-03-03 10:20+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 99",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERS",
+          "iata": "RSI",
+          "name": "Hanak",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:20Z",
+          "local": "2026-03-03 10:20+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1569",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:30Z",
+          "local": "2026-03-03 10:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 31",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS55",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMAA",
+          "iata": "AUH",
+          "name": "Abu Dhabi",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:30Z",
+          "local": "2026-03-03 10:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "EY 554",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:35Z",
+          "local": "2026-03-03 10:35+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 760",
+      "callSign": "SVA760",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AK12",
+        "modeS": "710054",
+        "model": "Boeing 777"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETB",
+          "iata": "TUU",
+          "name": "Tabuk",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:00Z",
+          "local": "2026-03-03 11:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1525",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:00Z",
+          "local": "2026-03-03 11:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1029",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ20",
+        "modeS": "7100BE",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HESX",
+          "iata": "SPX",
+          "name": "Giza",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:00Z",
+          "local": "2026-03-03 11:00+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 285",
+      "callSign": "KNE285",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OK-TSS",
+        "modeS": "49D3FA",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPST",
+          "iata": "SKT",
+          "name": "Sialkot",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:15Z",
+          "local": "2026-03-03 11:15+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "PK 756",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Pakistan International",
+        "iata": "PK",
+        "icao": "PIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OENG",
+          "iata": "EAM",
+          "name": "Neyran",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:15Z",
+          "local": "2026-03-03 11:15+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 135",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:15Z",
+          "local": "2026-03-03 11:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 117",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAQ",
+        "modeS": "717CDF",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:30Z",
+          "local": "2026-03-03 11:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 35",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VP-CQL",
+        "modeS": "424792",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:35Z",
+          "local": "2026-03-03 11:35+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 774",
+      "callSign": "SVA774",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQE",
+        "modeS": "71004E",
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEAB",
+          "iata": "AHB",
+          "name": "Abha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:35Z",
+          "local": "2026-03-03 11:35+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 17",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:35Z",
+          "local": "2026-03-03 11:35+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 558",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:35Z",
+          "local": "2026-03-03 11:35+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 417",
+      "callSign": "SVA417",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ24",
+        "modeS": "7103D9",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:45Z",
+          "local": "2026-03-03 11:45+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 119",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAO",
+        "modeS": "717CE0",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:45Z",
+          "local": "2026-03-03 11:45+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "QR 1171",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A350-900"
+      },
+      "airline": {
+        "name": "Qatar",
+        "iata": "QR",
+        "icao": "QTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OKBK",
+          "iata": "KWI",
+          "name": "Kuwait City",
+          "countryCode": "kw",
+          "timeZone": "Asia/Kuwait"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:55Z",
+          "local": "2026-03-03 11:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "KU 774",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Kuwait",
+        "iata": "KU",
+        "icao": "KAC"
+      }
+    }
+  ],
+  "arrivals": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEBH",
+          "iata": "BHH",
+          "name": "Bisha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:05Z",
+          "local": "2026-03-03 00:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1734",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OJAI",
+          "iata": "AMM",
+          "name": "Amman",
+          "countryCode": "jo",
+          "timeZone": "Asia/Amman"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:05Z",
+          "local": "2026-03-03 00:05+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 254",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETB",
+          "iata": "TUU",
+          "name": "Tabuk",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:05Z",
+          "local": "2026-03-03 00:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1528",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:05Z",
+          "local": "2026-03-03 00:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 144",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FBD",
+        "modeS": "717C8B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:15Z",
+          "local": "2026-03-03 00:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1169",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEAB",
+          "iata": "AHB",
+          "name": "Abha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:15Z",
+          "local": "2026-03-03 00:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1674",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OESH",
+          "iata": "SHW",
+          "name": "Sharura",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:25Z",
+          "local": "2026-03-03 00:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1891",
+      "callSign": "SVA1891",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASM",
+        "modeS": "7100A8",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:25Z",
+          "local": "2026-03-03 00:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 46",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:35Z",
+          "local": "2026-03-03 00:35+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 30",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS38",
+        "modeS": "717CFB",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OJAI",
+          "iata": "AMM",
+          "name": "Amman",
+          "countryCode": "jo",
+          "timeZone": "Asia/Amman"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:35Z",
+          "local": "2026-03-03 00:35+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 638",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGT",
+          "iata": "URY",
+          "name": "Gerayat",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:35Z",
+          "local": "2026-03-03 00:35+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1296",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:40Z",
+          "local": "2026-03-03 00:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1052",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AK29",
+        "modeS": "710107",
+        "model": "Boeing 777"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:40Z",
+          "local": "2026-03-03 00:40+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 128",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:45Z",
+          "local": "2026-03-03 00:45+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 186",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:45Z",
+          "local": "2026-03-03 00:45+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 79",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:50Z",
+          "local": "2026-03-03 00:50+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "TK 140",
+      "callSign": "THY140",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-LSN",
+        "modeS": "4BB26E",
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OENG",
+          "iata": "EAM",
+          "name": "Neyran",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:50Z",
+          "local": "2026-03-03 00:50+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1846",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:50Z",
+          "local": "2026-03-03 00:50+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 612",
+      "callSign": "FAD612",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "modeS": "711539",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 21:55Z",
+          "local": "2026-03-03 00:55+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 514",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:00Z",
+          "local": "2026-03-03 01:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "LH 623",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:05Z",
+          "local": "2026-03-03 01:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 232",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCL",
+          "iata": "CCJ",
+          "name": "Calicut",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:20Z",
+          "local": "2026-03-03 01:20+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "IX 323",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETB",
+          "iata": "TUU",
+          "name": "Tabuk",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:25Z",
+          "local": "2026-03-03 01:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 210",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OESK",
+          "iata": "AJF",
+          "name": "Al-Jawf",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:25Z",
+          "local": "2026-03-03 01:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1390",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:30Z",
+          "local": "2026-03-03 01:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "FZ 843",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFJ",
+          "iata": "SAW",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:35Z",
+          "local": "2026-03-03 01:35+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "PC 690",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Pegasus",
+        "iata": "PC",
+        "icao": "PGT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:35Z",
+          "local": "2026-03-03 01:35+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1054",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AS64",
+        "modeS": "71040C",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEHL",
+          "iata": "HAS",
+          "name": "Khail",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:35Z",
+          "local": "2026-03-03 01:35+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1336",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETB",
+          "iata": "TUU",
+          "name": "Tabuk",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:49Z",
+          "local": "2026-03-03 01:49+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 124",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 22:55Z",
+          "local": "2026-03-03 01:55+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 152",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAC",
+        "modeS": "710128",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:00Z",
+          "local": "2026-03-03 02:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 54",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS95",
+        "modeS": "711469",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:10Z",
+          "local": "2026-03-03 02:10+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1094",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQK",
+        "modeS": "71005D",
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:10Z",
+          "local": "2026-03-03 02:10+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 616",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HEBA",
+          "iata": "HBE",
+          "name": "Alexandria",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:10Z",
+          "local": "2026-03-03 02:10+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 334",
+      "callSign": "SVA334",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASQ",
+        "modeS": "7100AC",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HAAB",
+          "iata": "ADD",
+          "name": "Addis Ababa",
+          "countryCode": "et",
+          "timeZone": "Africa/Addis_Ababa"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:10Z",
+          "local": "2026-03-03 02:10+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "ET 412",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Ethiopian",
+        "iata": "ET",
+        "icao": "ETH"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:15Z",
+          "local": "2026-03-03 02:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1161",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEAB",
+          "iata": "AHB",
+          "name": "Abha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:15Z",
+          "local": "2026-03-03 02:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1680",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:25Z",
+          "local": "2026-03-03 02:25+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "EK 815",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:35Z",
+          "local": "2026-03-03 02:35+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 266",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:40Z",
+          "local": "2026-03-03 02:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1056",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ27",
+        "modeS": "7103DA",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:45Z",
+          "local": "2026-03-03 02:45+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 116",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OBBI",
+          "iata": "BAH",
+          "name": "Manama",
+          "countryCode": "bh",
+          "timeZone": "Asia/Bahrain"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:50Z",
+          "local": "2026-03-03 02:50+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "GF 161",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Gulf Air",
+        "iata": "GF",
+        "icao": "GFA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-02 23:55Z",
+          "local": "2026-03-03 02:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 16",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VP-CXR",
+        "modeS": "4241A1",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMAA",
+          "iata": "AUH",
+          "name": "Abu Dhabi",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:05Z",
+          "local": "2026-03-03 03:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "EY 551",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:05Z",
+          "local": "2026-03-03 03:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "MS 649",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:10Z",
+          "local": "2026-03-03 03:10+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 320",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:10Z",
+          "local": "2026-03-03 03:10+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1910",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:20Z",
+          "local": "2026-03-03 03:20+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1804",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:20Z",
+          "local": "2026-03-03 03:20+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1466",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:20Z",
+          "local": "2026-03-03 03:20+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 58",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS24",
+        "modeS": "7105A4",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:30Z",
+          "local": "2026-03-03 03:30+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 158",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAF",
+        "modeS": "71013A",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:35Z",
+          "local": "2026-03-03 03:35+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "QR 1166",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Qatar",
+        "iata": "QR",
+        "icao": "QTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:35Z",
+          "local": "2026-03-03 03:35+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 585",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OJAI",
+          "iata": "AMM",
+          "name": "Amman",
+          "countryCode": "jo",
+          "timeZone": "Asia/Amman"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:35Z",
+          "local": "2026-03-03 03:35+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "RJ 734",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Royal Jordanian",
+        "iata": "RJ",
+        "icao": "RJA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "name": "Jeddah"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:40Z",
+          "local": "2026-03-03 03:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1096",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 00:50Z",
+          "local": "2026-03-03 03:50+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 156",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAW",
+        "modeS": "717CD3",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:05Z",
+          "local": "2026-03-03 04:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 56",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS79",
+        "modeS": "71156D",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETB",
+          "iata": "TUU",
+          "name": "Tabuk",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:05Z",
+          "local": "2026-03-03 04:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1530",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:05Z",
+          "local": "2026-03-03 04:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "FZ 849",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:25Z",
+          "local": "2026-03-03 04:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 162",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAA",
+        "modeS": "710123",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "RPLL",
+          "iata": "MNL",
+          "name": "Manila",
+          "countryCode": "ph",
+          "timeZone": "Asia/Manila"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:25Z",
+          "local": "2026-03-03 04:25+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "5J 740",
+      "callSign": "CEB740",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RP-C3910",
+        "modeS": "7587FA",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Cebu Pacific Air",
+        "iata": "5J",
+        "icao": "CEB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:50Z",
+          "local": "2026-03-03 04:50+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "E5 415",
+      "callSign": "RBG415",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SU-AAI",
+        "modeS": "010255",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia Egypt",
+        "iata": "E5",
+        "icao": "RBG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OENG",
+          "iata": "EAM",
+          "name": "Neyran",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 01:55Z",
+          "local": "2026-03-03 04:55+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1844",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VGHS",
+          "iata": "DAC",
+          "name": "Dhaka",
+          "countryCode": "bd",
+          "timeZone": "Asia/Dhaka"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:10Z",
+          "local": "2026-03-03 05:10+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "BG 339",
+      "callSign": "BBC339",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "S2-AHN",
+        "modeS": "70204B",
+        "model": "Boeing 777"
+      },
+      "airline": {
+        "name": "Biman Bangladesh",
+        "iata": "BG",
+        "icao": "BBC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:20Z",
+          "local": "2026-03-03 05:20+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2213",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:25Z",
+          "local": "2026-03-03 05:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 160",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FBK",
+        "modeS": "711504",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "countryCode": "tr",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:30Z",
+          "local": "2026-03-03 05:30+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "TK 144",
+      "callSign": "THY144",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-LSC",
+        "modeS": "4BB263",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "name": "Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:40Z",
+          "local": "2026-03-03 05:40+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "NE 160",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Nesma",
+        "iata": "NE",
+        "icao": "NMA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:40Z",
+          "local": "2026-03-03 05:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1014",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AK12",
+        "modeS": "710054",
+        "model": "Boeing 777-300"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 02:50Z",
+          "local": "2026-03-03 05:50+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1912",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:05Z",
+          "local": "2026-03-03 06:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1468",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEDF",
+          "iata": "DMM",
+          "name": "Ad Dammam",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:15Z",
+          "local": "2026-03-03 06:15+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1167",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:35Z",
+          "local": "2026-03-03 06:35+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 110",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAI",
+        "modeS": "710431",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:45Z",
+          "local": "2026-03-03 06:45+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 73",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEHL",
+          "iata": "HAS",
+          "name": "Khail",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:50Z",
+          "local": "2026-03-03 06:50+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1330",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:55Z",
+          "local": "2026-03-03 06:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 14",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS74",
+        "modeS": "717C76",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:55Z",
+          "local": "2026-03-03 06:55+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 330",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPIS",
+          "iata": "ISB",
+          "name": "Islamabad",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 03:55Z",
+          "local": "2026-03-03 06:55+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 316",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPLA",
+          "iata": "LHE",
+          "name": "Lahore",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:20Z",
+          "local": "2026-03-03 07:20+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 318",
+      "callSign": "KNE318",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "modeS": "717CC8",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:20Z",
+          "local": "2026-03-03 07:20+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1772",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo",
+          "countryCode": "eg",
+          "timeZone": "Africa/Cairo"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:30Z",
+          "local": "2026-03-03 07:30+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "NP 151",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Nile Air",
+        "iata": "NP",
+        "icao": "NIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:35Z",
+          "local": "2026-03-03 07:35+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 112",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAR",
+        "modeS": "711100",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:40Z",
+          "local": "2026-03-03 07:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1018",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ26",
+        "modeS": "71012F",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:50Z",
+          "local": "2026-03-03 07:50+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 134",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FBQ",
+        "modeS": "71145F",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:55Z",
+          "local": "2026-03-03 07:55+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 166",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAC",
+        "modeS": "710128",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 04:55Z",
+          "local": "2026-03-03 07:55+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 216",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:00Z",
+          "local": "2026-03-03 08:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "EK 819",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 777-300ER"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HAAB",
+          "iata": "ADD",
+          "name": "Addis Ababa",
+          "countryCode": "et",
+          "timeZone": "Africa/Addis_Ababa"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:00Z",
+          "local": "2026-03-03 08:00+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 348",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:10Z",
+          "local": "2026-03-03 08:10+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 234",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:20Z",
+          "local": "2026-03-03 08:20+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 789",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEAB",
+          "iata": "AHB",
+          "name": "Abha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:30Z",
+          "local": "2026-03-03 08:30+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1662",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMSJ",
+          "iata": "SHJ",
+          "name": "Sharjah",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:35Z",
+          "local": "2026-03-03 08:35+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "G9 151",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Air Arabia",
+        "iata": "G9",
+        "icao": "ABY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:40Z",
+          "local": "2026-03-03 08:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1020",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQ20",
+        "modeS": "7100BE",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:50Z",
+          "local": "2026-03-03 08:50+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 18",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 05:55Z",
+          "local": "2026-03-03 08:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "FZ 847",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "HUEN",
+          "iata": "EBB",
+          "name": "Kampala",
+          "countryCode": "ug",
+          "timeZone": "Africa/Kampala"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:00Z",
+          "local": "2026-03-03 09:00+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 346",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMAA",
+          "iata": "AUH",
+          "name": "Abu Dhabi",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:00Z",
+          "local": "2026-03-03 09:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "EY 553",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-900"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:05Z",
+          "local": "2026-03-03 09:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1902",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:05Z",
+          "local": "2026-03-03 09:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1764",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:10Z",
+          "local": "2026-03-03 09:10+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 102",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FBC",
+        "modeS": "717C99",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:20Z",
+          "local": "2026-03-03 09:20+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 8",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS94",
+        "modeS": "711473",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETB",
+          "iata": "TUU",
+          "name": "Tabuk",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:30Z",
+          "local": "2026-03-03 09:30+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1522",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEGN",
+          "iata": "GIZ",
+          "name": "Jazan",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:30Z",
+          "local": "2026-03-03 09:30+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 32",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:40Z",
+          "local": "2026-03-03 09:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1022",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AQE",
+        "modeS": "71004E",
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:45Z",
+          "local": "2026-03-03 09:45+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 4",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OK-TSS",
+        "modeS": "49D3FA",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 06:50Z",
+          "local": "2026-03-03 09:50+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 104",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAG",
+        "modeS": "71013B",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCL",
+          "iata": "CCJ",
+          "name": "Calicut",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:00Z",
+          "local": "2026-03-03 10:00+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 328",
+      "callSign": "KNE328",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS29",
+        "modeS": "710DC1",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OERR",
+          "iata": "RAE",
+          "name": "Arar",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:05Z",
+          "local": "2026-03-03 10:05+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1230",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:15Z",
+          "local": "2026-03-03 10:15+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "QR 1170",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A350-900"
+      },
+      "airline": {
+        "name": "Qatar",
+        "iata": "QR",
+        "icao": "QTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OPST",
+          "iata": "SKT",
+          "name": "Sialkot",
+          "countryCode": "pk",
+          "timeZone": "Asia/Karachi"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:15Z",
+          "local": "2026-03-03 10:15+03:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "PK 755",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Pakistan International",
+        "iata": "PK",
+        "icao": "PIA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEAB",
+          "iata": "AHB",
+          "name": "Abha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:20Z",
+          "local": "2026-03-03 10:20+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 82",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:25Z",
+          "local": "2026-03-03 10:25+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 168",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-FAO",
+        "modeS": "717CE0",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OENG",
+          "iata": "EAM",
+          "name": "Neyran",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:30Z",
+          "local": "2026-03-03 10:30+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1842",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OESH",
+          "iata": "SHW",
+          "name": "Sharura",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:35Z",
+          "local": "2026-03-03 10:35+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1885",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:35Z",
+          "local": "2026-03-03 10:35+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "F3 224",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "flyadeal",
+        "iata": "F3",
+        "icao": "FAD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:40Z",
+          "local": "2026-03-03 10:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1024",
+      "callSign": "SVA1024",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-ASK",
+        "modeS": "710093",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:45Z",
+          "local": "2026-03-03 10:45+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 6",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VP-CXS",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OBBI",
+          "iata": "BAH",
+          "name": "Manama",
+          "countryCode": "bh",
+          "timeZone": "Asia/Bahrain"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:55Z",
+          "local": "2026-03-03 10:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "GF 163",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Gulf Air",
+        "iata": "GF",
+        "icao": "GFA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OKBK",
+          "iata": "KWI",
+          "name": "Kuwait City",
+          "countryCode": "kw",
+          "timeZone": "Asia/Kuwait"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 07:55Z",
+          "local": "2026-03-03 10:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "KU 773",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Kuwait",
+        "iata": "KU",
+        "icao": "KAC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OETF",
+          "iata": "TIF",
+          "name": "Taif",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:00Z",
+          "local": "2026-03-03 11:00+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 126",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEBA",
+          "iata": "ABT",
+          "name": "Al-Bakha",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:00Z",
+          "local": "2026-03-03 11:00+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1708",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "countryCode": "qa",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:05Z",
+          "local": "2026-03-03 11:05+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "QR 1168",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Qatar",
+        "iata": "QR",
+        "icao": "QTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:30Z",
+          "local": "2026-03-03 11:30+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1458",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:35Z",
+          "local": "2026-03-03 11:35+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 50",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS23",
+        "modeS": "710435",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OLBA",
+          "iata": "BEY",
+          "name": "Beirut",
+          "countryCode": "lb",
+          "timeZone": "Asia/Beirut"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:40Z",
+          "local": "2026-03-03 11:40+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "ME 424",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Middle East",
+        "iata": "ME",
+        "icao": "MEA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEJN",
+          "iata": "JED",
+          "name": "Jeddah",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:40Z",
+          "local": "2026-03-03 11:40+03:00"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 1026",
+      "callSign": "SVA1026",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-AK38",
+        "modeS": "710110",
+        "model": "Boeing 777"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai",
+          "countryCode": "ae",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:50Z",
+          "local": "2026-03-03 11:50+03:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SV 563",
+      "status": "Canceled",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Saudi Arabian",
+        "iata": "SV",
+        "icao": "SVA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OEMA",
+          "iata": "MED",
+          "name": "Medina",
+          "countryCode": "sa",
+          "timeZone": "Asia/Riyadh"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:55Z",
+          "local": "2026-03-03 11:55+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 94",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-03-03 08:55Z",
+          "local": "2026-03-03 11:55+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "XY 326",
+      "callSign": "KNE326",
+      "status": "Unknown",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HZ-NS33",
+        "modeS": "710DBF",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "flynas",
+        "iata": "XY",
+        "icao": "KNE"
+      }
+    }
+  ]
+}
